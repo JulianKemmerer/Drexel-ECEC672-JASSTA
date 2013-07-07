@@ -1,0 +1,20 @@
+input in
+input clk
+output out1
+output out2
+wire clk clk1 clk2
+  res clk clk1 2
+  cap clk1 3e-15
+  res clk1 clk2 5
+  cap clk2 1e-15
+instance DFF_X1 D:in CK:clk1 Q:x
+instance INV_X1 A:x ZN:y
+wire y z
+  res y z 3
+  cap z 5e-14
+instance DFF_X1 D:z CK:clk2 Q:out1 QN:out2
+at in 0 0 0 0
+at clk 0 0 0 0
+slew in 1e-14 2e-14
+slew clk 1e-14 2e-14
+clock clk 1e-12

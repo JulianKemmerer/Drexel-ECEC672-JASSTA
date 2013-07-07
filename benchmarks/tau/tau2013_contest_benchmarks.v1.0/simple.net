@@ -1,0 +1,13 @@
+input in
+input z
+output out
+wire in y
+    res in x 2
+    cap x 1e-15
+    res x y 5
+    cap y 3e-15
+instance AND2_X1 A1:y A2:z ZN:out
+at in 0 0 0 0 
+at z 0 0 0 0
+slew in 1e-12 5e-14
+slew z 3e-10 4e-12

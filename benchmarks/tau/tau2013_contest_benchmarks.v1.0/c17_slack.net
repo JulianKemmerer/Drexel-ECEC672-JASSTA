@@ -1,0 +1,223 @@
+input nx1
+input nx2
+input nx3
+input nx6
+input nx7
+output nx22
+output nx23
+instance NAND2_X1 ZN:n_1_1 A2:nx6_2 A1:nx3_2
+instance NAND2_X1 ZN:n_0_1 A2:nx3_3 A1:nx1_2
+instance NAND2_X1 ZN:n_2_1 A2:n_1_2 A1:nx7_2
+instance NAND2_X1 ZN:n_3_1 A2:n_1_3 A1:nx2_2
+instance NAND2_X1 A1:n_3_2 A2:n_2_2 ZN:nx23_2
+instance NAND2_X1 A2:n_3_3 A1:n_0_2 ZN:nx22_2
+wire nx1 nx1_2
+    cap nx1 1e-18
+    cap nx1_2 1.662e-17
+    res nx1_2 nx1_9 5
+    cap nx1_3 1.088e-17
+    res nx1_3 nx1 0.107143
+    res nx1_3 nx1_4 0.678571
+    cap nx1_4 1.748e-17
+    cap nx1_5 2.414e-17
+    res nx1_5 nx1_4 5
+    cap nx1_6 2.8717e-16
+    res nx1_6 nx1_5 0.875
+    res nx1_6 nx1_7 19.6786
+    cap nx1_7 2.8203e-16
+    cap nx1_8 2.113e-16
+    res nx1_8 nx1_7 5
+    cap nx1_9 2.113e-16
+    res nx1_9 nx1_8 18
+wire nx2 nx2_2
+    cap nx2 1.52e-17
+    cap nx2_2 1.662e-17
+    res nx2_2 nx2_8 5
+    cap nx2_3 1.6934e-16
+    res nx2_3 nx2 5
+    res nx2_3 nx2_4 17.8571
+    cap nx2_4 1.6278e-16
+    res nx2_4 nx2_5 0.0714286
+    cap nx2_5 5.11e-17
+    res nx2_5 nx2_6 5.42857
+    cap nx2_6 5.766e-17
+    cap nx2_7 2.3779e-16
+    res nx2_7 nx2_6 5
+    res nx2_7 nx2_8 21
+    cap nx2_8 2.3779e-16
+wire nx3 nx3_2 nx3_3
+    cap nx3 6.6e-19
+    res nx3 nx3_9 0.0714286
+    cap nx3_2 1.662e-17
+    cap nx3_3 1.662e-17
+    cap nx3_4 1.8537e-16
+    res nx3_4 nx3_2 5
+    res nx3_4 nx3_15 18.5
+    res nx3_4 nx3_5 5
+    cap nx3_5 2.018e-17
+    res nx3_5 nx3_6 1.35714
+    cap nx3_6 2.018e-17
+    res nx3_6 nx3_7 5
+    cap nx3_7 1.616e-17
+    cap nx3_8 1.616e-17
+    res nx3_8 nx3_3 5
+    res nx3_8 nx3_7 0.5
+    cap nx3_9 1.206e-17
+    cap nx3_10 3.871e-17
+    res nx3_10 nx3_9 5
+    res nx3_10 nx3_11 4.45143
+    cap nx3_11 3.871e-17
+    cap nx3_12 1.52e-17
+    res nx3_12 nx3_11 5
+    cap nx3_13 2.6637e-16
+    res nx3_13 nx3_12 5
+    res nx3_13 nx3_14 16.2857
+    cap nx3_14 2.6637e-16
+    cap nx3_15 1.8157e-16
+    res nx3_15 nx3_14 5
+wire nx6 nx6_2
+    cap nx6 1.16e-18
+    res nx6 nx6_3 0.125
+    cap nx6_2 1.662e-17
+    res nx6_2 nx6_7 5
+    cap nx6_3 1.256e-17
+    cap nx6_4 1.8917e-16
+    res nx6_4 nx6_3 5
+    res nx6_4 nx6_5 26.8171
+    cap nx6_5 1.8917e-16
+    cap nx6_6 2.3866e-16
+    res nx6_6 nx6_5 5
+    res nx6_6 nx6_7 21
+    cap nx6_7 2.3486e-16
+wire nx7 nx7_2
+    cap nx7 1.16e-18
+    res nx7 nx7_3 0.125
+    cap nx7_2 1.662e-17
+    res nx7_2 nx7_8 5
+    cap nx7_3 1.256e-17
+    cap nx7_4 2.6432e-16
+    res nx7_4 nx7_3 5
+    cap nx7_5 2.6404e-16
+    res nx7_5 nx7_4 36.1543
+    res nx7_5 nx7_6 0.76
+    cap nx7_6 2.05e-17
+    cap nx7_7 3.1457e-16
+    res nx7_7 nx7_6 5
+    res nx7_7 nx7_8 21
+    cap nx7_8 3.1457e-16
+wire nx22_2 nx22
+    cap nx22 6.6e-19
+    res nx22 nx22_11 0.0714286
+    cap nx22_2 2.006e-17
+    res nx22_2 nx22_3 4.12571
+    cap nx22_3 2.837e-17
+    cap nx22_4 2.6653e-16
+    res nx22_4 nx22_3 5
+    cap nx22_5 2.6653e-16
+    res nx22_5 nx22_4 18.5
+    cap nx22_6 2.1336e-16
+    res nx22_6 nx22_5 5
+    res nx22_6 nx22_7 22.3929
+    cap nx22_7 2.1336e-16
+    cap nx22_8 1.52e-17
+    res nx22_8 nx22_7 5
+    cap nx22_9 5.088e-17
+    res nx22_9 nx22_8 5
+    res nx22_9 nx22_10 4.50571
+    cap nx22_10 5.088e-17
+    cap nx22_11 1.206e-17
+    res nx22_11 nx22_10 5
+wire nx23_2 nx23
+    cap nx23 1.352e-17
+    cap nx23_2 1.976e-17
+    res nx23_2 nx23_3 2.06286
+    cap nx23_3 2.807e-17
+    cap nx23_4 1.9886e-16
+    res nx23_4 nx23_3 5
+    res nx23_4 nx23_5 17
+    cap nx23_5 1.9886e-16
+    cap nx23_6 1.674e-16
+    res nx23_6 nx23_5 5
+    res nx23_6 nx23_7 17.6429
+    cap nx23_7 1.7332e-16
+    res nx23_7 nx23_8 0.928571
+    cap nx23_8 2.112e-17
+    cap nx23_9 2.112e-17
+    res nx23_9 nx23 0.928571
+    res nx23_9 nx23_8 5
+wire n_0_1 n_0_2
+    cap n_0_1 1.662e-17
+    cap n_0_2 1.662e-17
+    res n_0_2 n_0_6 5
+    cap n_0_3 1.52e-17
+    res n_0_3 n_0_1 5
+    cap n_0_4 5.566e-17
+    res n_0_4 n_0_3 5
+    res n_0_4 n_0_5 3.39286
+    cap n_0_5 5.566e-17
+    cap n_0_6 1.52e-17
+    res n_0_6 n_0_5 5
+wire n_1_1 n_1_2 n_1_3
+    cap n_1_1 1.411e-17
+    res n_1_1 n_1_11 2.06286
+    cap n_1_2 7.28e-18
+    cap n_1_3 1.662e-17
+    cap n_1_4 1.559e-17
+    res n_1_4 n_1_2 1.03143
+    cap n_1_5 1.697e-17
+    res n_1_5 n_1_4 5
+    cap n_1_6 1.697e-17
+    res n_1_6 n_1_5 0.5
+    cap n_1_7 4.609e-17
+    res n_1_7 n_1_6 5
+    cap n_1_8 7.608e-17
+    res n_1_8 n_1_7 3.39286
+    res n_1_8 n_1_9 5
+    cap n_1_9 1.824e-17
+    res n_1_9 n_1_10 0.5
+    cap n_1_10 1.824e-17
+    res n_1_10 n_1_3 5
+    cap n_1_11 2.242e-17
+    cap n_1_12 1.626e-17
+    res n_1_12 n_1_11 5
+    res n_1_12 n_1_13 0.5
+    cap n_1_13 1.626e-17
+    cap n_1_14 3.759e-17
+    res n_1_14 n_1_8 2.71429
+    res n_1_14 n_1_13 5
+wire n_2_1 n_2_2
+    cap n_2_1 2.867e-17
+    res n_2_1 n_2_2 4.12571
+    cap n_2_2 2.867e-17
+wire n_3_1 n_3_2 n_3_3
+    cap n_3_1 1.662e-17
+    cap n_3_2 1.662e-17
+    cap n_3_3 1.662e-17
+    cap n_3_4 1.52e-17
+    res n_3_4 n_3_3 5
+    cap n_3_5 1.4526e-16
+    res n_3_5 n_3_4 5
+    res n_3_5 n_3_6 6.78571
+    cap n_3_6 7.322e-17
+    res n_3_6 n_3_7 5
+    cap n_3_7 1.606e-17
+    res n_3_7 n_3_8 0.5
+    cap n_3_8 1.606e-17
+    res n_3_8 n_3_2 5
+    cap n_3_9 1.52e-17
+    res n_3_9 n_3_1 5
+    cap n_3_10 7.964e-17
+    res n_3_10 n_3_5 3.39286
+    res n_3_10 n_3_9 5
+at nx1 0 0 0 0
+slew nx1 5e-12 5e-12
+at nx2 0 0 0 0
+slew nx2 5e-12 5e-12
+at nx3 0 0 0 0
+slew nx3 5e-12 5e-12
+at nx6 0 0 0 0
+slew nx6 5e-12 5e-12
+at nx7 0 0 0 0
+slew nx7 5e-12 5e-12
+rat nx23 early 9e-11 8e-11
+rat nx23 late 1e-10 2e-10

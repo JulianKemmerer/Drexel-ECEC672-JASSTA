@@ -1,0 +1,444 @@
+input clk_net
+input reset_net
+input G0
+input G1
+input G2
+input G3
+output G17
+instance NOR3_X4 ZN:n_23_2 A1:n_9_2 A3:n_6_2 A2:n_1_2
+instance NOR2_X4 A1:n_19_2 ZN:n_6_1 A2:G3_2
+instance NOR2_X4 ZN:n_9_1 A2:n_7_3 A1:n_4_2
+instance NOR2_X2 ZN:n_19_1 A1:G6_1 A2:G0_3
+instance NOR2_X2 ZN:n_4_1 A1:G6_2 A2:G0_4
+instance NOR2_X2 ZN:n_8_1 A2:n_7_2 A1:G2_2
+instance NOR2_X2 A1:n_23_4 A2:n_21_2 ZN:n_13_1
+instance NAND2_X2 ZN:n_5_1 A1:n_0_2 A2:G7_1
+instance INV_X4 ZN:n_1_1 A:G5_1
+instance INV_X4 ZN:n_7_1 A:n_5_2
+instance INV_X2 ZN:n_0_1 A:G1_2
+instance INV_X2 ZN:n_21_1 A:G0_2
+instance INV_X1 A:n_23_1 ZN:G17_2
+instance INV_X1 ZN:n_12_1 A:reset_net_2
+instance DFFR_X2 RN:n_12_2 D:n_8_2 QN:G7_2 CK:clk_net__L1_N0_1
+instance DFFR_X2 D:n_23_3 RN:n_12_3 QN:G6_3 CK:clk_net__L1_N0_2
+instance DFFR_X2 D:n_13_2 RN:n_12_4 QN:G5_2 CK:clk_net__L1_N0_3
+instance CLKBUF_X3 Z:clk_net__L1_N0_4 A:clk_net_2
+wire clk_net clk_net_2
+    cap clk_net 1e-18
+    cap clk_net_2 1.662e-17
+    res clk_net_2 clk_net_11 5
+    cap clk_net_3 1.24e-17
+    res clk_net_3 clk_net 0.107143
+    cap clk_net_4 2.414e-17
+    res clk_net_4 clk_net_3 5
+    cap clk_net_5 1.856e-17
+    res clk_net_5 clk_net_4 0.875
+    res clk_net_5 clk_net_6 0.642857
+    cap clk_net_6 1.342e-17
+    cap clk_net_7 2.3631e-16
+    res clk_net_7 clk_net_6 5
+    cap clk_net_8 2.3631e-16
+    res clk_net_8 clk_net_7 8.19
+    cap clk_net_9 1.8326e-16
+    res clk_net_9 clk_net_8 5
+    res clk_net_9 clk_net_10 17
+    cap clk_net_10 1.8326e-16
+    cap clk_net_11 1.52e-17
+    res clk_net_11 clk_net_10 5
+wire reset_net reset_net_2
+    cap reset_net 6.6e-19
+    res reset_net reset_net_3 0.0714286
+    cap reset_net_2 1.662e-17
+    res reset_net_2 reset_net_10 5
+    cap reset_net_3 1.206e-17
+    cap reset_net_4 5.074e-17
+    res reset_net_4 reset_net_3 5
+    res reset_net_4 reset_net_5 4.45143
+    cap reset_net_5 5.074e-17
+    cap reset_net_6 1.52e-17
+    res reset_net_6 reset_net_5 5
+    cap reset_net_7 1.6184e-16
+    res reset_net_7 reset_net_6 5
+    res reset_net_7 reset_net_8 16.9643
+    cap reset_net_8 1.6184e-16
+    cap reset_net_9 2.4187e-16
+    res reset_net_9 reset_net_8 5
+    res reset_net_9 reset_net_10 20.5
+    cap reset_net_10 2.4187e-16
+wire G0 G0_2 G0_3 G0_4
+    cap G0 6.6e-19
+    res G0 G0_13 0.0714286
+    cap G0_2 1.662e-17
+    cap G0_3 1.662e-17
+    cap G0_4 1.662e-17
+    cap G0_5 2.027e-16
+    res G0_5 G0_2 5
+    res G0_5 G0_19 20.5
+    res G0_5 G0_6 5
+    cap G0_6 1.3082e-16
+    res G0_6 G0_7 13.5714
+    cap G0_7 1.3082e-16
+    res G0_7 G0_8 5
+    cap G0_8 4.028e-17
+    cap G0_9 6.968e-17
+    res G0_9 G0_4 5
+    res G0_9 G0_8 3
+    cap G0_10 3.928e-17
+    res G0_10 G0_9 3.5
+    res G0_10 G0_11 0.678571
+    cap G0_11 6.186e-17
+    cap G0_12 5.958e-17
+    res G0_12 G0_3 5
+    res G0_12 G0_11 4
+    cap G0_13 1.206e-17
+    cap G0_14 3.871e-17
+    res G0_14 G0_13 5
+    res G0_14 G0_15 4.45143
+    cap G0_15 3.871e-17
+    cap G0_16 1.52e-17
+    res G0_16 G0_15 5
+    cap G0_17 1.674e-16
+    res G0_17 G0_16 5
+    res G0_17 G0_18 17.6429
+    cap G0_18 1.674e-16
+    cap G0_19 1.989e-16
+    res G0_19 G0_18 5
+wire G1 G1_2
+    cap G1 1.16e-18
+    res G1 G1_3 0.125
+    cap G1_2 1.662e-17
+    res G1_2 G1_7 5
+    cap G1_3 1.256e-17
+    cap G1_4 2.0133e-16
+    res G1_4 G1_3 5
+    res G1_4 G1_5 26.8171
+    cap G1_5 2.0133e-16
+    cap G1_6 2.4875e-16
+    res G1_6 G1_5 5
+    res G1_6 G1_7 21
+    cap G1_7 2.4495e-16
+wire G2 G2_2
+    cap G2 1.16e-18
+    res G2 G2_3 0.125
+    cap G2_2 1.662e-17
+    res G2_2 G2_7 5
+    cap G2_3 1.256e-17
+    cap G2_4 2.2053e-16
+    res G2_4 G2_3 5
+    cap G2_5 2.2053e-16
+    res G2_5 G2_4 31.5129
+    cap G2_6 2.3283e-16
+    res G2_6 G2_5 5
+    res G2_6 G2_7 21.5
+    cap G2_7 2.2903e-16
+wire G3 G3_2
+    cap G3 1.3e-18
+    cap G3_2 1.662e-17
+    res G3_2 G3_9 5
+    cap G3_3 1.27e-17
+    res G3_3 G3 0.0892857
+    cap G3_4 1.592e-17
+    res G3_4 G3_3 5
+    cap G3_5 5.56e-18
+    res G3_5 G3_4 0.5
+    res G3_5 G3_6 0.0714286
+    cap G3_6 1.6698e-16
+    cap G3_7 1.7354e-16
+    res G3_7 G3_6 18.3214
+    cap G3_8 2.11e-16
+    res G3_8 G3_7 5
+    res G3_8 G3_9 18
+    cap G3_9 2.11e-16
+wire G17_2 G17
+    cap G17 8.58e-18
+    cap G17_2 1.662e-17
+    cap G17_3 2.0294e-16
+    res G17_3 G17_2 5
+    res G17_3 G17_4 17.5
+    cap G17_4 2.0294e-16
+    cap G17_5 2.2884e-16
+    res G17_5 G17_4 5
+    res G17_5 G17_6 24.4286
+    cap G17_6 2.3476e-16
+    res G17_6 G17_7 0.928571
+    cap G17_7 2.112e-17
+    cap G17_8 1.998e-17
+    res G17_8 G17 0.589286
+    res G17_8 G17_7 5
+wire clk_net__L1_N0_4 clk_net__L1_N0_1 clk_net__L1_N0_2 clk_net__L1_N0_3
+    cap clk_net__L1_N0_1 1.662e-17
+    cap clk_net__L1_N0_2 1.662e-17
+    cap clk_net__L1_N0_3 1.662e-17
+    cap clk_net__L1_N0_4 1.662e-17
+    cap clk_net__L1_N0_5 1.52e-17
+    res clk_net__L1_N0_5 clk_net__L1_N0_1 5
+    cap clk_net__L1_N0_6 2.224e-17
+    res clk_net__L1_N0_6 clk_net__L1_N0_5 5
+    cap clk_net__L1_N0_7 2.224e-17
+    res clk_net__L1_N0_7 clk_net__L1_N0_6 1.39286
+    cap clk_net__L1_N0_8 7.869e-17
+    res clk_net__L1_N0_8 clk_net__L1_N0_7 5
+    res clk_net__L1_N0_8 clk_net__L1_N0_9 2.31
+    cap clk_net__L1_N0_9 7.869e-17
+    cap clk_net__L1_N0_10 1.956e-17
+    res clk_net__L1_N0_10 clk_net__L1_N0_9 5
+    cap clk_net__L1_N0_11 1.956e-17
+    res clk_net__L1_N0_11 clk_net__L1_N0_10 1.32143
+    cap clk_net__L1_N0_12 5.758e-17
+    res clk_net__L1_N0_12 clk_net__L1_N0_2 5
+    res clk_net__L1_N0_12 clk_net__L1_N0_11 5
+    res clk_net__L1_N0_12 clk_net__L1_N0_13 4.5
+    cap clk_net__L1_N0_13 6.778e-17
+    res clk_net__L1_N0_13 clk_net__L1_N0_3 5
+    res clk_net__L1_N0_13 clk_net__L1_N0_16 1.5
+    cap clk_net__L1_N0_14 3.51e-17
+    res clk_net__L1_N0_14 clk_net__L1_N0_4 5
+    cap clk_net__L1_N0_15 3.738e-17
+    res clk_net__L1_N0_15 clk_net__L1_N0_14 2.5
+    cap clk_net__L1_N0_16 2.388e-17
+    res clk_net__L1_N0_16 clk_net__L1_N0_15 0.678571
+wire G5_2 G5_1
+    cap G5_1 7.36e-18
+    cap G5_2 1.662e-17
+    res G5_2 G5_8 5
+    cap G5_3 1.567e-17
+    res G5_3 G5_1 1.03143
+    cap G5_4 1.52e-17
+    res G5_4 G5_3 5
+    cap G5_5 4.348e-17
+    res G5_5 G5_4 5
+    cap G5_6 4.348e-17
+    res G5_6 G5_5 3.39286
+    cap G5_7 1.641e-17
+    res G5_7 G5_6 5
+    res G5_7 G5_8 0.5
+    cap G5_8 1.641e-17
+wire G6_3 G6_1 G6_2
+    cap G6_1 7.59e-18
+    cap G6_2 1.662e-17
+    cap G6_3 1.662e-17
+    cap G6_4 1.59e-17
+    res G6_4 G6_1 1.03143
+    cap G6_5 8.303e-17
+    res G6_5 G6_4 5
+    res G6_5 G6_6 7.5
+    cap G6_6 7.087e-17
+    res G6_6 G6_2 5
+    cap G6_7 3.116e-17
+    res G6_7 G6_3 5
+    res G6_7 G6_5 1.35714
+wire G7_2 G7_1
+    cap G7_1 0
+    cap G7_2 0
+    res G7_2 G7_4 5
+    cap G7_3 1.976e-17
+    res G7_3 G7_1 5
+    cap G7_4 1.976e-17
+    res G7_4 G7_3 1.35714
+wire n_0_1 n_0_2
+    cap n_0_1 1.662e-17
+    cap n_0_2 1.662e-17
+    res n_0_2 n_0_6 5
+    cap n_0_3 1.52e-17
+    res n_0_3 n_0_1 5
+    cap n_0_4 2.4337e-16
+    res n_0_4 n_0_3 5
+    res n_0_4 n_0_5 16.9643
+    cap n_0_5 2.4337e-16
+    cap n_0_6 1.52e-17
+    res n_0_6 n_0_5 5
+wire n_1_1 n_1_2
+    cap n_1_1 6.322e-17
+    res n_1_1 n_1_3 6.18857
+    cap n_1_2 1.662e-17
+    res n_1_2 n_1_5 5
+    cap n_1_3 7.153e-17
+    cap n_1_4 2.826e-17
+    res n_1_4 n_1_3 5
+    cap n_1_5 2.826e-17
+    res n_1_5 n_1_4 2
+wire n_4_1 n_4_2
+    cap n_4_1 2.029e-17
+    res n_4_1 n_4_6 4.12571
+    cap n_4_2 7.59e-18
+    cap n_4_3 1.59e-17
+    res n_4_3 n_4_2 1.03143
+    cap n_4_4 6.773e-17
+    res n_4_4 n_4_3 5
+    res n_4_4 n_4_5 5.5
+    cap n_4_5 6.773e-17
+    cap n_4_6 2.86e-17
+    res n_4_6 n_4_5 5
+wire n_5_1 n_5_2
+    cap n_5_1 7.16e-18
+    res n_5_1 n_5_2 1.03143
+    cap n_5_2 7.16e-18
+wire n_6_1 n_6_2
+    cap n_6_1 1.662e-17
+    cap n_6_2 1.662e-17
+    res n_6_2 n_6_7 5
+    cap n_6_3 8.19e-17
+    res n_6_3 n_6_1 5
+    res n_6_3 n_6_4 7
+    cap n_6_4 8.19e-17
+    cap n_6_5 3.281e-17
+    res n_6_5 n_6_4 5
+    cap n_6_6 3.281e-17
+    res n_6_6 n_6_5 3.39286
+    cap n_6_7 1.52e-17
+    res n_6_7 n_6_6 5
+wire n_7_1 n_7_2 n_7_3
+    cap n_7_1 2.006e-17
+    res n_7_1 n_7_2 1.03143
+    cap n_7_2 7.59e-18
+    cap n_7_3 1.662e-17
+    res n_7_3 n_7_7 5
+    cap n_7_4 3.705e-17
+    res n_7_4 n_7_1 5
+    res n_7_4 n_7_5 4.5
+    cap n_7_5 3.933e-17
+    cap n_7_6 2.095e-17
+    res n_7_6 n_7_5 0.678571
+    res n_7_6 n_7_7 1
+    cap n_7_7 1.867e-17
+wire n_8_1 n_8_2
+    cap n_8_1 1.662e-17
+    cap n_8_2 1.432e-17
+    res n_8_2 n_8_8 2.06286
+    cap n_8_3 1.779e-17
+    res n_8_3 n_8_1 5
+    cap n_8_4 1.779e-17
+    res n_8_4 n_8_3 0.5
+    cap n_8_5 1.132e-16
+    res n_8_5 n_8_4 5
+    cap n_8_6 1.132e-16
+    res n_8_6 n_8_5 10.8571
+    cap n_8_7 1.52e-17
+    res n_8_7 n_8_6 5
+    cap n_8_8 2.263e-17
+    res n_8_8 n_8_7 5
+wire n_9_1 n_9_2
+    cap n_9_1 1.662e-17
+    cap n_9_2 3.877e-17
+    cap n_9_3 3.641e-17
+    res n_9_3 n_9_1 5
+    res n_9_3 n_9_4 4.5
+    cap n_9_4 3.641e-17
+    cap n_9_5 4.708e-17
+    res n_9_5 n_9_2 5.15714
+    res n_9_5 n_9_4 5
+wire n_12_1 n_12_2 n_12_3 n_12_4
+    cap n_12_1 1.662e-17
+    cap n_12_2 7.16e-18
+    cap n_12_3 1.662e-17
+    cap n_12_4 1.662e-17
+    cap n_12_5 1.0593e-16
+    res n_12_5 n_12_3 5
+    res n_12_5 n_12_13 6.5
+    cap n_12_6 2.388e-17
+    res n_12_6 n_12_5 1.5
+    res n_12_6 n_12_7 0.678571
+    cap n_12_7 3.246e-17
+    cap n_12_8 3.018e-17
+    res n_12_8 n_12_7 2
+    cap n_12_9 1.8543e-16
+    res n_12_9 n_12_8 5
+    res n_12_9 n_12_10 1.35714
+    cap n_12_10 3.844e-17
+    res n_12_10 n_12_11 5
+    cap n_12_11 1.52e-17
+    res n_12_11 n_12_12 5
+    cap n_12_12 1.547e-17
+    res n_12_12 n_12_2 1.03143
+    cap n_12_13 9.573e-17
+    res n_12_13 n_12_4 5
+    cap n_12_14 1.52e-17
+    res n_12_14 n_12_1 5
+    cap n_12_15 1.5459e-16
+    res n_12_15 n_12_9 8.82143
+    res n_12_15 n_12_14 5
+wire n_13_1 n_13_2
+    cap n_13_1 1.662e-17
+    res n_13_1 n_13_8 5
+    cap n_13_2 1.432e-17
+    res n_13_2 n_13_3 2.06286
+    cap n_13_3 2.263e-17
+    cap n_13_4 1.52e-17
+    res n_13_4 n_13_3 5
+    cap n_13_5 1.99e-17
+    res n_13_5 n_13_4 5
+    res n_13_5 n_13_6 1.35714
+    cap n_13_6 1.99e-17
+    cap n_13_7 5.528e-17
+    res n_13_7 n_13_6 5
+    res n_13_7 n_13_8 3.5
+    cap n_13_8 5.528e-17
+wire n_19_1 n_19_2
+    cap n_19_1 1.662e-17
+    cap n_19_2 7.59e-18
+    cap n_19_3 2.458e-17
+    res n_19_3 n_19_1 5
+    cap n_19_4 2.458e-17
+    res n_19_4 n_19_3 1.5
+    cap n_19_5 7.619e-17
+    res n_19_5 n_19_4 5
+    res n_19_5 n_19_6 6.78571
+    cap n_19_6 7.619e-17
+    cap n_19_7 1.547e-17
+    res n_19_7 n_19_6 5
+    cap n_19_8 1.547e-17
+    res n_19_8 n_19_7 1
+    cap n_19_9 1.59e-17
+    res n_19_9 n_19_2 1.03143
+    res n_19_9 n_19_8 5
+wire n_21_1 n_21_2
+    cap n_21_1 6.072e-17
+    res n_21_1 n_21_2 8.25143
+    cap n_21_2 6.072e-17
+wire n_23_2 n_23_1 n_23_3 n_23_4
+    cap n_23_1 4.467e-17
+    cap n_23_2 1.662e-17
+    cap n_23_3 1.432e-17
+    res n_23_3 n_23_12 2.06286
+    cap n_23_4 6.56e-17
+    res n_23_4 n_23_6 7.22
+    res n_23_4 n_23_7 5
+    cap n_23_5 4.439e-17
+    res n_23_5 n_23_1 5.15714
+    cap n_23_6 6.116e-17
+    res n_23_6 n_23_5 0.76
+    cap n_23_7 1.1418e-16
+    cap n_23_8 1.1418e-16
+    res n_23_8 n_23_7 9
+    res n_23_8 n_23_9 5
+    cap n_23_9 2.604e-17
+    cap n_23_10 2.604e-17
+    res n_23_10 n_23_9 2.03571
+    res n_23_10 n_23_11 5
+    cap n_23_11 1.52e-17
+    res n_23_11 n_23_12 5
+    cap n_23_12 2.263e-17
+    cap n_23_13 1.52e-17
+    res n_23_13 n_23_2 5
+    cap n_23_14 6.125e-17
+    res n_23_14 n_23_13 5
+    cap n_23_15 6.125e-17
+    res n_23_15 n_23_14 5.42857
+    cap n_23_16 4.262e-17
+    res n_23_16 n_23_15 5
+    res n_23_16 n_23_17 3
+    cap n_23_17 4.262e-17
+    res n_23_17 n_23_1 5
+at clk_net 0 0 0 0
+slew clk_net 5e-12 5e-12
+at reset_net 0 0 0 0
+slew reset_net 5e-12 5e-12
+at G0 0 0 0 0
+slew G0 5e-12 5e-12
+at G1 0 0 0 0
+slew G1 5e-12 5e-12
+at G2 0 0 0 0
+slew G2 5e-12 5e-12
+at G3 0 0 0 0
+slew G3 5e-12 5e-12
+clock clk_net 1e-12

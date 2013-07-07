@@ -1,0 +1,3740 @@
+input blif_clk_net
+input blif_reset_net
+input FM
+input TEST
+input CLR
+output GRN2
+output YLW2
+output RED2
+output GRN1
+output YLW1
+output RED1
+instance XOR2_X2 Z:n_15_1 B:TESTL_1 A:TEST_2
+instance XNOR2_X2 A:n_51_2 ZN:n_26_1 B:FM_2
+instance XNOR2_X2 ZN:n_54_1 A:n_53_2 B:n_36_3
+instance XNOR2_X2 ZN:n_169_1 A:n_102_2 B:n_92_3
+instance XNOR2_X2 ZN:n_168_1 A:n_109_2 B:n_66_8
+instance XNOR2_X2 ZN:n_122_1 A:n_114_2 B:n_58_7
+instance XNOR2_X1 ZN:n_113_1 A:n_112_4 B:n_111_2
+instance OR3_X4 A2:n_83_2 A1:n_82_3 ZN:n_76_1 A3:n_52_2
+instance OR3_X2 A2:n_66_3 ZN:n_50_1 A1:n_49_3 A3:n_47_2
+instance OR2_X4 ZN:n_60_1 A1:n_31_3 A2:C3_Q1_4
+instance NOR4_X2 ZN:n_84_1 A1:n_83_3 A3:n_82_4 A2:n_61_2 A4:n_59_2
+instance NOR3_X2 ZN:n_64_1 A1:n_51_6 A3:n_47_3 A2:n_10_3
+instance NOR3_X2 A2:n_58_5 ZN:n_52_1 A3:n_34_3 A1:n_9_2
+instance NOR3_X2 ZN:n_59_1 A1:n_58_6 A2:n_57_4 A3:n_56_2
+instance NOR3_X2 ZN:n_74_1 A3:n_60_3 A1:n_29_2 A2:n_14_2
+instance NOR3_X2 A1:n_157_2 A2:n_126_2 ZN:n_77_1 A3:n_54_2
+instance NOR3_X2 ZN:n_79_1 A3:n_78_3 A1:n_30_4 A2:n_19_2
+instance NOR3_X2 ZN:n_80_1 A3:n_78_4 A1:n_53_3 A2:n_23_2
+instance NOR3_X2 A1:n_160_2 A3:n_116_2 ZN:n_115_1 A2:n_73_2
+instance NOR3_X2 ZN:n_117_1 A3:n_116_3 A1:n_95_4 A2:n_88_2
+instance NOR3_X2 ZN:n_118_1 A3:n_116_4 A1:n_102_3 A2:n_94_2
+instance NOR3_X2 A3:n_170_2 A1:n_169_2 A2:n_126_3 ZN:n_119_1
+instance NOR3_X2 A1:n_129_2 ZN:n_127_1 A2:n_126_4 A3:n_122_2
+instance NOR3_X2 ZN:n_131_1 A1:n_129_4 A2:n_126_5 A3:n_113_2
+instance NOR2_X4 A1:n_154_4 ZN:n_112_1 A2:n_25_4
+instance NOR2_X2 A2:n_150_2 A1:n_144_2 ZN:n_30_1
+instance NOR2_X2 ZN:n_83_1 A1:OLATCH_FEL_2 A2:CLR_4
+instance NOR2_X2 ZN:n_82_1 A1:C3_Q2_2 A2:CLR_5
+instance NOR2_X2 A2:n_148_2 A1:n_142_2 ZN:n_19_1
+instance NOR2_X2 A2:n_30_2 ZN:n_23_1 A1:n_22_2
+instance NOR2_X2 ZN:n_40_1 A1:n_39_2 A2:n_15_2
+instance NOR2_X2 ZN:n_41_1 A1:n_39_3 A2:n_26_2
+instance NOR2_X2 ZN:n_61_1 A2:n_60_2 A1:n_57_5
+instance NOR2_X2 A1:n_148_3 A2:n_78_2 ZN:n_70_1
+instance NOR2_X2 A2:n_156_3 ZN:n_73_1 A1:n_72_2
+instance NOR2_X2 A1:n_163_5 ZN:n_95_1 A2:UC_18_3
+instance NOR2_X2 A2:n_161_2 ZN:n_88_1 A1:n_0_2
+instance NOR2_X2 A1:n_154_3 ZN:n_146_2 A2:C3_Q1_5
+instance NOR2_X2 A2:n_153_3 ZN:n_98_1 A1:n_56_3
+instance NOR2_X2 ZN:n_130_1 A2:n_129_3 A1:n_124_2
+instance NOR2_X1 A2:n_95_2 ZN:n_94_1 A1:n_93_2
+instance NOR2_X1 ZN:n_141_1 A2:n_112_3 A1:n_98_2
+instance NAND4_X2 A1:n_66_4 ZN:n_63_1 A4:n_62_3 A2:n_51_7 A3:n_8_4
+instance NAND3_X2 A2:n_150_3 A3:n_144_3 ZN:n_137_1 A1:UC_9_2
+instance NAND3_X2 A3:n_82_2 A2:n_58_4 A1:n_51_4 ZN:n_37_1
+instance NAND3_X2 ZN:n_45_1 A3:n_27_2 A1:n_21_2 A2:n_13_3
+instance NAND3_X2 A2:n_123_4 ZN:n_81_1 A1:n_50_2 A3:n_45_2
+instance NAND3_X2 ZN:n_114_1 A1:n_112_5 A2:n_111_3 A3:n_66_7
+instance NAND3_X2 A2:n_166_2 A1:n_165_2 ZN:n_140_1 A3:n_101_2
+instance NAND2_X4 ZN:n_159_2 A1:n_137_2 A2:n_36_2
+instance NAND2_X4 A1:n_159_4 ZN:n_156_1 A2:TESTL_2
+instance NAND2_X4 A2:n_167_2 ZN:n_164_1 A1:n_156_2
+instance NAND2_X4 ZN:n_163_3 A1:n_156_4 A2:n_72_3
+instance NAND2_X4 A2:n_164_2 A1:n_163_4 ZN:n_136_1
+instance NAND2_X4 ZN:n_154_2 A1:n_136_2 A2:n_92_2
+instance NAND2_X4 A1:n_146_3 ZN:n_109_1 A2:n_24_3
+instance NAND2_X4 A1:n_140_2 ZN:n_125_1 A2:n_32_4
+instance NAND2_X2 ZN:n_167_1 A2:UC_18_2 A1:UC_17_3
+instance NAND2_X2 ZN:n_34_1 A1:n_25_3 A2:C3_Q1_2
+instance NAND2_X2 ZN:n_47_1 A1:n_6_3 A2:C3_Q1_3
+instance NAND2_X2 A1:n_51_3 ZN:n_33_1 A2:n_32_3
+instance NAND2_X2 ZN:n_35_1 A2:n_28_3 A1:n_16_2
+instance NAND2_X2 A2:n_159_3 ZN:n_78_1 A1:n_44_2
+instance NAND2_X2 A2:n_62_2 A1:n_51_5 ZN:n_46_1
+instance NAND2_X2 ZN:n_55_1 A2:n_37_2 A1:n_35_2
+instance NAND2_X2 ZN:n_67_1 A1:n_66_5 A2:n_64_3
+instance NAND2_X2 ZN:n_69_1 A1:n_62_4 A2:n_55_2
+instance NAND2_X2 ZN:n_75_1 A2:n_65_2 A1:n_49_4
+instance NAND2_X2 ZN:n_89_1 A1:n_83_4 A2:n_67_2
+instance NAND2_X2 ZN:n_90_1 A1:n_89_2 A2:n_69_2
+instance NAND2_X2 ZN:n_96_1 A2:n_89_3 A1:n_63_2
+instance NAND2_X2 ZN:n_106_1 A2:n_96_3 A1:n_93_3
+instance NAND2_X2 A2:n_152_3 ZN:n_116_1 A1:n_44_3
+instance NAND2_X2 ZN:n_165_1 A1:n_153_4 A2:n_66_6
+instance NAND2_X2 ZN:n_107_1 A1:n_106_2 A2:n_90_2
+instance NAND2_X2 ZN:n_108_1 A2:n_106_3 A1:n_76_2
+instance NAND2_X2 A1:n_168_2 ZN:n_124_1 A2:n_123_5
+instance INV_X4 ZN:n_51_1 A:FML_1
+instance INV_X4 ZN:n_92_1 A:UC_16_1
+instance INV_X4 ZN:n_10_1 A:C3_Q3_1
+instance INV_X4 ZN:n_49_1 A:OLATCH_FEL_1
+instance INV_X4 ZN:n_72_1 A:UC_19_1
+instance INV_X4 ZN:n_8_1 A:CLR_3
+instance INV_X4 ZN:n_6_1 A:C3_Q0_1
+instance INV_X4 ZN:n_66_1 A:C3_Q2_1
+instance INV_X4 ZN:n_36_1 A:UC_8_1
+instance INV_X4 ZN:n_25_1 A:n_6_2
+instance INV_X4 ZN:n_57_1 A:n_8_2
+instance INV_X4 ZN:n_9_1 A:n_8_3
+instance INV_X4 A:n_49_2 ZN:n_13_1
+instance INV_X4 ZN:n_58_1 A:n_10_2
+instance INV_X4 A:n_58_2 ZN:n_32_1
+instance INV_X4 A:n_25_2 ZN:n_24_1
+instance INV_X4 ZN:n_111_1 A:C3_Q1_1
+instance INV_X4 ZN:n_123_1 A:n_57_2
+instance INV_X4 A:n_57_3 ZN:n_44_1
+instance INV_X4 A:n_32_2 ZN:n_21_1
+instance INV_X4 ZN:n_31_1 A:n_24_2
+instance INV_X4 A:n_123_2 ZN:n_39_1
+instance INV_X4 A:n_66_2 ZN:n_27_1
+instance INV_X4 ZN:n_126_1 A:n_123_3
+instance INV_X4 ZN:n_62_1 A:n_34_2
+instance INV_X4 ZN:n_129_1 A:n_125_2
+instance INV_X2 A:n_163_1 ZN:n_161_1
+instance INV_X2 A:n_163_2 ZN:n_160_1
+instance INV_X2 A:n_159_1 ZN:n_157_1
+instance INV_X2 A:n_154_1 ZN:n_153_1
+instance INV_X2 A:n_153_2 ZN:n_152_1
+instance INV_X2 ZN:n_170_1 A:n_152_2
+instance INV_X2 A:n_150_1 ZN:n_148_1
+instance INV_X2 ZN:n_166_1 A:n_146_1
+instance INV_X2 A:n_144_1 ZN:n_142_1
+instance INV_X2 ZN:n_0_1 A:UC_18_1
+instance INV_X2 ZN:n_1_1 A:CLR_2
+instance INV_X2 ZN:n_3_1 A:UC_17_1
+instance INV_X2 ZN:n_93_1 A:UC_17_2
+instance INV_X2 ZN:n_14_1 A:n_13_2
+instance INV_X2 A:n_58_3 ZN:n_16_1
+instance INV_X2 ZN:n_29_1 A:n_28_2
+instance INV_X2 ZN:n_56_1 A:n_31_2
+instance INV_X2 ZN:n_65_1 A:n_64_2
+instance INV_X2 A:n_112_2 ZN:n_101_1
+instance INV_X1 ZN:n_22_1 A:UC_9_1
+instance INV_X1 ZN:n_132_1 A:blif_reset_net_2
+instance DFFR_X2 RN:n_132_2 D:n_41_2 QN:FML_2 CK:blif_clk_net_2
+instance DFFR_X2 RN:n_132_3 D:n_40_2 QN:TESTL_3 CK:blif_clk_net_3
+instance DFFR_X2 QN:n_150_4 RN:n_132_4 D:n_70_2 CK:blif_clk_net_4
+instance DFFR_X2 RN:n_132_6 D:n_80_2 QN:UC_9_3 CK:blif_clk_net_6
+instance DFFR_X2 RN:n_132_7 D:n_77_2 QN:UC_8_2 CK:blif_clk_net_7
+instance DFFR_X2 QN:n_144_4 RN:n_132_8 D:n_79_2 CK:blif_clk_net_8
+instance DFFR_X2 RN:n_132_11 D:n_96_2 QN:OLATCH_FEL_3 CK:blif_clk_net_11
+instance DFFR_X2 RN:n_132_15 D:n_115_2 QN:UC_19_2 CK:blif_clk_net_15
+instance DFFR_X2 RN:n_132_16 D:n_117_2 QN:UC_18_4 CK:blif_clk_net_16
+instance DFFR_X2 RN:n_132_17 D:n_118_2 QN:UC_17_4 CK:blif_clk_net_17
+instance DFFR_X1 RN:n_132_5 D:n_74_2 Q:YLW2_2 CK:blif_clk_net_5
+instance DFFR_X1 RN:n_132_9 D:n_81_2 Q:RED1_2 CK:blif_clk_net_9
+instance DFFR_X1 RN:n_132_10 D:n_84_2 Q:GRN2_2 CK:blif_clk_net_10
+instance DFFR_X1 RN:n_132_12 D:n_91_2 Q:GRN1_2 CK:blif_clk_net_12
+instance DFFR_X1 RN:n_132_13 D:n_108_2 QN:RED2_2 CK:blif_clk_net_13
+instance DFFR_X1 RN:n_132_14 D:n_107_2 QN:YLW1_2 CK:blif_clk_net_14
+instance DFFR_X1 RN:n_132_18 D:n_119_2 QN:UC_16_2 CK:blif_clk_net_18
+instance DFFR_X1 RN:n_132_19 D:n_131_2 QN:C3_Q1_6 CK:blif_clk_net_19
+instance DFFR_X1 RN:n_132_20 D:n_128_2 QN:C3_Q0_2 CK:blif_clk_net_20
+instance DFFR_X1 RN:n_132_21 D:n_130_2 QN:C3_Q2_4 CK:blif_clk_net_21
+instance DFFR_X1 RN:n_132_22 D:n_127_2 QN:C3_Q3_2 CK:blif_clk_net_22
+instance AND4_X4 ZN:n_91_1 A1:n_82_5 A4:n_75_2 A2:n_46_2 A3:n_33_2
+instance AND3_X2 A3:n_141_2 ZN:n_128_1 A1:n_125_3 A2:n_123_6
+instance AND2_X4 ZN:n_28_1 A2:n_1_2 A1:C3_Q2_3
+instance AND2_X2 ZN:n_53_1 A2:n_30_3 A1:n_22_3
+instance AND2_X2 ZN:n_102_1 A2:n_95_3 A1:n_3_2
+wire blif_clk_net blif_clk_net_2 blif_clk_net_3 blif_clk_net_4 blif_clk_net_5 blif_clk_net_6 blif_clk_net_7 blif_clk_net_8 blif_clk_net_9 blif_clk_net_10 blif_clk_net_11 blif_clk_net_12 blif_clk_net_13 blif_clk_net_14 blif_clk_net_15 blif_clk_net_16 blif_clk_net_17 blif_clk_net_18 blif_clk_net_19 blif_clk_net_20 blif_clk_net_21 blif_clk_net_22
+    cap blif_clk_net 1e-18
+    cap blif_clk_net_2 1.662e-17
+    cap blif_clk_net_3 1.662e-17
+    cap blif_clk_net_4 1.662e-17
+    cap blif_clk_net_5 1.662e-17
+    cap blif_clk_net_6 1.662e-17
+    cap blif_clk_net_7 1.662e-17
+    cap blif_clk_net_8 1.662e-17
+    cap blif_clk_net_9 1.662e-17
+    cap blif_clk_net_10 1.662e-17
+    cap blif_clk_net_11 1.662e-17
+    cap blif_clk_net_12 1.662e-17
+    cap blif_clk_net_13 1.662e-17
+    cap blif_clk_net_14 1.662e-17
+    cap blif_clk_net_15 1.662e-17
+    cap blif_clk_net_16 1.662e-17
+    cap blif_clk_net_17 1.662e-17
+    cap blif_clk_net_18 1.662e-17
+    cap blif_clk_net_19 1.662e-17
+    cap blif_clk_net_20 1.662e-17
+    cap blif_clk_net_21 1.662e-17
+    cap blif_clk_net_22 1.662e-17
+    cap blif_clk_net_23 2.9124e-16
+    res blif_clk_net_23 blif_clk_net_6 5
+    res blif_clk_net_23 blif_clk_net_99 19.5
+    cap blif_clk_net_24 1.5546e-16
+    res blif_clk_net_24 blif_clk_net_7 5
+    res blif_clk_net_24 blif_clk_net_23 10
+    cap blif_clk_net_25 5.758e-17
+    res blif_clk_net_25 blif_clk_net_3 5
+    res blif_clk_net_25 blif_clk_net_24 4.5
+    res blif_clk_net_25 blif_clk_net_26 5
+    cap blif_clk_net_26 4.478e-17
+    res blif_clk_net_26 blif_clk_net_27 4.07143
+    cap blif_clk_net_27 4.478e-17
+    res blif_clk_net_27 blif_clk_net_28 5
+    cap blif_clk_net_28 5.38e-17
+    cap blif_clk_net_29 6.103e-17
+    res blif_clk_net_29 blif_clk_net_28 4.5
+    res blif_clk_net_29 blif_clk_net_30 5
+    cap blif_clk_net_30 1.8337e-16
+    res blif_clk_net_30 blif_clk_net_31 14.25
+    cap blif_clk_net_31 1.8337e-16
+    res blif_clk_net_31 blif_clk_net_32 5
+    res blif_clk_net_31 blif_clk_net_70 5
+    cap blif_clk_net_32 2.1509e-16
+    res blif_clk_net_32 blif_clk_net_33 6.3
+    cap blif_clk_net_33 2.1509e-16
+    res blif_clk_net_33 blif_clk_net_34 5
+    cap blif_clk_net_34 1.658e-16
+    res blif_clk_net_34 blif_clk_net_35 9.5
+    cap blif_clk_net_35 1.5494e-16
+    res blif_clk_net_35 blif_clk_net_36 0.5
+    cap blif_clk_net_36 7.841e-17
+    res blif_clk_net_36 blif_clk_net_37 7.46429
+    cap blif_clk_net_37 2.0059e-16
+    res blif_clk_net_37 blif_clk_net_38 13.0357
+    res blif_clk_net_37 blif_clk_net_67 5
+    cap blif_clk_net_38 1.4083e-16
+    res blif_clk_net_38 blif_clk_net_39 1.21429
+    res blif_clk_net_38 blif_clk_net_75 5
+    cap blif_clk_net_39 1.897e-17
+    res blif_clk_net_39 blif_clk_net_40 5
+    cap blif_clk_net_40 2.16e-17
+    cap blif_clk_net_41 1.288e-16
+    res blif_clk_net_41 blif_clk_net_9 5
+    res blif_clk_net_41 blif_clk_net_40 1.5
+    cap blif_clk_net_42 2.7531e-16
+    res blif_clk_net_42 blif_clk_net_41 9.5
+    cap blif_clk_net_43 2.5351e-16
+    res blif_clk_net_43 blif_clk_net_17 5
+    res blif_clk_net_43 blif_clk_net_42 15.5
+    cap blif_clk_net_44 9.908e-17
+    res blif_clk_net_44 blif_clk_net_43 8.5
+    res blif_clk_net_44 blif_clk_net_45 5
+    cap blif_clk_net_45 2.852e-17
+    res blif_clk_net_45 blif_clk_net_46 2.03571
+    cap blif_clk_net_46 2.852e-17
+    res blif_clk_net_46 blif_clk_net_47 5
+    cap blif_clk_net_47 2.074e-17
+    cap blif_clk_net_48 4.957e-17
+    res blif_clk_net_48 blif_clk_net_14 5
+    res blif_clk_net_48 blif_clk_net_47 1
+    cap blif_clk_net_49 4.403e-17
+    res blif_clk_net_49 blif_clk_net_48 5
+    res blif_clk_net_49 blif_clk_net_50 5
+    cap blif_clk_net_50 2.954e-17
+    cap blif_clk_net_51 2.954e-17
+    res blif_clk_net_51 blif_clk_net_50 2.03571
+    res blif_clk_net_51 blif_clk_net_52 5
+    cap blif_clk_net_52 1.1405e-16
+    res blif_clk_net_52 blif_clk_net_11 5
+    cap blif_clk_net_53 1.1785e-16
+    res blif_clk_net_53 blif_clk_net_52 15
+    res blif_clk_net_53 blif_clk_net_54 5
+    cap blif_clk_net_54 1.4751e-16
+    res blif_clk_net_54 blif_clk_net_85 2.03571
+    cap blif_clk_net_55 1.8619e-16
+    res blif_clk_net_55 blif_clk_net_54 12.2143
+    res blif_clk_net_55 blif_clk_net_83 5
+    cap blif_clk_net_56 6.767e-17
+    res blif_clk_net_56 blif_clk_net_55 4.75
+    cap blif_clk_net_57 2.299e-17
+    res blif_clk_net_57 blif_clk_net_56 0.5
+    cap blif_clk_net_58 1.357e-16
+    res blif_clk_net_58 blif_clk_net_57 2.03571
+    res blif_clk_net_58 blif_clk_net_59 5
+    cap blif_clk_net_59 7.715e-17
+    res blif_clk_net_59 blif_clk_net_60 9
+    cap blif_clk_net_60 8.571e-17
+    res blif_clk_net_60 blif_clk_net_82 1.5
+    res blif_clk_net_60 blif_clk_net_61 5
+    cap blif_clk_net_61 2.8505e-16
+    cap blif_clk_net_62 2.8505e-16
+    res blif_clk_net_62 blif_clk_net_61 26.4643
+    res blif_clk_net_62 blif_clk_net_63 5
+    cap blif_clk_net_63 4.824e-17
+    cap blif_clk_net_64 4.91e-17
+    res blif_clk_net_64 blif_clk_net_63 3.5
+    res blif_clk_net_64 blif_clk_net_91 5
+    cap blif_clk_net_65 1.606e-17
+    res blif_clk_net_65 blif_clk_net_21 5
+    res blif_clk_net_65 blif_clk_net_64 0.5
+    cap blif_clk_net_66 1.477e-17
+    res blif_clk_net_66 blif_clk_net_15 5
+    res blif_clk_net_66 blif_clk_net_67 1
+    cap blif_clk_net_67 1.477e-17
+    cap blif_clk_net_68 1.748e-17
+    res blif_clk_net_68 blif_clk_net_16 5
+    res blif_clk_net_68 blif_clk_net_42 0.678571
+    cap blif_clk_net_69 1.606e-17
+    res blif_clk_net_69 blif_clk_net_18 5
+    res blif_clk_net_69 blif_clk_net_70 0.5
+    cap blif_clk_net_70 1.606e-17
+    cap blif_clk_net_71 1.52e-17
+    res blif_clk_net_71 blif_clk_net_4 5
+    cap blif_clk_net_72 3.962e-17
+    res blif_clk_net_72 blif_clk_net_71 5
+    res blif_clk_net_72 blif_clk_net_73 3.53571
+    cap blif_clk_net_73 3.962e-17
+    cap blif_clk_net_74 5.015e-17
+    res blif_clk_net_74 blif_clk_net_73 5
+    cap blif_clk_net_75 5.015e-17
+    res blif_clk_net_75 blif_clk_net_74 1.47
+    cap blif_clk_net_76 1.664e-17
+    res blif_clk_net_76 blif_clk_net_8 5
+    res blif_clk_net_76 blif_clk_net_77 0.5
+    cap blif_clk_net_77 1.664e-17
+    cap blif_clk_net_78 1.814e-17
+    res blif_clk_net_78 blif_clk_net_34 0.678571
+    res blif_clk_net_78 blif_clk_net_77 5
+    cap blif_clk_net_79 1.641e-17
+    res blif_clk_net_79 blif_clk_net_5 5
+    cap blif_clk_net_80 1.641e-17
+    res blif_clk_net_80 blif_clk_net_79 0.5
+    cap blif_clk_net_81 1.4541e-16
+    res blif_clk_net_81 blif_clk_net_58 12.2143
+    res blif_clk_net_81 blif_clk_net_80 5
+    cap blif_clk_net_82 1.996e-17
+    res blif_clk_net_82 blif_clk_net_10 5
+    cap blif_clk_net_83 1.52e-17
+    res blif_clk_net_83 blif_clk_net_12 5
+    cap blif_clk_net_84 1.52e-17
+    res blif_clk_net_84 blif_clk_net_13 5
+    cap blif_clk_net_85 2.931e-17
+    res blif_clk_net_85 blif_clk_net_84 5
+    cap blif_clk_net_86 1.52e-17
+    res blif_clk_net_86 blif_clk_net_2 5
+    cap blif_clk_net_87 3.302e-17
+    res blif_clk_net_87 blif_clk_net_81 2.03571
+    res blif_clk_net_87 blif_clk_net_86 5
+    cap blif_clk_net_88 1.5417e-16
+    res blif_clk_net_88 blif_clk_net_22 5
+    res blif_clk_net_88 blif_clk_net_93 10
+    cap blif_clk_net_89 7.826e-17
+    res blif_clk_net_89 blif_clk_net_88 5
+    cap blif_clk_net_90 4.696e-17
+    res blif_clk_net_90 blif_clk_net_89 5
+    res blif_clk_net_90 blif_clk_net_91 4.07143
+    cap blif_clk_net_91 4.696e-17
+    cap blif_clk_net_92 1.483e-17
+    res blif_clk_net_92 blif_clk_net_19 5
+    res blif_clk_net_92 blif_clk_net_29 0.5
+    cap blif_clk_net_93 9.111e-17
+    res blif_clk_net_93 blif_clk_net_20 5
+    cap blif_clk_net_94 1.088e-17
+    res blif_clk_net_94 blif_clk_net 0.107143
+    res blif_clk_net_94 blif_clk_net_95 0.678571
+    cap blif_clk_net_95 1.748e-17
+    cap blif_clk_net_96 2.414e-17
+    res blif_clk_net_96 blif_clk_net_95 5
+    cap blif_clk_net_97 1.7254e-16
+    res blif_clk_net_97 blif_clk_net_96 0.875
+    res blif_clk_net_97 blif_clk_net_98 17.6429
+    cap blif_clk_net_98 1.674e-16
+    cap blif_clk_net_99 1.8956e-16
+    res blif_clk_net_99 blif_clk_net_98 5
+wire blif_reset_net blif_reset_net_2
+    cap blif_reset_net 1e-18
+    cap blif_reset_net_2 1.662e-17
+    res blif_reset_net_2 blif_reset_net_9 5
+    cap blif_reset_net_3 1.24e-17
+    res blif_reset_net_3 blif_reset_net 0.107143
+    cap blif_reset_net_4 1.326e-17
+    res blif_reset_net_4 blif_reset_net_3 5
+    cap blif_reset_net_5 1.112e-17
+    res blif_reset_net_5 blif_reset_net_4 0.625
+    cap blif_reset_net_6 2.7501e-16
+    res blif_reset_net_6 blif_reset_net_5 0.375
+    cap blif_reset_net_7 2.7715e-16
+    res blif_reset_net_7 blif_reset_net_6 16.9643
+    cap blif_reset_net_8 3.6252e-16
+    res blif_reset_net_8 blif_reset_net_7 5
+    cap blif_reset_net_9 3.5872e-16
+    res blif_reset_net_9 blif_reset_net_8 29
+wire FM FM_2
+    cap FM 1.52e-17
+    cap FM_2 1.662e-17
+    res FM_2 FM_8 5
+    cap FM_3 1.6934e-16
+    res FM_3 FM 5
+    res FM_3 FM_4 17.8571
+    cap FM_4 1.6278e-16
+    res FM_4 FM_5 0.0714286
+    cap FM_5 1.334e-17
+    res FM_5 FM_6 1.35714
+    cap FM_6 1.99e-17
+    cap FM_7 2.2231e-16
+    res FM_7 FM_6 5
+    res FM_7 FM_8 19.5
+    cap FM_8 2.2231e-16
+wire TEST TEST_2
+    cap TEST 1.3e-17
+    res TEST TEST_3 0.892857
+    cap TEST_2 1.662e-17
+    res TEST_2 TEST_8 5
+    cap TEST_3 2.06e-17
+    cap TEST_4 1.956e-17
+    res TEST_4 TEST_3 5
+    res TEST_4 TEST_5 0.821429
+    cap TEST_5 2.0788e-16
+    res TEST_5 TEST_6 18.3214
+    cap TEST_6 2.0352e-16
+    cap TEST_7 9.559e-17
+    res TEST_7 TEST_6 5
+    res TEST_7 TEST_8 8.5
+    cap TEST_8 9.559e-17
+wire CLR CLR_2 CLR_3 CLR_4 CLR_5
+    cap CLR 3.12e-18
+    res CLR CLR_24 0.214286
+    cap CLR_2 1.662e-17
+    cap CLR_3 1.662e-17
+    cap CLR_4 5.356e-17
+    cap CLR_5 1.662e-17
+    cap CLR_6 1.52e-17
+    res CLR_6 CLR_2 5
+    cap CLR_7 2.515e-17
+    res CLR_7 CLR_6 5
+    res CLR_7 CLR_8 2.03571
+    cap CLR_8 2.483e-17
+    cap CLR_9 3.282e-17
+    res CLR_9 CLR_8 0.5
+    res CLR_9 CLR_10 3.39286
+    cap CLR_10 3.314e-17
+    cap CLR_11 8.722e-17
+    res CLR_11 CLR_5 5
+    res CLR_11 CLR_10 5
+    res CLR_11 CLR_12 9.5
+    cap CLR_12 9.102e-17
+    cap CLR_13 5.2045e-16
+    res CLR_13 CLR_12 5
+    res CLR_13 CLR_14 6.78571
+    cap CLR_14 6.224e-17
+    res CLR_14 CLR_15 0.5
+    cap CLR_15 4.122e-17
+    res CLR_15 CLR_16 2.71429
+    cap CLR_16 4.154e-17
+    res CLR_16 CLR_17 5
+    cap CLR_17 1.641e-17
+    res CLR_17 CLR_18 0.5
+    cap CLR_18 6.311e-17
+    res CLR_18 CLR_3 5
+    res CLR_18 CLR_23 7
+    cap CLR_19 6.187e-17
+    res CLR_19 CLR_4 7.22
+    cap CLR_20 1.52e-17
+    res CLR_20 CLR_19 5
+    cap CLR_21 7.264e-17
+    res CLR_21 CLR_20 5
+    cap CLR_22 7.264e-17
+    res CLR_22 CLR_21 4.07143
+    cap CLR_23 6.19e-17
+    res CLR_23 CLR_22 5
+    cap CLR_24 1.178e-17
+    cap CLR_25 1.626e-17
+    res CLR_25 CLR_24 0.928571
+    cap CLR_26 1.956e-17
+    res CLR_26 CLR_25 5
+    res CLR_26 CLR_27 1.32143
+    cap CLR_27 1.956e-17
+    cap CLR_28 8.0245e-16
+    res CLR_28 CLR_27 5
+    cap CLR_29 8.0245e-16
+    res CLR_29 CLR_28 27.51
+    cap CLR_30 4.6549e-16
+    res CLR_30 CLR_13 40.75
+    res CLR_30 CLR_29 5
+wire GRN2_2 GRN2
+    cap GRN2 1.16e-18
+    res GRN2 GRN2_10 0.125
+    cap GRN2_2 1.662e-17
+    cap GRN2_3 3.023e-17
+    res GRN2_3 GRN2_2 5
+    cap GRN2_4 3.251e-17
+    res GRN2_4 GRN2_3 3.5
+    cap GRN2_5 2.6381e-16
+    res GRN2_5 GRN2_4 0.678571
+    cap GRN2_6 2.6533e-16
+    res GRN2_6 GRN2_5 25.5
+    cap GRN2_7 3.5561e-16
+    res GRN2_7 GRN2_6 5
+    cap GRN2_8 3.5561e-16
+    res GRN2_8 GRN2_7 51.5714
+    cap GRN2_9 2.736e-17
+    res GRN2_9 GRN2_8 5
+    cap GRN2_10 2.092e-17
+    res GRN2_10 GRN2_9 1.35714
+wire YLW2_2 YLW2
+    cap YLW2 1.0464e-16
+    res YLW2 YLW2_5 9.625
+    cap YLW2_2 1.662e-17
+    cap YLW2_3 1.1348e-16
+    res YLW2_3 YLW2_2 5
+    cap YLW2_4 1.155e-16
+    res YLW2_4 YLW2_3 9.5
+    res YLW2_4 YLW2_5 0.660714
+    cap YLW2_5 1.1426e-16
+wire RED2_2 RED2
+    cap RED2 1.16e-18
+    res RED2 RED2_7 0.125
+    cap RED2_2 1.662e-17
+    cap RED2_3 2.1844e-16
+    res RED2_3 RED2_2 5
+    cap RED2_4 2.2224e-16
+    res RED2_4 RED2_3 19
+    cap RED2_5 2.0225e-16
+    res RED2_5 RED2_4 5
+    res RED2_5 RED2_6 28.7986
+    cap RED2_6 2.0225e-16
+    cap RED2_7 1.256e-17
+    res RED2_7 RED2_6 5
+wire GRN1_2 GRN1
+    cap GRN1 1.52e-17
+    res GRN1 GRN1_8 5
+    cap GRN1_2 1.662e-17
+    cap GRN1_3 2.1228e-16
+    res GRN1_3 GRN1_2 5
+    cap GRN1_4 2.1228e-16
+    res GRN1_4 GRN1_3 18.5
+    cap GRN1_5 2.3428e-16
+    res GRN1_5 GRN1_4 5
+    res GRN1_5 GRN1_6 23.75
+    cap GRN1_6 2.2772e-16
+    cap GRN1_7 8.24e-17
+    res GRN1_7 GRN1_6 0.0714286
+    res GRN1_7 GRN1_8 8.98214
+    cap GRN1_8 8.896e-17
+wire YLW1_2 YLW1
+    cap YLW1 1.222e-17
+    cap YLW1_2 1.662e-17
+    cap YLW1_3 9.265e-17
+    res YLW1_3 YLW1_2 5
+    res YLW1_3 YLW1_4 8
+    cap YLW1_4 9.265e-17
+    cap YLW1_5 1.7968e-16
+    res YLW1_5 YLW1_4 5
+    res YLW1_5 YLW1_6 19
+    cap YLW1_6 1.8196e-16
+    res YLW1_6 YLW1_7 0.678571
+    cap YLW1_7 1.748e-17
+    cap YLW1_8 1.982e-17
+    res YLW1_8 YLW1 0.839286
+    res YLW1_8 YLW1_7 5
+wire RED1_2 RED1
+    cap RED1 1.52e-17
+    res RED1 RED1_9 5
+    cap RED1_2 1.518e-17
+    res RED1_2 RED1_3 2.06286
+    cap RED1_3 2.349e-17
+    cap RED1_4 3.0176e-16
+    res RED1_4 RED1_3 5
+    res RED1_4 RED1_5 23
+    cap RED1_5 3.0176e-16
+    cap RED1_6 2.8637e-16
+    res RED1_6 RED1_5 5
+    res RED1_6 RED1_7 19
+    cap RED1_7 2.8501e-16
+    res RED1_7 RED1_8 0.428571
+    cap RED1_8 7.7e-18
+    res RED1_8 RED1_9 0.160714
+    cap RED1_9 9.06e-18
+wire C3_Q0_2 C3_Q0_1
+    cap C3_Q0_1 1.662e-17
+    cap C3_Q0_2 7.16e-18
+    res C3_Q0_2 C3_Q0_7 1.03143
+    cap C3_Q0_3 1.52e-17
+    res C3_Q0_3 C3_Q0_1 5
+    cap C3_Q0_4 4.212e-17
+    res C3_Q0_4 C3_Q0_3 5
+    cap C3_Q0_5 4.212e-17
+    res C3_Q0_5 C3_Q0_4 3.39286
+    cap C3_Q0_6 1.52e-17
+    res C3_Q0_6 C3_Q0_5 5
+    cap C3_Q0_7 1.547e-17
+    res C3_Q0_7 C3_Q0_6 5
+wire C3_Q1_6 C3_Q1_1 C3_Q1_2 C3_Q1_3 C3_Q1_4 C3_Q1_5
+    cap C3_Q1_1 1.851e-17
+    res C3_Q1_1 C3_Q1_7 3.09429
+    cap C3_Q1_2 1.662e-17
+    cap C3_Q1_3 1.662e-17
+    cap C3_Q1_4 1.662e-17
+    cap C3_Q1_5 7.59e-18
+    cap C3_Q1_6 1.662e-17
+    cap C3_Q1_7 2.682e-17
+    cap C3_Q1_8 1.1178e-16
+    res C3_Q1_8 C3_Q1_7 5
+    res C3_Q1_8 C3_Q1_22 14.5
+    cap C3_Q1_9 2.697e-17
+    res C3_Q1_9 C3_Q1_8 1.5
+    res C3_Q1_9 C3_Q1_10 5
+    cap C3_Q1_10 7.307e-17
+    res C3_Q1_10 C3_Q1_11 8.14286
+    cap C3_Q1_11 7.307e-17
+    res C3_Q1_11 C3_Q1_12 5
+    cap C3_Q1_12 3.317e-17
+    cap C3_Q1_13 2.937e-17
+    res C3_Q1_13 C3_Q1_3 5
+    res C3_Q1_13 C3_Q1_12 2
+    res C3_Q1_13 C3_Q1_14 5
+    cap C3_Q1_14 3.734e-17
+    res C3_Q1_14 C3_Q1_15 4.75
+    cap C3_Q1_15 5.182e-17
+    res C3_Q1_15 C3_Q1_20 1.35714
+    res C3_Q1_15 C3_Q1_16 5
+    cap C3_Q1_16 1.4289e-16
+    res C3_Q1_16 C3_Q1_17 10.5
+    cap C3_Q1_17 9.365e-17
+    res C3_Q1_17 C3_Q1_18 5
+    cap C3_Q1_18 1.59e-17
+    res C3_Q1_18 C3_Q1_5 1.03143
+    cap C3_Q1_19 1.52e-17
+    res C3_Q1_19 C3_Q1_2 5
+    cap C3_Q1_20 2.208e-17
+    res C3_Q1_20 C3_Q1_19 5
+    cap C3_Q1_21 6.064e-17
+    res C3_Q1_21 C3_Q1_4 5
+    res C3_Q1_21 C3_Q1_16 6.5
+    cap C3_Q1_22 1.0001e-16
+    res C3_Q1_22 C3_Q1_6 5
+wire C3_Q2_4 C3_Q2_1 C3_Q2_2 C3_Q2_3
+    cap C3_Q2_1 1.662e-17
+    cap C3_Q2_2 1.662e-17
+    cap C3_Q2_3 1.662e-17
+    cap C3_Q2_4 1.662e-17
+    res C3_Q2_4 C3_Q2_8 5
+    cap C3_Q2_5 3.736e-17
+    res C3_Q2_5 C3_Q2_1 5
+    cap C3_Q2_6 3.964e-17
+    res C3_Q2_6 C3_Q2_5 3.5
+    cap C3_Q2_7 2.419e-17
+    res C3_Q2_7 C3_Q2_6 0.678571
+    cap C3_Q2_8 2.191e-17
+    res C3_Q2_8 C3_Q2_7 1.5
+    res C3_Q2_8 C3_Q2_9 5
+    cap C3_Q2_9 4.676e-17
+    res C3_Q2_9 C3_Q2_10 3.39286
+    cap C3_Q2_10 6.448e-17
+    res C3_Q2_10 C3_Q2_15 2.71429
+    res C3_Q2_10 C3_Q2_11 5
+    cap C3_Q2_11 1.706e-17
+    cap C3_Q2_12 1.706e-17
+    res C3_Q2_12 C3_Q2_3 5
+    res C3_Q2_12 C3_Q2_11 0.5
+    cap C3_Q2_13 2.912e-17
+    res C3_Q2_13 C3_Q2_2 5
+    res C3_Q2_13 C3_Q2_14 2
+    cap C3_Q2_14 2.912e-17
+    cap C3_Q2_15 2.532e-17
+    res C3_Q2_15 C3_Q2_14 5
+wire C3_Q3_2 C3_Q3_1
+    cap C3_Q3_1 1.662e-17
+    cap C3_Q3_2 7.16e-18
+    res C3_Q3_2 C3_Q3_5 1.03143
+    cap C3_Q3_3 3.116e-17
+    res C3_Q3_3 C3_Q3_1 5
+    cap C3_Q3_4 3.116e-17
+    res C3_Q3_4 C3_Q3_3 1.35714
+    cap C3_Q3_5 1.547e-17
+    res C3_Q3_5 C3_Q3_4 5
+wire FML_2 FML_1
+    cap FML_1 7.16e-18
+    res FML_1 FML_8 1.03143
+    cap FML_2 1.662e-17
+    cap FML_3 4.111e-17
+    res FML_3 FML_2 5
+    res FML_3 FML_4 3
+    cap FML_4 4.491e-17
+    cap FML_5 2.249e-17
+    res FML_5 FML_4 5
+    cap FML_6 2.249e-17
+    res FML_6 FML_5 1.35714
+    cap FML_7 1.52e-17
+    res FML_7 FML_6 5
+    cap FML_8 1.547e-17
+    res FML_8 FML_7 5
+wire OLATCH_FEL_3 OLATCH_FEL_1 OLATCH_FEL_2
+    cap OLATCH_FEL_1 1.662e-17
+    cap OLATCH_FEL_2 1.662e-17
+    cap OLATCH_FEL_3 1.662e-17
+    cap OLATCH_FEL_4 4.121e-17
+    res OLATCH_FEL_4 OLATCH_FEL_1 5
+    res OLATCH_FEL_4 OLATCH_FEL_5 0.5
+    cap OLATCH_FEL_5 1.464e-17
+    cap OLATCH_FEL_6 2.128e-17
+    res OLATCH_FEL_6 OLATCH_FEL_2 5
+    res OLATCH_FEL_6 OLATCH_FEL_5 0.678571
+    cap OLATCH_FEL_7 2.088e-17
+    res OLATCH_FEL_7 OLATCH_FEL_3 5
+    res OLATCH_FEL_7 OLATCH_FEL_8 1
+    cap OLATCH_FEL_8 1.708e-17
+    cap OLATCH_FEL_9 1.8247e-16
+    res OLATCH_FEL_9 OLATCH_FEL_8 5
+    cap OLATCH_FEL_10 1.8247e-16
+    res OLATCH_FEL_10 OLATCH_FEL_9 17.6429
+    cap OLATCH_FEL_11 4.025e-17
+    res OLATCH_FEL_11 OLATCH_FEL_4 3.5
+    res OLATCH_FEL_11 OLATCH_FEL_10 5
+wire TESTL_3 TESTL_1 TESTL_2
+    cap TESTL_1 1.662e-17
+    cap TESTL_2 1.662e-17
+    cap TESTL_3 1.662e-17
+    cap TESTL_4 1.52e-17
+    res TESTL_4 TESTL_2 5
+    cap TESTL_5 4.555e-17
+    res TESTL_5 TESTL_4 5
+    cap TESTL_6 4.555e-17
+    res TESTL_6 TESTL_5 6.10714
+    cap TESTL_7 3.456e-17
+    res TESTL_7 TESTL_6 5
+    res TESTL_7 TESTL_12 0.5
+    cap TESTL_8 2.99e-17
+    res TESTL_8 TESTL_7 3
+    res TESTL_8 TESTL_9 5
+    cap TESTL_9 1.5114e-16
+    cap TESTL_10 1.5114e-16
+    res TESTL_10 TESTL_9 10.1786
+    res TESTL_10 TESTL_11 5
+    cap TESTL_11 1.52e-17
+    res TESTL_11 TESTL_1 5
+    cap TESTL_12 1.226e-17
+    res TESTL_12 TESTL_3 5
+wire UC_8_2 UC_8_1
+    cap UC_8_1 7.16e-18
+    cap UC_8_2 1.662e-17
+    res UC_8_2 UC_8_5 5
+    cap UC_8_3 1.547e-17
+    res UC_8_3 UC_8_1 1.03143
+    cap UC_8_4 3.291e-17
+    res UC_8_4 UC_8_3 5
+    cap UC_8_5 3.291e-17
+    res UC_8_5 UC_8_4 3
+wire UC_9_3 UC_9_1 UC_9_2
+    cap UC_9_1 1.662e-17
+    cap UC_9_2 1.662e-17
+    cap UC_9_3 1.662e-17
+    cap UC_9_4 3.471e-17
+    res UC_9_4 UC_9_1 5
+    res UC_9_4 UC_9_5 3.5
+    cap UC_9_5 3.471e-17
+    cap UC_9_6 1.7338e-16
+    res UC_9_6 UC_9_5 5
+    res UC_9_6 UC_9_7 12.2143
+    cap UC_9_7 1.3175e-16
+    res UC_9_7 UC_9_8 0.5
+    cap UC_9_8 2.591e-17
+    res UC_9_8 UC_9_9 2.71429
+    cap UC_9_9 2.623e-17
+    res UC_9_9 UC_9_10 5
+    cap UC_9_10 1.606e-17
+    cap UC_9_11 1.606e-17
+    res UC_9_11 UC_9_2 5
+    res UC_9_11 UC_9_10 0.5
+    cap UC_9_12 4.808e-17
+    res UC_9_12 UC_9_3 5
+    cap UC_9_13 4.808e-17
+    res UC_9_13 UC_9_12 4.5
+    cap UC_9_14 4.891e-17
+    res UC_9_14 UC_9_6 6.10714
+    res UC_9_14 UC_9_13 5
+wire UC_16_2 UC_16_1
+    cap UC_16_1 7.16e-18
+    cap UC_16_2 1.662e-17
+    res UC_16_2 UC_16_5 5
+    cap UC_16_3 1.547e-17
+    res UC_16_3 UC_16_1 1.03143
+    cap UC_16_4 2.689e-17
+    res UC_16_4 UC_16_3 5
+    cap UC_16_5 2.689e-17
+    res UC_16_5 UC_16_4 3
+wire UC_17_4 UC_17_1 UC_17_2 UC_17_3
+    cap UC_17_1 2.38e-17
+    res UC_17_1 UC_17_5 3.09429
+    cap UC_17_2 7.16e-18
+    cap UC_17_3 8.03e-18
+    cap UC_17_4 1.662e-17
+    res UC_17_4 UC_17_15 5
+    cap UC_17_5 3.211e-17
+    cap UC_17_6 8.58e-17
+    res UC_17_6 UC_17_5 5
+    res UC_17_6 UC_17_7 6
+    cap UC_17_7 5.692e-17
+    res UC_17_7 UC_17_8 5
+    cap UC_17_8 1.95e-17
+    res UC_17_8 UC_17_9 2.06286
+    cap UC_17_9 1.922e-17
+    res UC_17_9 UC_17_3 0.76
+    cap UC_17_10 1.547e-17
+    res UC_17_10 UC_17_2 1.03143
+    cap UC_17_11 1.606e-17
+    res UC_17_11 UC_17_10 5
+    res UC_17_11 UC_17_12 0.5
+    cap UC_17_12 1.606e-17
+    cap UC_17_13 2.018e-17
+    res UC_17_13 UC_17_12 5
+    cap UC_17_14 2.018e-17
+    res UC_17_14 UC_17_13 1.35714
+    cap UC_17_15 4.408e-17
+    res UC_17_15 UC_17_6 3
+    res UC_17_15 UC_17_14 5
+wire UC_18_4 UC_18_1 UC_18_2 UC_18_3
+    cap UC_18_1 7.65e-18
+    res UC_18_1 UC_18_5 1.03143
+    cap UC_18_2 1.595e-17
+    cap UC_18_3 2.842e-17
+    res UC_18_3 UC_18_2 2.06286
+    cap UC_18_4 1.662e-17
+    cap UC_18_5 1.596e-17
+    cap UC_18_6 1.817e-17
+    res UC_18_6 UC_18_5 5
+    res UC_18_6 UC_18_7 0.5
+    cap UC_18_7 1.817e-17
+    cap UC_18_8 2.9e-17
+    res UC_18_8 UC_18_7 5
+    res UC_18_8 UC_18_9 2.03571
+    cap UC_18_9 2.9e-17
+    cap UC_18_10 3.684e-17
+    res UC_18_10 UC_18_3 5
+    res UC_18_10 UC_18_9 5
+    res UC_18_10 UC_18_11 2.5
+    cap UC_18_11 4.064e-17
+    res UC_18_11 UC_18_4 5
+wire UC_19_2 UC_19_1
+    cap UC_19_1 1.434e-17
+    res UC_19_1 UC_19_3 2.06286
+    cap UC_19_2 1.662e-17
+    res UC_19_2 UC_19_5 5
+    cap UC_19_3 2.265e-17
+    cap UC_19_4 4.076e-17
+    res UC_19_4 UC_19_3 5
+    res UC_19_4 UC_19_5 3
+    cap UC_19_5 4.076e-17
+wire n_0_1 n_0_2
+    cap n_0_1 1.518e-17
+    cap n_0_2 1.999e-17
+    res n_0_2 n_0_8 2.06286
+    cap n_0_3 2.349e-17
+    res n_0_3 n_0_1 2.06286
+    cap n_0_4 1.52e-17
+    res n_0_4 n_0_3 5
+    cap n_0_5 5.163e-17
+    res n_0_5 n_0_4 5
+    cap n_0_6 5.163e-17
+    res n_0_6 n_0_5 2.71429
+    cap n_0_7 1.52e-17
+    res n_0_7 n_0_6 5
+    cap n_0_8 2.83e-17
+    res n_0_8 n_0_7 5
+wire n_1_1 n_1_2
+    cap n_1_1 1.662e-17
+    res n_1_1 n_1_6 5
+    cap n_1_2 1.662e-17
+    cap n_1_3 1.52e-17
+    res n_1_3 n_1_2 5
+    cap n_1_4 2.423e-17
+    res n_1_4 n_1_3 5
+    cap n_1_5 2.423e-17
+    res n_1_5 n_1_4 1.35714
+    cap n_1_6 1.52e-17
+    res n_1_6 n_1_5 5
+wire n_3_1 n_3_2
+    cap n_3_1 2.898e-17
+    cap n_3_2 2.898e-17
+    res n_3_2 n_3_1 4.12571
+wire n_6_1 n_6_2 n_6_3
+    cap n_6_1 1.662e-17
+    cap n_6_2 1.662e-17
+    cap n_6_3 1.662e-17
+    cap n_6_4 1.52e-17
+    res n_6_4 n_6_2 5
+    cap n_6_5 6.1e-17
+    res n_6_5 n_6_4 5
+    res n_6_5 n_6_6 2.03571
+    cap n_6_6 2.895e-17
+    res n_6_6 n_6_7 5
+    cap n_6_7 1.52e-17
+    res n_6_7 n_6_3 5
+    cap n_6_8 1.641e-17
+    res n_6_8 n_6_1 5
+    cap n_6_9 1.641e-17
+    res n_6_9 n_6_8 0.5
+    cap n_6_10 4.725e-17
+    res n_6_10 n_6_5 4.75
+    res n_6_10 n_6_9 5
+wire n_8_1 n_8_2 n_8_3 n_8_4
+    cap n_8_1 2.538e-17
+    res n_8_1 n_8_8 1.03143
+    cap n_8_2 1.662e-17
+    cap n_8_3 1.662e-17
+    cap n_8_4 1.662e-17
+    cap n_8_5 2.06e-17
+    res n_8_5 n_8_2 5
+    res n_8_5 n_8_6 1
+    cap n_8_6 2.06e-17
+    cap n_8_7 2.61e-17
+    res n_8_7 n_8_1 2.06286
+    res n_8_7 n_8_6 5
+    cap n_8_8 1.59e-17
+    cap n_8_9 1.814e-17
+    res n_8_9 n_8_8 5
+    res n_8_9 n_8_10 0.5
+    cap n_8_10 1.814e-17
+    cap n_8_11 3.277e-17
+    res n_8_11 n_8_10 5
+    res n_8_11 n_8_12 3.39286
+    cap n_8_12 5.802e-17
+    res n_8_12 n_8_13 4.07143
+    cap n_8_13 3.285e-17
+    res n_8_13 n_8_14 5
+    cap n_8_14 1.52e-17
+    res n_8_14 n_8_4 5
+    cap n_8_15 1.52e-17
+    res n_8_15 n_8_3 5
+    res n_8_15 n_8_12 5
+wire n_9_1 n_9_2
+    cap n_9_1 1.662e-17
+    res n_9_1 n_9_6 5
+    cap n_9_2 1.662e-17
+    cap n_9_3 1.52e-17
+    res n_9_3 n_9_2 5
+    cap n_9_4 3.135e-17
+    res n_9_4 n_9_3 5
+    res n_9_4 n_9_5 1.35714
+    cap n_9_5 3.135e-17
+    cap n_9_6 1.52e-17
+    res n_9_6 n_9_5 5
+wire n_10_1 n_10_2 n_10_3
+    cap n_10_1 7.67e-18
+    res n_10_1 n_10_9 1.03143
+    cap n_10_2 1.662e-17
+    cap n_10_3 1.662e-17
+    cap n_10_4 2.129e-17
+    res n_10_4 n_10_2 5
+    cap n_10_5 2.509e-17
+    res n_10_5 n_10_4 1
+    res n_10_5 n_10_6 5
+    cap n_10_6 1.5603e-16
+    res n_10_6 n_10_7 17.6429
+    cap n_10_7 1.5603e-16
+    res n_10_7 n_10_8 5
+    cap n_10_8 1.52e-17
+    res n_10_8 n_10_3 5
+    cap n_10_9 1.598e-17
+    res n_10_9 n_10_5 5
+wire n_13_1 n_13_2 n_13_3
+    cap n_13_1 1.499e-17
+    cap n_13_2 1.662e-17
+    cap n_13_3 2.289e-17
+    cap n_13_4 1.641e-17
+    res n_13_4 n_13_2 5
+    res n_13_4 n_13_5 0.5
+    cap n_13_5 1.641e-17
+    cap n_13_6 8.74e-18
+    res n_13_6 n_13_5 5
+    res n_13_6 n_13_7 0.0714286
+    cap n_13_7 8.74e-18
+    cap n_13_8 1.5692e-16
+    res n_13_8 n_13_7 5
+    res n_13_8 n_13_9 5.88
+    cap n_13_9 1.5692e-16
+    cap n_13_10 2.071e-17
+    res n_13_10 n_13_9 5
+    res n_13_10 n_13_11 1.28571
+    cap n_13_11 2.071e-17
+    cap n_13_12 6.589e-17
+    res n_13_12 n_13_11 5
+    res n_13_12 n_13_13 7
+    cap n_13_13 6.589e-17
+    cap n_13_14 2.289e-17
+    res n_13_14 n_13_3 2.06286
+    res n_13_14 n_13_13 5
+    cap n_13_15 2.33e-17
+    res n_13_15 n_13_1 2.06286
+    cap n_13_16 1.52e-17
+    res n_13_16 n_13_15 5
+    cap n_13_17 9.945e-17
+    res n_13_17 n_13_16 5
+    cap n_13_18 9.945e-17
+    res n_13_18 n_13_17 9.5
+    cap n_13_19 1.606e-17
+    res n_13_19 n_13_18 5
+    res n_13_19 n_13_20 0.5
+    cap n_13_20 1.606e-17
+    res n_13_20 n_13_3 5
+wire n_14_1 n_14_2
+    cap n_14_1 1.662e-17
+    cap n_14_2 1.662e-17
+    res n_14_2 n_14_12 5
+    cap n_14_3 2.821e-17
+    res n_14_3 n_14_1 5
+    cap n_14_4 2.821e-17
+    res n_14_4 n_14_3 1.5
+    cap n_14_5 1.197e-17
+    res n_14_5 n_14_4 5
+    cap n_14_6 1.197e-17
+    res n_14_6 n_14_5 0.25
+    cap n_14_7 3.704e-17
+    res n_14_7 n_14_6 5
+    cap n_14_8 3.704e-17
+    res n_14_8 n_14_7 0.63
+    cap n_14_9 1.157e-17
+    res n_14_9 n_14_8 5
+    res n_14_9 n_14_10 0.25
+    cap n_14_10 1.157e-17
+    cap n_14_11 1.664e-17
+    res n_14_11 n_14_10 5
+    cap n_14_12 1.664e-17
+    res n_14_12 n_14_11 0.5
+wire n_15_1 n_15_2
+    cap n_15_1 1.662e-17
+    res n_15_1 n_15_5 5
+    cap n_15_2 1.662e-17
+    cap n_15_3 4.843e-17
+    res n_15_3 n_15_2 5
+    res n_15_3 n_15_4 7
+    cap n_15_4 5.071e-17
+    cap n_15_5 1.748e-17
+    res n_15_5 n_15_4 0.678571
+wire n_16_1 n_16_2
+    cap n_16_1 1.662e-17
+    res n_16_1 n_16_6 5
+    cap n_16_2 1.662e-17
+    cap n_16_3 1.52e-17
+    res n_16_3 n_16_2 5
+    cap n_16_4 2.144e-17
+    res n_16_4 n_16_3 5
+    cap n_16_5 2.144e-17
+    res n_16_5 n_16_4 1.35714
+    cap n_16_6 1.52e-17
+    res n_16_6 n_16_5 5
+wire n_19_1 n_19_2
+    cap n_19_1 7.59e-18
+    cap n_19_2 1.662e-17
+    res n_19_2 n_19_8 5
+    cap n_19_3 1.59e-17
+    res n_19_3 n_19_1 1.03143
+    cap n_19_4 1.52e-17
+    res n_19_4 n_19_3 5
+    cap n_19_5 4.311e-17
+    res n_19_5 n_19_4 5
+    cap n_19_6 4.311e-17
+    res n_19_6 n_19_5 4.75
+    cap n_19_7 7.016e-17
+    res n_19_7 n_19_6 5
+    cap n_19_8 6.636e-17
+    res n_19_8 n_19_7 3.5
+wire n_21_1 n_21_2
+    cap n_21_1 1.662e-17
+    res n_21_1 n_21_6 5
+    cap n_21_2 1.662e-17
+    cap n_21_3 1.52e-17
+    res n_21_3 n_21_2 5
+    cap n_21_4 4.159e-17
+    res n_21_4 n_21_3 5
+    res n_21_4 n_21_5 3.39286
+    cap n_21_5 4.159e-17
+    cap n_21_6 1.52e-17
+    res n_21_6 n_21_5 5
+wire n_22_1 n_22_2 n_22_3
+    cap n_22_1 2.421e-17
+    res n_22_1 n_22_2 1.03143
+    cap n_22_2 7.59e-18
+    cap n_22_3 7.16e-18
+    cap n_22_4 1.52e-17
+    res n_22_4 n_22_1 5
+    cap n_22_5 4.048e-17
+    res n_22_5 n_22_4 5
+    res n_22_5 n_22_6 2.03571
+    cap n_22_6 4.048e-17
+    cap n_22_7 1.52e-17
+    res n_22_7 n_22_6 5
+    cap n_22_8 1.547e-17
+    res n_22_8 n_22_3 1.03143
+    res n_22_8 n_22_7 5
+wire n_23_1 n_23_2
+    cap n_23_1 1.662e-17
+    cap n_23_2 1.662e-17
+    res n_23_2 n_23_8 5
+    cap n_23_3 2.008e-17
+    res n_23_3 n_23_1 5
+    res n_23_3 n_23_4 1.5
+    cap n_23_4 2.008e-17
+    cap n_23_5 5.156e-17
+    res n_23_5 n_23_4 5
+    cap n_23_6 5.156e-17
+    res n_23_6 n_23_5 3.39286
+    cap n_23_7 5.072e-17
+    res n_23_7 n_23_6 5
+    res n_23_7 n_23_8 3
+    cap n_23_8 5.072e-17
+wire n_24_1 n_24_2 n_24_3
+    cap n_24_1 3.324e-17
+    res n_24_1 n_24_8 5
+    cap n_24_2 7.16e-18
+    cap n_24_3 1.662e-17
+    cap n_24_4 1.52e-17
+    res n_24_4 n_24_3 5
+    cap n_24_5 2.526e-17
+    res n_24_5 n_24_4 5
+    cap n_24_6 2.526e-17
+    res n_24_6 n_24_5 1.35714
+    cap n_24_7 1.932e-17
+    res n_24_7 n_24_6 5
+    cap n_24_8 1.932e-17
+    res n_24_8 n_24_7 0.5
+    cap n_24_9 6.132e-17
+    res n_24_9 n_24_1 5
+    cap n_24_10 6.132e-17
+    res n_24_10 n_24_9 4.5
+    cap n_24_11 1.547e-17
+    res n_24_11 n_24_2 1.03143
+    res n_24_11 n_24_10 5
+wire n_25_1 n_25_2 n_25_3 n_25_4
+    cap n_25_1 1.662e-17
+    cap n_25_2 1.662e-17
+    cap n_25_3 1.662e-17
+    cap n_25_4 1.662e-17
+    cap n_25_5 1.993e-17
+    res n_25_5 n_25_2 5
+    res n_25_5 n_25_6 1
+    cap n_25_6 1.993e-17
+    cap n_25_7 5.064e-17
+    res n_25_7 n_25_6 5
+    res n_25_7 n_25_17 1
+    cap n_25_8 3.988e-17
+    res n_25_8 n_25_7 2.71429
+    cap n_25_9 5.632e-17
+    res n_25_9 n_25_8 5
+    res n_25_9 n_25_10 6.5
+    cap n_25_10 4.993e-17
+    res n_25_10 n_25_11 5
+    cap n_25_11 4.366e-17
+    cap n_25_12 4.366e-17
+    res n_25_12 n_25_11 4.07143
+    res n_25_12 n_25_13 5
+    cap n_25_13 1.52e-17
+    res n_25_13 n_25_4 5
+    cap n_25_14 2.648e-17
+    res n_25_14 n_25_3 5
+    res n_25_14 n_25_15 1.5
+    cap n_25_15 2.648e-17
+    cap n_25_16 7.597e-17
+    res n_25_16 n_25_15 5
+    cap n_25_17 8.293e-17
+    res n_25_17 n_25_16 6.10714
+    cap n_25_18 1.399e-17
+    res n_25_18 n_25_1 5
+    res n_25_18 n_25_9 0.5
+wire n_26_1 n_26_2
+    cap n_26_1 1.662e-17
+    cap n_26_2 1.662e-17
+    res n_26_2 n_26_5 5
+    cap n_26_3 1.748e-17
+    res n_26_3 n_26_1 5
+    res n_26_3 n_26_4 0.678571
+    cap n_26_4 5.088e-17
+    res n_26_4 n_26_5 2.5
+    cap n_26_5 4.86e-17
+wire n_27_1 n_27_2
+    cap n_27_1 1.662e-17
+    res n_27_1 n_27_4 5
+    cap n_27_2 1.662e-17
+    cap n_27_3 3.361e-17
+    res n_27_3 n_27_2 5
+    cap n_27_4 3.361e-17
+    res n_27_4 n_27_3 2.5
+wire n_28_1 n_28_2 n_28_3
+    cap n_28_1 1.662e-17
+    cap n_28_2 1.662e-17
+    cap n_28_3 1.662e-17
+    cap n_28_4 1.901e-17
+    res n_28_4 n_28_3 5
+    res n_28_4 n_28_18 0.5
+    cap n_28_5 1.805e-17
+    res n_28_5 n_28_4 0.5
+    res n_28_5 n_28_6 5
+    cap n_28_6 4.292e-17
+    res n_28_6 n_28_7 2.71429
+    cap n_28_7 4.292e-17
+    res n_28_7 n_28_8 5
+    cap n_28_8 3.089e-17
+    cap n_28_9 2.709e-17
+    res n_28_9 n_28_2 5
+    res n_28_9 n_28_8 2.5
+    cap n_28_10 1.75e-17
+    res n_28_10 n_28_1 5
+    res n_28_10 n_28_11 1
+    cap n_28_11 1.75e-17
+    cap n_28_12 9.76e-17
+    res n_28_12 n_28_11 5
+    res n_28_12 n_28_13 10.2857
+    cap n_28_13 9.76e-17
+    cap n_28_14 4.083e-17
+    res n_28_14 n_28_13 5
+    cap n_28_15 4.083e-17
+    res n_28_15 n_28_14 1.05
+    cap n_28_16 1.315e-17
+    res n_28_16 n_28_15 5
+    res n_28_16 n_28_17 0.571429
+    cap n_28_17 1.315e-17
+    cap n_28_18 1.616e-17
+    res n_28_18 n_28_17 5
+wire n_29_1 n_29_2
+    cap n_29_1 7.16e-18
+    cap n_29_2 1.662e-17
+    cap n_29_3 1.52e-17
+    res n_29_3 n_29_2 5
+    cap n_29_4 2.97e-17
+    res n_29_4 n_29_3 5
+    res n_29_4 n_29_5 1.35714
+    cap n_29_5 2.97e-17
+    cap n_29_6 1.52e-17
+    res n_29_6 n_29_5 5
+    cap n_29_7 1.547e-17
+    res n_29_7 n_29_1 1.03143
+    res n_29_7 n_29_6 5
+wire n_30_1 n_30_2 n_30_3 n_30_4
+    cap n_30_1 2.225e-17
+    cap n_30_2 1.662e-17
+    cap n_30_3 1.662e-17
+    cap n_30_4 1.662e-17
+    cap n_30_5 1.667e-17
+    res n_30_5 n_30_2 5
+    res n_30_5 n_30_6 0.5
+    cap n_30_6 1.667e-17
+    cap n_30_7 2.229e-17
+    res n_30_7 n_30_6 5
+    res n_30_7 n_30_8 1.35714
+    cap n_30_8 2.229e-17
+    cap n_30_9 3.023e-17
+    res n_30_9 n_30_8 5
+    cap n_30_10 3.403e-17
+    res n_30_10 n_30_3 5
+    res n_30_10 n_30_9 2
+    cap n_30_11 6.867e-17
+    res n_30_11 n_30_4 5
+    res n_30_11 n_30_12 4.5
+    cap n_30_12 7.247e-17
+    cap n_30_13 5.904e-17
+    res n_30_13 n_30_12 5
+    res n_30_13 n_30_17 2.03571
+    cap n_30_14 3.326e-17
+    res n_30_14 n_30_10 5
+    res n_30_14 n_30_13 3.39286
+    cap n_30_15 3.056e-17
+    res n_30_15 n_30_1 3.09429
+    cap n_30_16 1.52e-17
+    res n_30_16 n_30_15 5
+    cap n_30_17 3.338e-17
+    res n_30_17 n_30_16 5
+wire n_31_1 n_31_2 n_31_3
+    cap n_31_1 1.662e-17
+    cap n_31_2 2.64e-17
+    res n_31_2 n_31_9 6.18857
+    cap n_31_3 1.662e-17
+    cap n_31_4 2.128e-17
+    res n_31_4 n_31_3 5
+    cap n_31_5 1.834e-17
+    res n_31_5 n_31_4 0.678571
+    res n_31_5 n_31_6 5
+    cap n_31_6 5.707e-17
+    cap n_31_7 5.707e-17
+    res n_31_7 n_31_6 4.75
+    res n_31_7 n_31_8 5
+    cap n_31_8 1.52e-17
+    res n_31_8 n_31_9 5
+    cap n_31_9 3.471e-17
+    cap n_31_10 1.606e-17
+    res n_31_10 n_31_1 5
+    res n_31_10 n_31_5 0.5
+wire n_32_1 n_32_2 n_32_3 n_32_4
+    cap n_32_1 3.324e-17
+    res n_32_1 n_32_16 5
+    cap n_32_2 7.16e-18
+    cap n_32_3 1.662e-17
+    cap n_32_4 1.662e-17
+    cap n_32_5 1.547e-17
+    res n_32_5 n_32_2 1.03143
+    cap n_32_6 2.618e-17
+    res n_32_6 n_32_5 5
+    cap n_32_7 2.618e-17
+    res n_32_7 n_32_6 1.5
+    cap n_32_8 1.141e-17
+    res n_32_8 n_32_7 5
+    cap n_32_9 1.141e-17
+    res n_32_9 n_32_8 0.357143
+    cap n_32_10 1.3271e-16
+    res n_32_10 n_32_9 5
+    cap n_32_11 2.3277e-16
+    res n_32_11 n_32_10 3.99
+    res n_32_11 n_32_12 5
+    cap n_32_12 7.315e-17
+    cap n_32_13 7.315e-17
+    res n_32_13 n_32_12 7.78571
+    res n_32_13 n_32_14 5
+    cap n_32_14 1.664e-17
+    res n_32_14 n_32_15 0.5
+    cap n_32_15 1.664e-17
+    res n_32_15 n_32_1 5
+    cap n_32_16 4.274e-17
+    res n_32_16 n_32_17 2.5
+    cap n_32_17 4.274e-17
+    res n_32_17 n_32_18 5
+    cap n_32_18 3.695e-17
+    cap n_32_19 3.695e-17
+    res n_32_19 n_32_18 4.75
+    res n_32_19 n_32_20 5
+    cap n_32_20 6.173e-17
+    res n_32_20 n_32_21 6
+    cap n_32_21 6.173e-17
+    res n_32_21 n_32_22 5
+    cap n_32_22 3.018e-17
+    cap n_32_23 3.018e-17
+    res n_32_23 n_32_22 1.35714
+    res n_32_23 n_32_24 5
+    cap n_32_24 2.349e-17
+    cap n_32_25 2.349e-17
+    res n_32_25 n_32_4 5
+    res n_32_25 n_32_24 1.5
+    cap n_32_26 1.703e-17
+    res n_32_26 n_32_3 5
+    res n_32_26 n_32_27 1
+    cap n_32_27 2.083e-17
+    cap n_32_28 1.095e-17
+    res n_32_28 n_32_27 5
+    cap n_32_29 1.095e-17
+    res n_32_29 n_32_28 0.357143
+    cap n_32_30 1.0007e-16
+    res n_32_30 n_32_11 3.36
+    res n_32_30 n_32_29 5
+wire n_33_1 n_33_2
+    cap n_33_1 1.662e-17
+    cap n_33_2 1.662e-17
+    res n_33_2 n_33_7 5
+    cap n_33_3 1.52e-17
+    res n_33_3 n_33_1 5
+    cap n_33_4 7.217e-17
+    res n_33_4 n_33_3 5
+    res n_33_4 n_33_5 4.75
+    cap n_33_5 7.217e-17
+    cap n_33_6 1.714e-17
+    res n_33_6 n_33_5 5
+    cap n_33_7 1.714e-17
+    res n_33_7 n_33_6 1
+wire n_34_1 n_34_2 n_34_3
+    cap n_34_1 3.181e-17
+    res n_34_1 n_34_10 4.12571
+    cap n_34_2 1.662e-17
+    cap n_34_3 1.662e-17
+    cap n_34_4 2.238e-17
+    res n_34_4 n_34_2 5
+    res n_34_4 n_34_5 1.5
+    cap n_34_5 2.238e-17
+    cap n_34_6 4.5e-17
+    res n_34_6 n_34_5 5
+    cap n_34_7 4.5e-17
+    res n_34_7 n_34_6 4.07143
+    cap n_34_8 3.919e-17
+    res n_34_8 n_34_7 5
+    res n_34_8 n_34_11 3.5
+    cap n_34_9 1.421e-17
+    res n_34_9 n_34_3 5
+    res n_34_9 n_34_8 0.5
+    cap n_34_10 4.012e-17
+    cap n_34_11 3.258e-17
+    res n_34_11 n_34_10 5
+wire n_35_1 n_35_2
+    cap n_35_1 1.432e-17
+    res n_35_1 n_35_3 2.06286
+    cap n_35_2 1.662e-17
+    res n_35_2 n_35_8 5
+    cap n_35_3 2.263e-17
+    cap n_35_4 1.52e-17
+    res n_35_4 n_35_3 5
+    cap n_35_5 6.976e-17
+    res n_35_5 n_35_4 5
+    res n_35_5 n_35_6 5.42857
+    cap n_35_6 6.976e-17
+    cap n_35_7 2.162e-17
+    res n_35_7 n_35_6 5
+    cap n_35_8 1.782e-17
+    res n_35_8 n_35_7 1
+wire n_36_1 n_36_2 n_36_3
+    cap n_36_1 1.662e-17
+    cap n_36_2 1.662e-17
+    cap n_36_3 1.662e-17
+    cap n_36_4 3.317e-17
+    res n_36_4 n_36_3 5
+    res n_36_4 n_36_5 2.5
+    cap n_36_5 4.33e-17
+    res n_36_5 n_36_6 0.5
+    cap n_36_6 1.925e-17
+    res n_36_6 n_36_7 5
+    cap n_36_7 8.584e-17
+    res n_36_7 n_36_8 10.1786
+    cap n_36_8 8.584e-17
+    res n_36_8 n_36_9 5
+    cap n_36_9 1.888e-17
+    cap n_36_10 1.888e-17
+    res n_36_10 n_36_2 5
+    res n_36_10 n_36_9 1
+    cap n_36_11 2.099e-17
+    res n_36_11 n_36_1 5
+    cap n_36_12 2.327e-17
+    res n_36_12 n_36_5 0.678571
+    res n_36_12 n_36_11 1.5
+wire n_37_1 n_37_2
+    cap n_37_1 1.662e-17
+    res n_37_1 n_37_6 5
+    cap n_37_2 1.662e-17
+    cap n_37_3 1.52e-17
+    res n_37_3 n_37_2 5
+    cap n_37_4 5.59e-17
+    res n_37_4 n_37_3 5
+    cap n_37_5 5.59e-17
+    res n_37_5 n_37_4 2.71429
+    cap n_37_6 1.52e-17
+    res n_37_6 n_37_5 5
+wire n_39_1 n_39_2 n_39_3
+    cap n_39_1 1.705e-17
+    cap n_39_2 3.304e-17
+    cap n_39_3 1.662e-17
+    res n_39_3 n_39_15 5
+    cap n_39_4 4.135e-17
+    res n_39_4 n_39_2 4.12571
+    cap n_39_5 7.031e-17
+    res n_39_5 n_39_4 5
+    cap n_39_6 7.031e-17
+    res n_39_6 n_39_5 7
+    cap n_39_7 1.83e-17
+    res n_39_7 n_39_1 1.03143
+    res n_39_7 n_39_6 5
+    cap n_39_8 1.537e-17
+    res n_39_8 n_39_1 1.03143
+    cap n_39_9 1.52e-17
+    res n_39_9 n_39_8 5
+    cap n_39_10 1.52e-17
+    res n_39_10 n_39_9 5
+    cap n_39_11 9.609e-17
+    res n_39_11 n_39_10 5
+    cap n_39_12 9.609e-17
+    res n_39_12 n_39_11 3.15
+    cap n_39_13 1.52e-17
+    res n_39_13 n_39_12 5
+    cap n_39_14 1.166e-16
+    res n_39_14 n_39_13 5
+    cap n_39_15 1.204e-16
+    res n_39_15 n_39_14 13.5
+wire n_40_1 n_40_2
+    cap n_40_1 3.632e-17
+    res n_40_1 n_40_3 5.15714
+    cap n_40_2 1.662e-17
+    res n_40_2 n_40_5 5
+    cap n_40_3 4.463e-17
+    cap n_40_4 1.0678e-16
+    res n_40_4 n_40_3 5
+    res n_40_4 n_40_5 9
+    cap n_40_5 1.1058e-16
+wire n_41_1 n_41_2
+    cap n_41_1 1.662e-17
+    cap n_41_2 1.432e-17
+    cap n_41_3 3.65e-17
+    res n_41_3 n_41_1 5
+    cap n_41_4 4.03e-17
+    res n_41_4 n_41_3 2
+    cap n_41_5 6.51e-17
+    res n_41_5 n_41_4 5
+    res n_41_5 n_41_6 9.5
+    cap n_41_6 6.51e-17
+    cap n_41_7 2.258e-17
+    res n_41_7 n_41_6 5
+    cap n_41_8 2.258e-17
+    res n_41_8 n_41_7 1.5
+    cap n_41_9 2.263e-17
+    res n_41_9 n_41_2 2.06286
+    res n_41_9 n_41_8 5
+wire n_44_1 n_44_2 n_44_3
+    cap n_44_1 1.662e-17
+    cap n_44_2 1.662e-17
+    cap n_44_3 1.662e-17
+    cap n_44_4 3.218e-17
+    res n_44_4 n_44_2 5
+    cap n_44_5 3.218e-17
+    res n_44_5 n_44_4 2
+    cap n_44_6 4.201e-17
+    res n_44_6 n_44_5 5
+    res n_44_6 n_44_7 4.75
+    cap n_44_7 5.765e-17
+    res n_44_7 n_44_8 1.35714
+    cap n_44_8 2.324e-17
+    res n_44_8 n_44_9 5
+    cap n_44_9 1.814e-17
+    cap n_44_10 1.814e-17
+    res n_44_10 n_44_3 5
+    res n_44_10 n_44_9 0.5
+    cap n_44_11 1.641e-17
+    res n_44_11 n_44_1 5
+    res n_44_11 n_44_12 0.5
+    cap n_44_12 1.641e-17
+    res n_44_12 n_44_7 5
+wire n_45_1 n_45_2
+    cap n_45_1 1.662e-17
+    res n_45_1 n_45_5 5
+    cap n_45_2 2.15e-17
+    res n_45_2 n_45_3 3.09429
+    cap n_45_3 2.981e-17
+    cap n_45_4 5.013e-17
+    res n_45_4 n_45_3 5
+    cap n_45_5 5.013e-17
+    res n_45_5 n_45_4 4.5
+wire n_46_1 n_46_2
+    cap n_46_1 1.662e-17
+    res n_46_1 n_46_6 5
+    cap n_46_2 1.662e-17
+    cap n_46_3 1.52e-17
+    res n_46_3 n_46_2 5
+    cap n_46_4 6.297e-17
+    res n_46_4 n_46_3 5
+    cap n_46_5 6.297e-17
+    res n_46_5 n_46_4 4.75
+    cap n_46_6 1.52e-17
+    res n_46_6 n_46_5 5
+wire n_47_1 n_47_2 n_47_3
+    cap n_47_1 1.662e-17
+    cap n_47_2 1.662e-17
+    cap n_47_3 1.662e-17
+    cap n_47_4 1.52e-17
+    res n_47_4 n_47_2 5
+    cap n_47_5 1.2369e-16
+    res n_47_5 n_47_4 5
+    cap n_47_6 2.2042e-16
+    res n_47_6 n_47_5 10.75
+    res n_47_6 n_47_7 5
+    cap n_47_7 1.9505e-16
+    cap n_47_8 1.9505e-16
+    res n_47_8 n_47_7 6.09
+    res n_47_8 n_47_9 5
+    cap n_47_9 1.333e-17
+    res n_47_9 n_47_10 0.571429
+    cap n_47_10 1.333e-17
+    res n_47_10 n_47_11 5
+    cap n_47_11 2.191e-17
+    cap n_47_12 2.191e-17
+    res n_47_12 n_47_3 5
+    res n_47_12 n_47_11 1.5
+    cap n_47_13 2.208e-17
+    res n_47_13 n_47_1 5
+    res n_47_13 n_47_14 1
+    cap n_47_14 2.436e-17
+    res n_47_14 n_47_15 0.678571
+    cap n_47_15 3.949e-17
+    res n_47_15 n_47_16 4
+    cap n_47_16 3.721e-17
+    cap n_47_17 1.0433e-16
+    res n_47_17 n_47_6 8.25
+    res n_47_17 n_47_16 5
+wire n_49_1 n_49_2 n_49_3 n_49_4
+    cap n_49_1 1.974e-17
+    res n_49_1 n_49_8 1.03143
+    res n_49_1 n_49_9 1.03143
+    cap n_49_2 1.163e-17
+    cap n_49_3 1.662e-17
+    cap n_49_4 1.662e-17
+    cap n_49_5 1.994e-17
+    res n_49_5 n_49_2 2.06286
+    cap n_49_6 4.073e-17
+    res n_49_6 n_49_5 5
+    res n_49_6 n_49_19 0.5
+    cap n_49_7 3.987e-17
+    res n_49_7 n_49_6 2.5
+    res n_49_7 n_49_8 5
+    cap n_49_8 1.818e-17
+    cap n_49_9 1.818e-17
+    res n_49_9 n_49_10 5
+    cap n_49_10 5.024e-17
+    cap n_49_11 5.024e-17
+    res n_49_11 n_49_10 5.5
+    res n_49_11 n_49_12 5
+    cap n_49_12 1.761e-17
+    cap n_49_13 1.761e-17
+    res n_49_13 n_49_12 1.35714
+    res n_49_13 n_49_14 5
+    cap n_49_14 2.571e-17
+    cap n_49_15 2.571e-17
+    res n_49_15 n_49_4 5
+    res n_49_15 n_49_14 1.5
+    cap n_49_16 1.52e-17
+    res n_49_16 n_49_3 5
+    cap n_49_17 2.917e-17
+    res n_49_17 n_49_16 5
+    res n_49_17 n_49_18 1.35714
+    cap n_49_18 2.917e-17
+    cap n_49_19 1.606e-17
+    res n_49_19 n_49_18 5
+wire n_50_1 n_50_2
+    cap n_50_1 7.59e-18
+    cap n_50_2 1.662e-17
+    res n_50_2 n_50_9 5
+    cap n_50_3 1.59e-17
+    res n_50_3 n_50_1 1.03143
+    cap n_50_4 4.238e-17
+    res n_50_4 n_50_3 5
+    res n_50_4 n_50_5 3
+    cap n_50_5 4.238e-17
+    cap n_50_6 7.586e-17
+    res n_50_6 n_50_5 5
+    cap n_50_7 7.586e-17
+    res n_50_7 n_50_6 6.78571
+    cap n_50_8 2.191e-17
+    res n_50_8 n_50_7 5
+    res n_50_8 n_50_9 1.5
+    cap n_50_9 2.571e-17
+wire n_51_1 n_51_2 n_51_3 n_51_4 n_51_5 n_51_6 n_51_7
+    cap n_51_1 1.662e-17
+    cap n_51_2 1.662e-17
+    cap n_51_3 1.662e-17
+    cap n_51_4 1.662e-17
+    cap n_51_5 1.662e-17
+    cap n_51_6 1.662e-17
+    cap n_51_7 1.662e-17
+    cap n_51_8 1.688e-17
+    res n_51_8 n_51_3 5
+    res n_51_8 n_51_25 1
+    cap n_51_9 4.748e-17
+    res n_51_9 n_51_8 5
+    cap n_51_10 6.465e-17
+    res n_51_10 n_51_9 4.07143
+    res n_51_10 n_51_11 5
+    cap n_51_11 1.674e-17
+    res n_51_11 n_51_12 0.5
+    cap n_51_12 1.522e-17
+    cap n_51_13 2.393e-17
+    res n_51_13 n_51_4 5
+    res n_51_13 n_51_12 0.678571
+    res n_51_13 n_51_31 1
+    cap n_51_14 6.507e-17
+    res n_51_14 n_51_2 5
+    res n_51_14 n_51_32 3
+    cap n_51_15 3.076e-17
+    res n_51_15 n_51_14 2
+    res n_51_15 n_51_16 5
+    cap n_51_16 2.8413e-16
+    res n_51_16 n_51_17 32.9643
+    cap n_51_17 2.8413e-16
+    res n_51_17 n_51_18 5
+    cap n_51_18 8.696e-17
+    res n_51_18 n_51_19 2.1
+    cap n_51_19 8.696e-17
+    res n_51_19 n_51_20 5
+    cap n_51_20 2.477e-17
+    res n_51_20 n_51_10 0.964286
+    cap n_51_21 1.678e-17
+    res n_51_21 n_51_5 5
+    res n_51_21 n_51_22 0.5
+    cap n_51_22 6.489e-17
+    res n_51_22 n_51_28 4
+    cap n_51_23 3.706e-17
+    res n_51_23 n_51_22 5
+    cap n_51_24 3.706e-17
+    res n_51_24 n_51_23 2.03571
+    cap n_51_25 2.068e-17
+    res n_51_25 n_51_24 5
+    cap n_51_26 4.239e-17
+    res n_51_26 n_51_7 5
+    cap n_51_27 4.467e-17
+    res n_51_27 n_51_26 5
+    res n_51_27 n_51_28 0.678571
+    cap n_51_28 6.179e-17
+    cap n_51_29 5.759e-17
+    res n_51_29 n_51_6 5
+    cap n_51_30 6.975e-17
+    res n_51_30 n_51_29 4.5
+    res n_51_30 n_51_31 1.35714
+    cap n_51_31 3.001e-17
+    cap n_51_32 4.571e-17
+    res n_51_32 n_51_1 5
+wire n_52_1 n_52_2
+    cap n_52_1 1.662e-17
+    cap n_52_2 1.662e-17
+    res n_52_2 n_52_8 5
+    cap n_52_3 6.409e-17
+    res n_52_3 n_52_1 5
+    cap n_52_4 6.409e-17
+    res n_52_4 n_52_3 6.5
+    cap n_52_5 1.7971e-16
+    res n_52_5 n_52_4 5
+    res n_52_5 n_52_6 14.9286
+    cap n_52_6 1.7971e-16
+    cap n_52_7 3.013e-17
+    res n_52_7 n_52_6 5
+    cap n_52_8 3.013e-17
+    res n_52_8 n_52_7 2
+wire n_53_1 n_53_2 n_53_3
+    cap n_53_1 1.662e-17
+    cap n_53_2 3.324e-17
+    res n_53_2 n_53_9 5
+    res n_53_2 n_53_5 5
+    cap n_53_3 1.662e-17
+    cap n_53_4 6.374e-17
+    res n_53_4 n_53_3 5
+    cap n_53_5 6.374e-17
+    res n_53_5 n_53_4 4
+    cap n_53_6 1.52e-17
+    res n_53_6 n_53_1 5
+    cap n_53_7 7.429e-17
+    res n_53_7 n_53_6 5
+    cap n_53_8 7.429e-17
+    res n_53_8 n_53_7 6.78571
+    cap n_53_9 1.52e-17
+    res n_53_9 n_53_8 5
+wire n_54_1 n_54_2
+    cap n_54_1 1.662e-17
+    cap n_54_2 1.662e-17
+    res n_54_2 n_54_6 5
+    cap n_54_3 2.692e-17
+    res n_54_3 n_54_1 5
+    cap n_54_4 2.92e-17
+    res n_54_4 n_54_3 1.5
+    res n_54_4 n_54_5 0.678571
+    cap n_54_5 2.388e-17
+    cap n_54_6 2.16e-17
+    res n_54_6 n_54_5 1.5
+wire n_55_1 n_55_2
+    cap n_55_1 7.16e-18
+    res n_55_1 n_55_3 1.03143
+    cap n_55_2 1.662e-17
+    res n_55_2 n_55_9 5
+    cap n_55_3 1.547e-17
+    cap n_55_4 1.616e-17
+    res n_55_4 n_55_3 5
+    res n_55_4 n_55_5 0.5
+    cap n_55_5 1.616e-17
+    cap n_55_6 1.0557e-16
+    res n_55_6 n_55_5 5
+    res n_55_6 n_55_7 8.14286
+    cap n_55_7 1.0557e-16
+    cap n_55_8 2.446e-17
+    res n_55_8 n_55_7 5
+    cap n_55_9 2.446e-17
+    res n_55_9 n_55_8 2
+wire n_56_1 n_56_2 n_56_3
+    cap n_56_1 1.589e-17
+    res n_56_1 n_56_4 2.06286
+    cap n_56_2 4.233e-17
+    cap n_56_3 1.662e-17
+    cap n_56_4 6.653e-17
+    res n_56_4 n_56_2 6.18857
+    res n_56_4 n_56_5 5
+    cap n_56_5 6.946e-17
+    res n_56_5 n_56_6 6.5
+    cap n_56_6 6.946e-17
+    res n_56_6 n_56_7 5
+    cap n_56_7 2.715e-17
+    cap n_56_8 2.715e-17
+    res n_56_8 n_56_7 1.35714
+    res n_56_8 n_56_9 5
+    cap n_56_9 3.626e-17
+    res n_56_9 n_56_10 2
+    cap n_56_10 3.626e-17
+    res n_56_10 n_56_3 5
+wire n_57_1 n_57_2 n_57_3 n_57_4 n_57_5
+    cap n_57_1 3.324e-17
+    res n_57_1 n_57_14 5
+    cap n_57_2 7.16e-18
+    cap n_57_3 1.662e-17
+    cap n_57_4 1.662e-17
+    cap n_57_5 1.662e-17
+    cap n_57_6 4.993e-17
+    res n_57_6 n_57_3 5
+    cap n_57_7 5.373e-17
+    res n_57_7 n_57_6 6.5
+    cap n_57_8 2.596e-17
+    res n_57_8 n_57_7 5
+    cap n_57_9 2.596e-17
+    res n_57_9 n_57_8 1
+    cap n_57_10 7.609e-17
+    res n_57_10 n_57_9 5
+    cap n_57_11 1.084e-16
+    res n_57_11 n_57_10 9
+    res n_57_11 n_57_24 5
+    cap n_57_12 4.599e-17
+    res n_57_12 n_57_11 4.5
+    cap n_57_13 5.953e-17
+    res n_57_13 n_57_12 0.678571
+    cap n_57_14 5.725e-17
+    res n_57_14 n_57_13 3.5
+    cap n_57_15 1.52e-17
+    res n_57_15 n_57_1 5
+    cap n_57_16 5.439e-17
+    res n_57_16 n_57_15 5
+    cap n_57_17 8.078e-17
+    res n_57_17 n_57_16 4.89286
+    res n_57_17 n_57_18 5
+    cap n_57_18 1.2035e-16
+    cap n_57_19 1.2035e-16
+    res n_57_19 n_57_18 4.41
+    res n_57_19 n_57_20 5
+    cap n_57_20 1.655e-17
+    res n_57_20 n_57_21 0.821429
+    cap n_57_21 1.655e-17
+    res n_57_21 n_57_22 5
+    cap n_57_22 1.817e-17
+    cap n_57_23 1.817e-17
+    res n_57_23 n_57_5 5
+    res n_57_23 n_57_22 1
+    cap n_57_24 1.547e-17
+    res n_57_24 n_57_2 1.03143
+    cap n_57_25 1.52e-17
+    res n_57_25 n_57_4 5
+    cap n_57_26 3.399e-17
+    res n_57_26 n_57_17 3.25
+    res n_57_26 n_57_25 5
+wire n_58_1 n_58_2 n_58_3 n_58_4 n_58_5 n_58_6 n_58_7
+    cap n_58_1 1.662e-17
+    cap n_58_2 1.662e-17
+    cap n_58_3 1.662e-17
+    cap n_58_4 1.662e-17
+    cap n_58_5 1.662e-17
+    cap n_58_6 1.662e-17
+    cap n_58_7 1.662e-17
+    cap n_58_8 2.348e-17
+    res n_58_8 n_58_2 5
+    res n_58_8 n_58_9 2
+    cap n_58_9 2.348e-17
+    cap n_58_10 1.0112e-16
+    res n_58_10 n_58_9 5
+    res n_58_10 n_58_23 4.75
+    cap n_58_11 1.418e-16
+    res n_58_11 n_58_10 6.10714
+    res n_58_11 n_58_25 5
+    cap n_58_12 1.7747e-16
+    res n_58_12 n_58_11 8.14286
+    cap n_58_13 9.868e-17
+    res n_58_13 n_58_12 9.5
+    res n_58_13 n_58_14 5
+    cap n_58_14 1.714e-17
+    cap n_58_15 1.714e-17
+    res n_58_15 n_58_7 5
+    res n_58_15 n_58_14 1
+    cap n_58_16 2.784e-17
+    res n_58_16 n_58_3 5
+    res n_58_16 n_58_17 1.5
+    cap n_58_17 2.784e-17
+    cap n_58_18 7.139e-17
+    res n_58_18 n_58_17 5
+    res n_58_18 n_58_19 5.42857
+    cap n_58_19 7.775e-17
+    res n_58_19 n_58_27 0.678571
+    cap n_58_20 1.0772e-16
+    res n_58_20 n_58_19 5
+    res n_58_20 n_58_21 9.5
+    cap n_58_21 1.1506e-16
+    res n_58_21 n_58_5 5
+    res n_58_21 n_58_22 1
+    cap n_58_22 1.874e-17
+    cap n_58_23 4.571e-17
+    res n_58_23 n_58_22 5
+    cap n_58_24 1.797e-17
+    res n_58_24 n_58_6 5
+    res n_58_24 n_58_25 1
+    cap n_58_25 1.797e-17
+    cap n_58_26 1.52e-17
+    res n_58_26 n_58_4 5
+    cap n_58_27 1.396e-17
+    res n_58_27 n_58_26 5
+    cap n_58_28 5.067e-17
+    res n_58_28 n_58_1 5
+    res n_58_28 n_58_29 5
+    cap n_58_29 5.067e-17
+    res n_58_29 n_58_12 5
+wire n_59_1 n_59_2
+    cap n_59_1 1.662e-17
+    cap n_59_2 1.662e-17
+    res n_59_2 n_59_11 5
+    cap n_59_3 5.013e-17
+    res n_59_3 n_59_1 5
+    cap n_59_4 5.013e-17
+    res n_59_4 n_59_3 3.5
+    cap n_59_5 9.26e-18
+    res n_59_5 n_59_4 5
+    cap n_59_6 9.26e-18
+    res n_59_6 n_59_5 0.107143
+    cap n_59_7 8.906e-17
+    res n_59_7 n_59_6 5
+    cap n_59_8 8.906e-17
+    res n_59_8 n_59_7 2.52
+    cap n_59_9 1.296e-17
+    res n_59_9 n_59_8 5
+    cap n_59_10 1.296e-17
+    res n_59_10 n_59_9 0.571429
+    cap n_59_11 1.52e-17
+    res n_59_11 n_59_10 5
+wire n_60_1 n_60_2 n_60_3
+    cap n_60_1 1.662e-17
+    cap n_60_2 1.662e-17
+    cap n_60_3 1.662e-17
+    cap n_60_4 6.457e-17
+    res n_60_4 n_60_2 5
+    res n_60_4 n_60_15 3.5
+    cap n_60_5 3.832e-17
+    res n_60_5 n_60_4 2
+    res n_60_5 n_60_6 5
+    cap n_60_6 5.86e-17
+    res n_60_6 n_60_7 2.82143
+    cap n_60_7 5.86e-17
+    res n_60_7 n_60_8 5
+    cap n_60_8 3.269e-17
+    cap n_60_9 3.269e-17
+    res n_60_9 n_60_8 0.63
+    res n_60_9 n_60_10 5
+    cap n_60_10 1.759e-17
+    res n_60_10 n_60_11 0.571429
+    cap n_60_11 1.759e-17
+    res n_60_11 n_60_12 5
+    cap n_60_12 1.52e-17
+    res n_60_12 n_60_3 5
+    cap n_60_13 5.651e-17
+    res n_60_13 n_60_1 5
+    cap n_60_14 5.879e-17
+    res n_60_14 n_60_13 6.5
+    cap n_60_15 3.993e-17
+    res n_60_15 n_60_14 0.678571
+wire n_61_1 n_61_2
+    cap n_61_1 1.662e-17
+    cap n_61_2 1.662e-17
+    res n_61_2 n_61_7 5
+    cap n_61_3 1.52e-17
+    res n_61_3 n_61_1 5
+    cap n_61_4 3.152e-17
+    res n_61_4 n_61_3 5
+    cap n_61_5 3.152e-17
+    res n_61_5 n_61_4 2.71429
+    cap n_61_6 2.06e-17
+    res n_61_6 n_61_5 5
+    res n_61_6 n_61_7 1
+    cap n_61_7 2.06e-17
+wire n_62_1 n_62_2 n_62_3 n_62_4
+    cap n_62_1 1.662e-17
+    cap n_62_2 1.662e-17
+    cap n_62_3 3.324e-17
+    res n_62_3 n_62_19 5
+    res n_62_3 n_62_12 5
+    cap n_62_4 1.662e-17
+    cap n_62_5 1.52e-17
+    res n_62_5 n_62_2 5
+    cap n_62_6 1.157e-17
+    res n_62_6 n_62_5 5
+    res n_62_6 n_62_7 0.25
+    cap n_62_7 7.312e-17
+    res n_62_7 n_62_14 5.17857
+    cap n_62_8 1.5705e-16
+    res n_62_8 n_62_7 5
+    res n_62_8 n_62_9 4.2
+    cap n_62_9 1.5705e-16
+    cap n_62_10 1.162e-17
+    res n_62_10 n_62_9 5
+    cap n_62_11 1.162e-17
+    res n_62_11 n_62_10 0.25
+    cap n_62_12 1.52e-17
+    res n_62_12 n_62_11 5
+    cap n_62_13 1.52e-17
+    res n_62_13 n_62_4 5
+    cap n_62_14 6.915e-17
+    res n_62_14 n_62_13 5
+    cap n_62_15 1.52e-17
+    res n_62_15 n_62_1 5
+    cap n_62_16 5.138e-17
+    res n_62_16 n_62_15 5
+    res n_62_16 n_62_17 3.39286
+    cap n_62_17 4.758e-17
+    cap n_62_18 1.843e-17
+    res n_62_18 n_62_17 5
+    cap n_62_19 1.843e-17
+    res n_62_19 n_62_18 0.5
+wire n_63_1 n_63_2
+    cap n_63_1 1.662e-17
+    res n_63_1 n_63_8 5
+    cap n_63_2 1.662e-17
+    cap n_63_3 2.064e-17
+    res n_63_3 n_63_2 5
+    res n_63_3 n_63_4 1
+    cap n_63_4 2.444e-17
+    cap n_63_5 3.978e-17
+    res n_63_5 n_63_4 5
+    cap n_63_6 3.978e-17
+    res n_63_6 n_63_5 4.07143
+    cap n_63_7 1.86e-17
+    res n_63_7 n_63_6 5
+    res n_63_7 n_63_8 1
+    cap n_63_8 1.86e-17
+wire n_64_1 n_64_2 n_64_3
+    cap n_64_1 1.53e-17
+    res n_64_1 n_64_2 2.06286
+    cap n_64_2 2.777e-17
+    res n_64_2 n_64_4 5
+    cap n_64_3 1.662e-17
+    cap n_64_4 1.52e-17
+    res n_64_4 n_64_5 5
+    cap n_64_5 3.258e-17
+    res n_64_5 n_64_6 3.39286
+    cap n_64_6 3.258e-17
+    res n_64_6 n_64_7 5
+    cap n_64_7 1.52e-17
+    res n_64_7 n_64_3 5
+wire n_65_1 n_65_2
+    cap n_65_1 2.277e-17
+    res n_65_1 n_65_3 3.09429
+    cap n_65_2 7.59e-18
+    cap n_65_3 3.108e-17
+    cap n_65_4 1.52e-17
+    res n_65_4 n_65_3 5
+    cap n_65_5 4.46e-17
+    res n_65_5 n_65_4 5
+    res n_65_5 n_65_6 4.07143
+    cap n_65_6 4.46e-17
+    cap n_65_7 1.52e-17
+    res n_65_7 n_65_6 5
+    cap n_65_8 2.006e-17
+    res n_65_8 n_65_2 1.03143
+    res n_65_8 n_65_7 5
+wire n_66_1 n_66_2 n_66_3 n_66_4 n_66_5 n_66_6 n_66_7 n_66_8
+    cap n_66_1 1.662e-17
+    cap n_66_2 1.662e-17
+    cap n_66_3 7.05e-18
+    cap n_66_4 1.662e-17
+    cap n_66_5 1.662e-17
+    cap n_66_6 1.662e-17
+    cap n_66_7 7.71e-18
+    res n_66_7 n_66_37 1.03143
+    cap n_66_8 1.662e-17
+    cap n_66_9 1.52e-17
+    res n_66_9 n_66_2 5
+    cap n_66_10 7.702e-17
+    res n_66_10 n_66_9 5
+    res n_66_10 n_66_25 4.07143
+    cap n_66_11 5.029e-17
+    res n_66_11 n_66_10 2.64286
+    cap n_66_12 7.18e-17
+    res n_66_12 n_66_11 5
+    res n_66_12 n_66_13 2.73
+    cap n_66_13 7.18e-17
+    cap n_66_14 1.1675e-16
+    res n_66_14 n_66_13 5
+    cap n_66_15 1.7501e-16
+    res n_66_15 n_66_14 9.57143
+    res n_66_15 n_66_36 5
+    cap n_66_16 6.586e-17
+    res n_66_16 n_66_15 6.42857
+    cap n_66_17 6.463e-17
+    res n_66_17 n_66_16 5
+    cap n_66_18 6.463e-17
+    res n_66_18 n_66_17 1.68
+    cap n_66_19 5.653e-17
+    res n_66_19 n_66_18 5
+    res n_66_19 n_66_20 0.321429
+    cap n_66_20 1.104e-17
+    cap n_66_21 4.911e-17
+    res n_66_21 n_66_20 5
+    cap n_66_22 1.1978e-16
+    res n_66_22 n_66_8 5
+    res n_66_22 n_66_21 3.5
+    cap n_66_23 4.868e-17
+    res n_66_23 n_66_4 5
+    res n_66_23 n_66_24 5
+    cap n_66_24 4.355e-17
+    res n_66_24 n_66_31 1
+    cap n_66_25 3.433e-17
+    res n_66_25 n_66_24 5
+    cap n_66_26 1.536e-17
+    res n_66_26 n_66_3 1.03143
+    cap n_66_27 3.858e-17
+    res n_66_27 n_66_26 5
+    cap n_66_28 4.238e-17
+    res n_66_28 n_66_27 3
+    cap n_66_29 2.634e-17
+    res n_66_29 n_66_28 5
+    cap n_66_30 2.634e-17
+    res n_66_30 n_66_29 2.03571
+    cap n_66_31 1.925e-17
+    res n_66_31 n_66_30 5
+    cap n_66_32 3.675e-17
+    res n_66_32 n_66_5 5
+    res n_66_32 n_66_33 2.5
+    cap n_66_33 3.903e-17
+    res n_66_33 n_66_34 0.678571
+    cap n_66_34 2.286e-17
+    res n_66_34 n_66_23 2
+    cap n_66_35 3.156e-17
+    res n_66_35 n_66_6 5
+    cap n_66_36 3.156e-17
+    res n_66_36 n_66_35 3.5
+    cap n_66_37 1.602e-17
+    cap n_66_38 1.641e-17
+    res n_66_38 n_66_37 5
+    cap n_66_39 1.641e-17
+    res n_66_39 n_66_38 0.5
+    cap n_66_40 5.309e-17
+    res n_66_40 n_66_19 5.10714
+    res n_66_40 n_66_39 5
+    cap n_66_41 3.723e-17
+    res n_66_41 n_66_1 5
+    res n_66_41 n_66_42 2.5
+    cap n_66_42 3.951e-17
+    res n_66_42 n_66_43 0.678571
+    cap n_66_43 8.055e-17
+    res n_66_43 n_66_22 6
+wire n_67_1 n_67_2
+    cap n_67_1 1.604e-17
+    res n_67_1 n_67_3 2.06286
+    cap n_67_2 1.662e-17
+    res n_67_2 n_67_9 5
+    cap n_67_3 2.435e-17
+    cap n_67_4 1.797e-17
+    res n_67_4 n_67_3 5
+    res n_67_4 n_67_5 0.5
+    cap n_67_5 1.797e-17
+    cap n_67_6 2.696e-17
+    res n_67_6 n_67_5 5
+    res n_67_6 n_67_7 1.35714
+    cap n_67_7 2.696e-17
+    cap n_67_8 3.35e-17
+    res n_67_8 n_67_7 5
+    res n_67_8 n_67_9 2
+    cap n_67_9 2.97e-17
+wire n_69_1 n_69_2
+    cap n_69_1 1.662e-17
+    cap n_69_2 1.662e-17
+    res n_69_2 n_69_4 5
+    cap n_69_3 1.0743e-16
+    res n_69_3 n_69_1 5
+    res n_69_3 n_69_4 8.5
+    cap n_69_4 1.0743e-16
+wire n_70_1 n_70_2
+    cap n_70_1 1.662e-17
+    cap n_70_2 1.432e-17
+    cap n_70_3 4.982e-17
+    res n_70_3 n_70_1 5
+    res n_70_3 n_70_4 4.5
+    cap n_70_4 5.21e-17
+    res n_70_4 n_70_5 0.678571
+    cap n_70_5 6.11e-17
+    res n_70_5 n_70_6 4.5
+    cap n_70_6 5.882e-17
+    cap n_70_7 2.263e-17
+    res n_70_7 n_70_2 2.06286
+    res n_70_7 n_70_6 5
+wire n_72_1 n_72_2 n_72_3
+    cap n_72_1 9.87e-18
+    cap n_72_2 4.309e-17
+    cap n_72_3 2.231e-17
+    res n_72_3 n_72_5 3.09429
+    cap n_72_4 3.865e-17
+    res n_72_4 n_72_2 4.12571
+    res n_72_4 n_72_5 0.76
+    cap n_72_5 3.034e-17
+    cap n_72_6 1.818e-17
+    res n_72_6 n_72_1 1.03143
+    cap n_72_7 1.723e-17
+    res n_72_7 n_72_6 5
+    cap n_72_8 1.723e-17
+    res n_72_8 n_72_7 0.5
+    cap n_72_9 5.599e-17
+    res n_72_9 n_72_8 5
+    cap n_72_10 5.599e-17
+    res n_72_10 n_72_9 4.75
+    cap n_72_11 4.189e-17
+    res n_72_11 n_72_10 5
+    cap n_72_12 4.189e-17
+    res n_72_12 n_72_2 5
+    res n_72_12 n_72_11 4
+wire n_73_1 n_73_2
+    cap n_73_1 2.183e-17
+    res n_73_1 n_73_3 3.09429
+    cap n_73_2 1.662e-17
+    res n_73_2 n_73_5 5
+    cap n_73_3 3.014e-17
+    cap n_73_4 4.009e-17
+    res n_73_4 n_73_3 5
+    res n_73_4 n_73_5 4
+    cap n_73_5 4.009e-17
+wire n_74_1 n_74_2
+    cap n_74_1 1.662e-17
+    cap n_74_2 1.432e-17
+    res n_74_2 n_74_10 2.06286
+    cap n_74_3 2.736e-17
+    res n_74_3 n_74_1 5
+    cap n_74_4 2.87e-17
+    res n_74_4 n_74_3 1.35714
+    cap n_74_5 2.034e-17
+    res n_74_5 n_74_4 0.571429
+    cap n_74_6 6.871e-17
+    res n_74_6 n_74_5 5
+    cap n_74_7 6.871e-17
+    res n_74_7 n_74_6 6.10714
+    cap n_74_8 1.606e-17
+    res n_74_8 n_74_7 5
+    cap n_74_9 1.606e-17
+    res n_74_9 n_74_8 0.5
+    cap n_74_10 2.263e-17
+    res n_74_10 n_74_9 5
+wire n_75_1 n_75_2
+    cap n_75_1 1.662e-17
+    res n_75_1 n_75_4 5
+    cap n_75_2 1.662e-17
+    cap n_75_3 4.226e-17
+    res n_75_3 n_75_2 5
+    res n_75_3 n_75_4 5
+    cap n_75_4 4.226e-17
+wire n_76_1 n_76_2
+    cap n_76_1 0
+    res n_76_1 n_76_4 5
+    cap n_76_2 0
+    cap n_76_3 1.976e-17
+    res n_76_3 n_76_2 5
+    cap n_76_4 1.976e-17
+    res n_76_4 n_76_3 1.35714
+wire n_77_1 n_77_2
+    cap n_77_1 1.662e-17
+    cap n_77_2 1.432e-17
+    res n_77_2 n_77_8 2.06286
+    cap n_77_3 3.475e-17
+    res n_77_3 n_77_1 5
+    res n_77_3 n_77_4 4.5
+    cap n_77_4 3.475e-17
+    cap n_77_5 6.966e-17
+    res n_77_5 n_77_4 5
+    cap n_77_6 6.966e-17
+    res n_77_6 n_77_5 6.78571
+    cap n_77_7 1.52e-17
+    res n_77_7 n_77_6 5
+    cap n_77_8 2.263e-17
+    res n_77_8 n_77_7 5
+wire n_78_1 n_78_2 n_78_3 n_78_4
+    cap n_78_1 3.812e-17
+    cap n_78_2 1.662e-17
+    cap n_78_3 2.15e-17
+    res n_78_3 n_78_1 3.09429
+    cap n_78_4 1.662e-17
+    cap n_78_5 1.606e-17
+    res n_78_5 n_78_2 5
+    cap n_78_6 1.606e-17
+    res n_78_6 n_78_5 0.5
+    cap n_78_7 9.943e-17
+    res n_78_7 n_78_6 5
+    cap n_78_8 1.0412e-16
+    res n_78_8 n_78_7 10.1786
+    cap n_78_9 1.229e-17
+    res n_78_9 n_78_8 0.5
+    res n_78_9 n_78_10 5
+    cap n_78_10 6.333e-17
+    res n_78_10 n_78_11 1.89
+    cap n_78_11 6.333e-17
+    res n_78_11 n_78_12 5
+    cap n_78_12 1.8868e-16
+    cap n_78_13 1.8868e-16
+    res n_78_13 n_78_12 11.0357
+    res n_78_13 n_78_14 5
+    cap n_78_14 1.52e-17
+    res n_78_14 n_78_4 5
+    cap n_78_15 4.264e-17
+    res n_78_15 n_78_1 5
+    res n_78_15 n_78_16 5
+    cap n_78_16 4.644e-17
+    res n_78_16 n_78_8 5
+wire n_79_1 n_79_2
+    cap n_79_1 7.65e-18
+    cap n_79_2 7.16e-18
+    res n_79_2 n_79_6 1.03143
+    cap n_79_3 1.596e-17
+    res n_79_3 n_79_1 1.03143
+    cap n_79_4 7.938e-17
+    res n_79_4 n_79_3 5
+    res n_79_4 n_79_5 9
+    cap n_79_5 7.938e-17
+    cap n_79_6 1.547e-17
+    res n_79_6 n_79_5 5
+wire n_80_1 n_80_2
+    cap n_80_1 1.662e-17
+    cap n_80_2 1.432e-17
+    res n_80_2 n_80_8 2.06286
+    cap n_80_3 5.428e-17
+    res n_80_3 n_80_1 5
+    res n_80_3 n_80_4 4.5
+    cap n_80_4 5.428e-17
+    cap n_80_5 7.58e-17
+    res n_80_5 n_80_4 5
+    cap n_80_6 7.58e-17
+    res n_80_6 n_80_5 7.46429
+    cap n_80_7 1.52e-17
+    res n_80_7 n_80_6 5
+    cap n_80_8 2.263e-17
+    res n_80_8 n_80_7 5
+wire n_81_1 n_81_2
+    cap n_81_1 1.662e-17
+    cap n_81_2 1.662e-17
+    res n_81_2 n_81_12 5
+    cap n_81_3 6.713e-17
+    res n_81_3 n_81_1 5
+    res n_81_3 n_81_4 8.5
+    cap n_81_4 7.093e-17
+    cap n_81_5 8.26e-18
+    res n_81_5 n_81_4 5
+    res n_81_5 n_81_6 0.0714286
+    cap n_81_6 8.26e-18
+    cap n_81_7 1.0397e-16
+    res n_81_7 n_81_6 5
+    res n_81_7 n_81_8 2.94
+    cap n_81_8 1.0397e-16
+    cap n_81_9 1.9552e-16
+    res n_81_9 n_81_8 5
+    res n_81_9 n_81_10 21.6429
+    cap n_81_10 1.9552e-16
+    cap n_81_11 8.082e-17
+    res n_81_11 n_81_10 5
+    res n_81_11 n_81_12 8
+    cap n_81_12 8.082e-17
+wire n_82_1 n_82_2 n_82_3 n_82_4 n_82_5
+    cap n_82_1 3.172e-17
+    res n_82_1 n_82_19 4.12571
+    cap n_82_2 1.662e-17
+    cap n_82_3 1.662e-17
+    cap n_82_4 1.662e-17
+    cap n_82_5 1.662e-17
+    cap n_82_6 3.024e-17
+    res n_82_6 n_82_3 5
+    cap n_82_7 3.024e-17
+    res n_82_7 n_82_6 1.5
+    cap n_82_8 2.509e-17
+    res n_82_8 n_82_7 5
+    cap n_82_9 2.509e-17
+    res n_82_9 n_82_8 2.71429
+    cap n_82_10 2.317e-17
+    res n_82_10 n_82_5 5
+    res n_82_10 n_82_9 5
+    cap n_82_11 2.697e-17
+    res n_82_11 n_82_10 2
+    cap n_82_12 8.129e-17
+    res n_82_12 n_82_11 5
+    cap n_82_13 1.9419e-16
+    res n_82_13 n_82_12 10.1786
+    res n_82_13 n_82_14 5
+    cap n_82_14 1.758e-17
+    res n_82_14 n_82_15 1
+    cap n_82_15 1.758e-17
+    res n_82_15 n_82_2 5
+    cap n_82_16 2.835e-17
+    res n_82_16 n_82_4 5
+    res n_82_16 n_82_20 1
+    cap n_82_17 2.272e-17
+    res n_82_17 n_82_16 1.5
+    res n_82_17 n_82_18 5
+    cap n_82_18 1.205e-16
+    res n_82_18 n_82_13 11.5357
+    cap n_82_19 4.003e-17
+    cap n_82_20 1.703e-17
+    res n_82_20 n_82_19 5
+wire n_83_1 n_83_2 n_83_3 n_83_4
+    cap n_83_1 1.662e-17
+    cap n_83_2 1.662e-17
+    cap n_83_3 1.662e-17
+    cap n_83_4 1.662e-17
+    cap n_83_5 3.303e-17
+    res n_83_5 n_83_2 5
+    res n_83_5 n_83_6 2
+    cap n_83_6 3.303e-17
+    cap n_83_7 1.1786e-16
+    res n_83_7 n_83_6 5
+    cap n_83_8 2.8408e-16
+    res n_83_8 n_83_7 9.89286
+    cap n_83_9 8.156e-17
+    res n_83_9 n_83_8 5
+    res n_83_9 n_83_10 2.1
+    cap n_83_10 8.156e-17
+    cap n_83_11 3.092e-17
+    res n_83_11 n_83_10 5
+    res n_83_11 n_83_12 3.10714
+    cap n_83_12 3.06e-17
+    res n_83_12 n_83_13 0.5
+    cap n_83_13 1.868e-17
+    cap n_83_14 3.864e-17
+    res n_83_14 n_83_4 5
+    res n_83_14 n_83_13 5
+    res n_83_14 n_83_20 3
+    cap n_83_15 4.702e-17
+    res n_83_15 n_83_3 5
+    res n_83_15 n_83_16 3.5
+    cap n_83_16 4.702e-17
+    cap n_83_17 1.7382e-16
+    res n_83_17 n_83_8 14.5357
+    res n_83_17 n_83_16 5
+    cap n_83_18 3.208e-17
+    res n_83_18 n_83_1 5
+    cap n_83_19 3.436e-17
+    res n_83_19 n_83_18 2
+    res n_83_19 n_83_20 0.678571
+    cap n_83_20 4.092e-17
+wire n_84_1 n_84_2
+    cap n_84_1 1.771e-17
+    cap n_84_2 1.662e-17
+    res n_84_2 n_84_5 5
+    cap n_84_3 2.602e-17
+    res n_84_3 n_84_1 2.06286
+    cap n_84_4 5.504e-17
+    res n_84_4 n_84_3 5
+    res n_84_4 n_84_5 4.5
+    cap n_84_5 5.504e-17
+wire n_88_1 n_88_2
+    cap n_88_1 7.82e-18
+    res n_88_1 n_88_5 1.03143
+    cap n_88_2 8.03e-18
+    res n_88_2 n_88_3 0.76
+    cap n_88_3 2.249e-17
+    cap n_88_4 2.249e-17
+    res n_88_4 n_88_3 2.06286
+    cap n_88_5 1.585e-17
+    res n_88_5 n_88_4 0.76
+wire n_89_1 n_89_2 n_89_3
+    cap n_89_1 1.662e-17
+    cap n_89_2 1.662e-17
+    cap n_89_3 1.662e-17
+    cap n_89_4 1.52e-17
+    res n_89_4 n_89_2 5
+    cap n_89_5 2.033e-17
+    res n_89_5 n_89_4 5
+    cap n_89_6 4.149e-17
+    res n_89_6 n_89_5 1.35714
+    res n_89_6 n_89_7 5
+    cap n_89_7 1.52e-17
+    res n_89_7 n_89_3 5
+    cap n_89_8 1.52e-17
+    res n_89_8 n_89_1 5
+    cap n_89_9 2.876e-17
+    res n_89_9 n_89_6 2.03571
+    res n_89_9 n_89_8 5
+wire n_90_1 n_90_2
+    cap n_90_1 1.662e-17
+    cap n_90_2 7.59e-18
+    cap n_90_3 5.115e-17
+    res n_90_3 n_90_1 5
+    res n_90_3 n_90_4 5.5
+    cap n_90_4 5.115e-17
+    cap n_90_5 1.59e-17
+    res n_90_5 n_90_2 1.03143
+    res n_90_5 n_90_4 5
+wire n_91_1 n_91_2
+    cap n_91_1 1.662e-17
+    cap n_91_2 1.662e-17
+    res n_91_2 n_91_4 5
+    cap n_91_3 3.419e-17
+    res n_91_3 n_91_1 5
+    cap n_91_4 3.419e-17
+    res n_91_4 n_91_3 3.5
+wire n_92_1 n_92_2 n_92_3
+    cap n_92_1 9.87e-18
+    res n_92_1 n_92_10 1.03143
+    cap n_92_2 1.662e-17
+    cap n_92_3 1.662e-17
+    cap n_92_4 1.7e-17
+    res n_92_4 n_92_3 5
+    res n_92_4 n_92_5 1
+    cap n_92_5 1.7e-17
+    cap n_92_6 9.62e-17
+    res n_92_6 n_92_5 5
+    cap n_92_7 9.62e-17
+    res n_92_7 n_92_6 8.14286
+    cap n_92_8 7.397e-17
+    res n_92_8 n_92_7 5
+    res n_92_8 n_92_15 6.5
+    cap n_92_9 2.834e-17
+    res n_92_9 n_92_2 5
+    res n_92_9 n_92_8 2
+    cap n_92_10 1.818e-17
+    cap n_92_11 1.692e-17
+    res n_92_11 n_92_10 5
+    cap n_92_12 1.692e-17
+    res n_92_12 n_92_11 0.5
+    cap n_92_13 2.686e-17
+    res n_92_13 n_92_12 5
+    res n_92_13 n_92_14 2.71429
+    cap n_92_14 2.686e-17
+    cap n_92_15 5.323e-17
+    res n_92_15 n_92_14 5
+wire n_93_1 n_93_2 n_93_3
+    cap n_93_1 3.324e-17
+    res n_93_1 n_93_7 5
+    cap n_93_2 1.662e-17
+    res n_93_2 n_93_13 5
+    cap n_93_3 1.662e-17
+    cap n_93_4 1.867e-17
+    res n_93_4 n_93_3 5
+    res n_93_4 n_93_5 1
+    cap n_93_5 2.095e-17
+    res n_93_5 n_93_6 0.678571
+    cap n_93_6 1.5346e-16
+    res n_93_6 n_93_7 13.5
+    cap n_93_7 1.5498e-16
+    cap n_93_8 4.028e-17
+    res n_93_8 n_93_1 5
+    res n_93_8 n_93_9 3
+    cap n_93_9 4.028e-17
+    cap n_93_10 2.018e-17
+    res n_93_10 n_93_9 5
+    cap n_93_11 2.018e-17
+    res n_93_11 n_93_10 1.35714
+    cap n_93_12 3.232e-17
+    res n_93_12 n_93_11 5
+    res n_93_12 n_93_13 2
+    cap n_93_13 2.852e-17
+wire n_94_1 n_94_2
+    cap n_94_1 3.828e-17
+    cap n_94_2 1.662e-17
+    res n_94_2 n_94_7 5
+    cap n_94_3 4.659e-17
+    res n_94_3 n_94_1 6.18857
+    cap n_94_4 1.52e-17
+    res n_94_4 n_94_3 5
+    cap n_94_5 1.0246e-16
+    res n_94_5 n_94_4 5
+    cap n_94_6 1.0246e-16
+    res n_94_6 n_94_5 9.5
+    cap n_94_7 1.52e-17
+    res n_94_7 n_94_6 5
+wire n_95_1 n_95_2 n_95_3 n_95_4
+    cap n_95_1 1.453e-17
+    res n_95_1 n_95_8 1.03143
+    cap n_95_2 2.809e-17
+    cap n_95_3 1.662e-17
+    cap n_95_4 1.662e-17
+    cap n_95_5 3.64e-17
+    res n_95_5 n_95_2 3.09429
+    cap n_95_6 3.854e-17
+    res n_95_6 n_95_5 5
+    res n_95_6 n_95_7 2.5
+    cap n_95_7 3.854e-17
+    cap n_95_8 1.525e-17
+    res n_95_8 n_95_7 5
+    cap n_95_9 1.59e-17
+    res n_95_9 n_95_1 1.03143
+    cap n_95_10 1.814e-17
+    res n_95_10 n_95_9 5
+    cap n_95_11 1.814e-17
+    res n_95_11 n_95_10 0.5
+    cap n_95_12 4.733e-17
+    res n_95_12 n_95_11 5
+    cap n_95_13 4.733e-17
+    res n_95_13 n_95_12 3.39286
+    cap n_95_14 4.729e-17
+    res n_95_14 n_95_13 5
+    cap n_95_15 2.575e-17
+    res n_95_15 n_95_14 0.678571
+    res n_95_15 n_95_16 1.5
+    cap n_95_16 2.727e-17
+    res n_95_16 n_95_4 5
+    cap n_95_17 4.121e-17
+    res n_95_17 n_95_3 5
+    res n_95_17 n_95_14 3
+wire n_96_1 n_96_2 n_96_3
+    cap n_96_1 1.662e-17
+    cap n_96_2 1.662e-17
+    cap n_96_3 1.662e-17
+    cap n_96_4 3.015e-17
+    res n_96_4 n_96_2 5
+    res n_96_4 n_96_13 1.5
+    res n_96_4 n_96_5 5
+    cap n_96_5 9.821e-17
+    res n_96_5 n_96_6 8.14286
+    cap n_96_6 9.821e-17
+    res n_96_6 n_96_7 5
+    cap n_96_7 1.814e-17
+    cap n_96_8 1.814e-17
+    res n_96_8 n_96_3 5
+    res n_96_8 n_96_7 0.5
+    cap n_96_9 1.616e-17
+    res n_96_9 n_96_1 5
+    res n_96_9 n_96_10 0.5
+    cap n_96_10 1.616e-17
+    cap n_96_11 1.2573e-16
+    res n_96_11 n_96_10 5
+    res n_96_11 n_96_12 9.5
+    cap n_96_12 1.2573e-16
+    cap n_96_13 2.635e-17
+    res n_96_13 n_96_12 5
+wire n_98_1 n_98_2
+    cap n_98_1 3.324e-17
+    cap n_98_2 1.662e-17
+    res n_98_2 n_98_8 5
+    cap n_98_3 4.155e-17
+    res n_98_3 n_98_1 4.12571
+    cap n_98_4 3.833e-17
+    res n_98_4 n_98_3 5
+    res n_98_4 n_98_5 2.5
+    cap n_98_5 3.833e-17
+    cap n_98_6 5.833e-17
+    res n_98_6 n_98_5 5
+    cap n_98_7 5.833e-17
+    res n_98_7 n_98_6 8.82143
+    cap n_98_8 1.52e-17
+    res n_98_8 n_98_7 5
+wire n_101_1 n_101_2
+    cap n_101_1 1.432e-17
+    res n_101_1 n_101_9 2.06286
+    cap n_101_2 1.434e-17
+    cap n_101_3 2.265e-17
+    res n_101_3 n_101_2 2.06286
+    cap n_101_4 1.779e-17
+    res n_101_4 n_101_3 5
+    cap n_101_5 1.779e-17
+    res n_101_5 n_101_4 0.5
+    cap n_101_6 3.305e-17
+    res n_101_6 n_101_5 5
+    cap n_101_7 3.305e-17
+    res n_101_7 n_101_6 2.71429
+    cap n_101_8 1.52e-17
+    res n_101_8 n_101_7 5
+    cap n_101_9 2.263e-17
+    res n_101_9 n_101_8 5
+wire n_102_1 n_102_2 n_102_3
+    cap n_102_1 1.434e-17
+    cap n_102_2 1.662e-17
+    cap n_102_3 1.662e-17
+    cap n_102_4 1.632e-17
+    res n_102_4 n_102_3 5
+    cap n_102_5 1.632e-17
+    res n_102_5 n_102_4 0.5
+    cap n_102_6 6.267e-17
+    res n_102_6 n_102_5 5
+    res n_102_6 n_102_11 2.03571
+    cap n_102_7 3.987e-17
+    res n_102_7 n_102_6 6.10714
+    res n_102_7 n_102_8 5
+    cap n_102_8 1.52e-17
+    res n_102_8 n_102_2 5
+    cap n_102_9 2.265e-17
+    res n_102_9 n_102_1 2.06286
+    cap n_102_10 1.52e-17
+    res n_102_10 n_102_9 5
+    cap n_102_11 3.04e-17
+    res n_102_11 n_102_10 5
+wire n_106_1 n_106_2 n_106_3
+    cap n_106_1 1.662e-17
+    cap n_106_2 1.662e-17
+    cap n_106_3 1.662e-17
+    cap n_106_4 1.2923e-16
+    res n_106_4 n_106_3 5
+    res n_106_4 n_106_5 11.5
+    cap n_106_5 1.4442e-16
+    res n_106_5 n_106_6 2.5
+    cap n_106_6 2.659e-17
+    res n_106_6 n_106_7 5
+    cap n_106_7 5.538e-17
+    cap n_106_8 5.538e-17
+    res n_106_8 n_106_7 4.75
+    res n_106_8 n_106_9 5
+    cap n_106_9 3.077e-17
+    res n_106_9 n_106_10 2.5
+    cap n_106_10 3.077e-17
+    res n_106_10 n_106_2 5
+    cap n_106_11 1.52e-17
+    res n_106_11 n_106_1 5
+    cap n_106_12 1.0059e-16
+    res n_106_12 n_106_11 5
+    cap n_106_13 1.0059e-16
+    res n_106_13 n_106_5 5
+    res n_106_13 n_106_12 10.1786
+wire n_107_1 n_107_2
+    cap n_107_1 7.16e-18
+    res n_107_1 n_107_3 1.03143
+    cap n_107_2 1.662e-17
+    res n_107_2 n_107_7 5
+    cap n_107_3 1.547e-17
+    cap n_107_4 1.52e-17
+    res n_107_4 n_107_3 5
+    cap n_107_5 4.802e-17
+    res n_107_5 n_107_4 5
+    res n_107_5 n_107_6 6.78571
+    cap n_107_6 4.802e-17
+    cap n_107_7 1.52e-17
+    res n_107_7 n_107_6 5
+wire n_108_1 n_108_2
+    cap n_108_1 5.065e-17
+    res n_108_1 n_108_3 7.22
+    cap n_108_2 1.662e-17
+    res n_108_2 n_108_5 5
+    cap n_108_3 5.896e-17
+    cap n_108_4 5.942e-17
+    res n_108_4 n_108_3 5
+    cap n_108_5 5.942e-17
+    res n_108_5 n_108_4 5
+wire n_109_1 n_109_2
+    cap n_109_1 1.662e-17
+    cap n_109_2 1.662e-17
+    res n_109_2 n_109_7 5
+    cap n_109_3 1.52e-17
+    res n_109_3 n_109_1 5
+    cap n_109_4 5.065e-17
+    res n_109_4 n_109_3 5
+    cap n_109_5 5.065e-17
+    res n_109_5 n_109_4 6.78571
+    cap n_109_6 1.797e-17
+    res n_109_6 n_109_5 5
+    res n_109_6 n_109_7 1
+    cap n_109_7 1.797e-17
+wire n_111_1 n_111_2 n_111_3
+    cap n_111_1 7.59e-18
+    cap n_111_2 1.662e-17
+    cap n_111_3 7.16e-18
+    res n_111_3 n_111_6 1.03143
+    cap n_111_4 4.277e-17
+    res n_111_4 n_111_2 5
+    cap n_111_5 4.277e-17
+    res n_111_5 n_111_4 3.5
+    cap n_111_6 2.275e-17
+    res n_111_6 n_111_5 5
+    res n_111_6 n_111_7 1.03143
+    cap n_111_7 1.531e-17
+    res n_111_7 n_111_8 0.76
+    cap n_111_8 1.562e-17
+    res n_111_8 n_111_1 1.03143
+wire n_112_1 n_112_2 n_112_3 n_112_4 n_112_5
+    cap n_112_1 1.662e-17
+    cap n_112_2 1.662e-17
+    cap n_112_3 3.036e-17
+    res n_112_3 n_112_6 4.12571
+    cap n_112_4 1.662e-17
+    cap n_112_5 1.662e-17
+    cap n_112_6 3.867e-17
+    cap n_112_7 1.797e-17
+    res n_112_7 n_112_6 5
+    res n_112_7 n_112_8 1
+    cap n_112_8 1.797e-17
+    cap n_112_9 2.272e-17
+    res n_112_9 n_112_8 5
+    res n_112_9 n_112_10 1.35714
+    cap n_112_10 5.73e-17
+    res n_112_10 n_112_11 6.78571
+    res n_112_10 n_112_16 5
+    cap n_112_11 6.936e-17
+    res n_112_11 n_112_12 2.71429
+    cap n_112_12 3.478e-17
+    res n_112_12 n_112_13 5
+    cap n_112_13 1.764e-17
+    res n_112_13 n_112_14 1
+    cap n_112_14 1.764e-17
+    res n_112_14 n_112_2 5
+    cap n_112_15 1.694e-17
+    res n_112_15 n_112_4 5
+    cap n_112_16 7.008e-17
+    res n_112_16 n_112_15 1
+    cap n_112_17 6.454e-17
+    res n_112_17 n_112_5 5
+    res n_112_17 n_112_16 5.5
+    cap n_112_18 1.641e-17
+    res n_112_18 n_112_1 5
+    res n_112_18 n_112_19 0.5
+    cap n_112_19 1.641e-17
+    res n_112_19 n_112_11 5
+wire n_113_1 n_113_2
+    cap n_113_1 1.662e-17
+    cap n_113_2 1.662e-17
+    res n_113_2 n_113_6 5
+    cap n_113_3 3.13e-17
+    res n_113_3 n_113_1 5
+    res n_113_3 n_113_4 2
+    cap n_113_4 3.358e-17
+    cap n_113_5 2.892e-17
+    res n_113_5 n_113_4 0.678571
+    res n_113_5 n_113_6 1.5
+    cap n_113_6 2.664e-17
+wire n_114_1 n_114_2
+    cap n_114_1 1.518e-17
+    cap n_114_2 1.662e-17
+    res n_114_2 n_114_5 5
+    cap n_114_3 2.349e-17
+    res n_114_3 n_114_1 2.06286
+    cap n_114_4 9.263e-17
+    res n_114_4 n_114_3 5
+    cap n_114_5 9.643e-17
+    res n_114_5 n_114_4 9.5
+wire n_115_1 n_115_2
+    cap n_115_1 1.662e-17
+    res n_115_1 n_115_4 5
+    cap n_115_2 1.662e-17
+    cap n_115_3 4.505e-17
+    res n_115_3 n_115_2 5
+    cap n_115_4 4.505e-17
+    res n_115_4 n_115_3 3.5
+wire n_116_1 n_116_2 n_116_3 n_116_4
+    cap n_116_1 1.54e-17
+    res n_116_1 n_116_17 2.06286
+    cap n_116_2 1.662e-17
+    cap n_116_3 1.662e-17
+    cap n_116_4 2.89e-17
+    cap n_116_5 2.974e-17
+    res n_116_5 n_116_3 5
+    cap n_116_6 2.594e-17
+    res n_116_6 n_116_5 1.5
+    cap n_116_7 7.385e-17
+    res n_116_7 n_116_6 5
+    cap n_116_8 7.385e-17
+    res n_116_8 n_116_7 6.78571
+    cap n_116_9 1.2536e-16
+    res n_116_9 n_116_8 5
+    res n_116_9 n_116_10 10.5
+    cap n_116_10 9.165e-17
+    cap n_116_11 3.128e-17
+    res n_116_11 n_116_10 5
+    cap n_116_12 7.702e-17
+    res n_116_12 n_116_11 4.07143
+    res n_116_12 n_116_13 5
+    cap n_116_13 2.396e-17
+    res n_116_13 n_116_14 1
+    cap n_116_14 2.396e-17
+    res n_116_14 n_116_2 5
+    cap n_116_15 3.721e-17
+    res n_116_15 n_116_4 4.12571
+    cap n_116_16 4.131e-17
+    res n_116_16 n_116_9 3
+    res n_116_16 n_116_15 5
+    cap n_116_17 2.371e-17
+    cap n_116_18 7.026e-17
+    res n_116_18 n_116_17 5
+    res n_116_18 n_116_19 7.5
+    cap n_116_19 7.026e-17
+    cap n_116_20 5.334e-17
+    res n_116_20 n_116_12 6.78571
+    res n_116_20 n_116_19 5
+wire n_117_1 n_117_2
+    cap n_117_1 1.662e-17
+    res n_117_1 n_117_5 5
+    cap n_117_2 1.432e-17
+    res n_117_2 n_117_3 2.06286
+    cap n_117_3 2.263e-17
+    cap n_117_4 4.261e-17
+    res n_117_4 n_117_3 5
+    cap n_117_5 4.261e-17
+    res n_117_5 n_117_4 3.5
+wire n_118_1 n_118_2
+    cap n_118_1 9.87e-18
+    res n_118_1 n_118_3 1.03143
+    cap n_118_2 1.662e-17
+    res n_118_2 n_118_8 5
+    cap n_118_3 1.818e-17
+    cap n_118_4 1.52e-17
+    res n_118_4 n_118_3 5
+    cap n_118_5 2.405e-17
+    res n_118_5 n_118_4 5
+    res n_118_5 n_118_6 2.71429
+    cap n_118_6 2.405e-17
+    cap n_118_7 3.84e-17
+    res n_118_7 n_118_6 5
+    cap n_118_8 3.84e-17
+    res n_118_8 n_118_7 3
+wire n_119_1 n_119_2
+    cap n_119_1 7.65e-18
+    res n_119_1 n_119_3 1.03143
+    cap n_119_2 1.432e-17
+    res n_119_2 n_119_10 2.06286
+    cap n_119_3 1.596e-17
+    cap n_119_4 1.905e-17
+    res n_119_4 n_119_3 5
+    res n_119_4 n_119_5 0.5
+    cap n_119_5 1.905e-17
+    cap n_119_6 8.573e-17
+    res n_119_6 n_119_5 5
+    cap n_119_7 8.573e-17
+    res n_119_7 n_119_6 7.46429
+    cap n_119_8 4.981e-17
+    res n_119_8 n_119_7 5
+    res n_119_8 n_119_9 4
+    cap n_119_9 4.981e-17
+    cap n_119_10 2.263e-17
+    res n_119_10 n_119_9 5
+wire n_122_1 n_122_2
+    cap n_122_1 2.167e-17
+    cap n_122_2 1.662e-17
+    res n_122_2 n_122_7 5
+    cap n_122_3 2.998e-17
+    res n_122_3 n_122_1 3.09429
+    cap n_122_4 1.52e-17
+    res n_122_4 n_122_3 5
+    cap n_122_5 3.583e-17
+    res n_122_5 n_122_4 5
+    cap n_122_6 3.583e-17
+    res n_122_6 n_122_5 2.71429
+    cap n_122_7 1.52e-17
+    res n_122_7 n_122_6 5
+wire n_123_1 n_123_2 n_123_3 n_123_4 n_123_5 n_123_6
+    cap n_123_1 3.638e-17
+    res n_123_1 n_123_16 2.06286
+    cap n_123_2 1.662e-17
+    cap n_123_3 1.662e-17
+    cap n_123_4 1.662e-17
+    cap n_123_5 1.662e-17
+    cap n_123_6 1.662e-17
+    cap n_123_7 8.12e-17
+    res n_123_7 n_123_2 5
+    res n_123_7 n_123_13 6.5
+    cap n_123_8 5.146e-17
+    res n_123_8 n_123_7 5
+    res n_123_8 n_123_9 6.10714
+    cap n_123_9 1.2542e-16
+    res n_123_9 n_123_10 6.78571
+    cap n_123_10 2.7122e-16
+    res n_123_10 n_123_19 19.6786
+    res n_123_10 n_123_11 5
+    cap n_123_11 3.239e-17
+    cap n_123_12 3.239e-17
+    res n_123_12 n_123_5 5
+    res n_123_12 n_123_11 3
+    cap n_123_13 7.74e-17
+    res n_123_13 n_123_3 5
+    cap n_123_14 3.607e-17
+    res n_123_14 n_123_4 5
+    cap n_123_15 3.607e-17
+    res n_123_15 n_123_14 2.5
+    cap n_123_16 2.807e-17
+    res n_123_16 n_123_15 5
+    cap n_123_17 1.641e-17
+    res n_123_17 n_123_1 5
+    res n_123_17 n_123_18 0.5
+    cap n_123_18 1.641e-17
+    cap n_123_19 1.9726e-16
+    res n_123_19 n_123_18 5
+    cap n_123_20 1.52e-17
+    res n_123_20 n_123_6 5
+    res n_123_20 n_123_9 5
+wire n_124_1 n_124_2
+    cap n_124_1 1.662e-17
+    cap n_124_2 1.518e-17
+    res n_124_2 n_124_5 2.06286
+    cap n_124_3 5.339e-17
+    res n_124_3 n_124_1 5
+    cap n_124_4 5.339e-17
+    res n_124_4 n_124_3 5.5
+    cap n_124_5 2.349e-17
+    res n_124_5 n_124_4 5
+wire n_125_1 n_125_2 n_125_3
+    cap n_125_1 3.893e-17
+    cap n_125_2 7.16e-18
+    res n_125_2 n_125_10 1.03143
+    cap n_125_3 1.662e-17
+    cap n_125_4 2.625e-17
+    res n_125_4 n_125_3 5
+    res n_125_4 n_125_16 1
+    cap n_125_5 1.671e-17
+    res n_125_5 n_125_4 1
+    res n_125_5 n_125_6 5
+    cap n_125_6 4.962e-17
+    cap n_125_7 4.962e-17
+    res n_125_7 n_125_6 4.07143
+    res n_125_7 n_125_8 5
+    cap n_125_8 1.569e-17
+    res n_125_8 n_125_9 1
+    cap n_125_9 1.569e-17
+    res n_125_9 n_125_10 5
+    cap n_125_10 1.547e-17
+    cap n_125_11 4.724e-17
+    res n_125_11 n_125_1 5.15714
+    cap n_125_12 1.651e-17
+    res n_125_12 n_125_11 5
+    cap n_125_13 1.651e-17
+    res n_125_13 n_125_12 0.5
+    cap n_125_14 1.4271e-16
+    res n_125_14 n_125_13 5
+    cap n_125_15 1.4271e-16
+    res n_125_15 n_125_14 12.2143
+    cap n_125_16 2.094e-17
+    res n_125_16 n_125_15 5
+wire n_126_1 n_126_2 n_126_3 n_126_4 n_126_5
+    cap n_126_1 4.762e-17
+    res n_126_1 n_126_16 4.12571
+    res n_126_1 n_126_17 5
+    cap n_126_2 1.662e-17
+    cap n_126_3 1.662e-17
+    cap n_126_4 1.662e-17
+    cap n_126_5 1.662e-17
+    res n_126_5 n_126_10 5
+    cap n_126_6 1.52e-17
+    res n_126_6 n_126_2 5
+    cap n_126_7 3.375e-17
+    res n_126_7 n_126_6 5
+    cap n_126_8 3.375e-17
+    res n_126_8 n_126_7 4.07143
+    cap n_126_9 8.921e-17
+    res n_126_9 n_126_8 5
+    cap n_126_10 1.1003e-16
+    res n_126_10 n_126_9 10
+    res n_126_10 n_126_21 5
+    cap n_126_11 3.222e-17
+    res n_126_11 n_126_10 1.5
+    res n_126_11 n_126_12 5
+    cap n_126_12 7.889e-17
+    cap n_126_13 7.889e-17
+    res n_126_13 n_126_12 6.78571
+    res n_126_13 n_126_14 5
+    cap n_126_14 3.378e-17
+    cap n_126_15 3.378e-17
+    res n_126_15 n_126_14 2
+    res n_126_15 n_126_16 5
+    cap n_126_16 3.931e-17
+    cap n_126_17 1.6909e-16
+    cap n_126_18 1.6909e-16
+    res n_126_18 n_126_4 5
+    res n_126_18 n_126_17 13.5
+    cap n_126_19 1.52e-17
+    res n_126_19 n_126_3 5
+    cap n_126_20 2.0482e-16
+    res n_126_20 n_126_19 5
+    cap n_126_21 2.0482e-16
+    res n_126_21 n_126_20 19.6786
+wire n_127_1 n_127_2
+    cap n_127_1 2.666e-17
+    res n_127_1 n_127_3 3.09429
+    cap n_127_2 1.662e-17
+    res n_127_2 n_127_6 5
+    cap n_127_3 3.497e-17
+    cap n_127_4 1.748e-17
+    res n_127_4 n_127_3 5
+    res n_127_4 n_127_5 0.678571
+    cap n_127_5 4.262e-17
+    cap n_127_6 4.034e-17
+    res n_127_6 n_127_5 3
+wire n_128_1 n_128_2
+    cap n_128_1 1.662e-17
+    res n_128_1 n_128_6 5
+    cap n_128_2 1.662e-17
+    cap n_128_3 2.667e-17
+    res n_128_3 n_128_2 5
+    res n_128_3 n_128_4 2
+    cap n_128_4 2.895e-17
+    cap n_128_5 2.166e-17
+    res n_128_5 n_128_4 0.678571
+    res n_128_5 n_128_6 1.5
+    cap n_128_6 1.938e-17
+wire n_129_1 n_129_2 n_129_3 n_129_4
+    cap n_129_1 3.324e-17
+    res n_129_1 n_129_10 5
+    cap n_129_2 1.662e-17
+    cap n_129_3 2.357e-17
+    cap n_129_4 1.662e-17
+    cap n_129_5 3.798e-17
+    res n_129_5 n_129_4 5
+    cap n_129_6 3.798e-17
+    res n_129_6 n_129_5 3
+    cap n_129_7 7.849e-17
+    res n_129_7 n_129_6 5
+    cap n_129_8 7.849e-17
+    res n_129_8 n_129_7 8.14286
+    cap n_129_9 4.093e-17
+    res n_129_9 n_129_8 5
+    cap n_129_10 4.093e-17
+    res n_129_10 n_129_9 5.5
+    cap n_129_11 8.65e-17
+    res n_129_11 n_129_1 5
+    cap n_129_12 1.042e-16
+    res n_129_12 n_129_2 5
+    res n_129_12 n_129_11 8.5
+    cap n_129_13 3.604e-17
+    res n_129_13 n_129_3 3.09429
+    cap n_129_14 1.52e-17
+    res n_129_14 n_129_13 5
+    cap n_129_15 1.0049e-16
+    res n_129_15 n_129_14 5
+    cap n_129_16 1.0049e-16
+    res n_129_16 n_129_15 7.46429
+    cap n_129_17 2.91e-17
+    res n_129_17 n_129_12 1.5
+    res n_129_17 n_129_16 5
+wire n_130_1 n_130_2
+    cap n_130_1 1.662e-17
+    cap n_130_2 1.432e-17
+    res n_130_2 n_130_9 2.06286
+    cap n_130_3 3.544e-17
+    res n_130_3 n_130_1 5
+    cap n_130_4 3.544e-17
+    res n_130_4 n_130_3 2
+    cap n_130_5 2.32e-17
+    res n_130_5 n_130_4 5
+    cap n_130_6 2.32e-17
+    res n_130_6 n_130_5 1.35714
+    cap n_130_7 7.996e-17
+    res n_130_7 n_130_6 5
+    cap n_130_8 7.996e-17
+    res n_130_8 n_130_7 7
+    cap n_130_9 2.263e-17
+    res n_130_9 n_130_8 5
+wire n_131_1 n_131_2
+    cap n_131_1 1.662e-17
+    cap n_131_2 1.662e-17
+    res n_131_2 n_131_4 5
+    cap n_131_3 5.649e-17
+    res n_131_3 n_131_1 5
+    res n_131_3 n_131_4 4.5
+    cap n_131_4 6.029e-17
+wire n_132_1 n_132_2 n_132_3 n_132_4 n_132_5 n_132_6 n_132_7 n_132_8 n_132_9 n_132_10 n_132_11 n_132_12 n_132_13 n_132_14 n_132_15 n_132_16 n_132_17 n_132_18 n_132_19 n_132_20 n_132_21 n_132_22
+    cap n_132_1 5.928e-17
+    cap n_132_2 7.16e-18
+    res n_132_2 n_132_85 1.03143
+    cap n_132_3 1.662e-17
+    cap n_132_4 1.662e-17
+    cap n_132_5 1.662e-17
+    cap n_132_6 1.662e-17
+    cap n_132_7 1.662e-17
+    cap n_132_8 7.16e-18
+    cap n_132_9 1.662e-17
+    cap n_132_10 1.662e-17
+    cap n_132_11 1.662e-17
+    cap n_132_12 1.662e-17
+    cap n_132_13 1.662e-17
+    cap n_132_14 1.662e-17
+    cap n_132_15 1.662e-17
+    cap n_132_16 1.662e-17
+    cap n_132_17 1.596e-17
+    res n_132_17 n_132_48 5
+    cap n_132_18 1.662e-17
+    cap n_132_19 1.662e-17
+    cap n_132_20 1.662e-17
+    cap n_132_21 1.662e-17
+    cap n_132_22 1.662e-17
+    cap n_132_23 8.662e-17
+    res n_132_23 n_132_6 5
+    cap n_132_24 1.1841e-16
+    res n_132_24 n_132_7 5
+    res n_132_24 n_132_23 10
+    cap n_132_25 7.703e-17
+    res n_132_25 n_132_3 5
+    res n_132_25 n_132_24 6.5
+    cap n_132_26 4.524e-17
+    res n_132_26 n_132_25 3
+    cap n_132_27 7.225e-17
+    res n_132_27 n_132_26 5
+    res n_132_27 n_132_28 4.75
+    cap n_132_28 1.8477e-16
+    res n_132_28 n_132_29 12.2143
+    res n_132_28 n_132_89 5
+    cap n_132_29 1.3705e-16
+    res n_132_29 n_132_69 2.03571
+    cap n_132_30 1.4487e-16
+    res n_132_30 n_132_29 5
+    res n_132_30 n_132_31 13
+    cap n_132_31 2.1341e-16
+    res n_132_31 n_132_32 6.5
+    res n_132_31 n_132_70 5
+    cap n_132_32 7.994e-17
+    cap n_132_33 8.78e-17
+    res n_132_33 n_132_32 5
+    res n_132_33 n_132_34 8.82143
+    cap n_132_34 8.78e-17
+    cap n_132_35 4.205e-17
+    res n_132_35 n_132_4 5
+    res n_132_35 n_132_34 5
+    cap n_132_36 4.585e-17
+    res n_132_36 n_132_35 3.5
+    cap n_132_37 1.1289e-16
+    res n_132_37 n_132_36 5
+    res n_132_37 n_132_38 9.5
+    cap n_132_38 1.1289e-16
+    cap n_132_39 3.954e-17
+    res n_132_39 n_132_38 5
+    cap n_132_40 4.334e-17
+    res n_132_40 n_132_15 5
+    res n_132_40 n_132_39 3
+    cap n_132_41 1.3543e-16
+    res n_132_41 n_132_40 5
+    res n_132_41 n_132_42 13.5714
+    cap n_132_42 1.3543e-16
+    cap n_132_43 4.071e-17
+    res n_132_43 n_132_42 5
+    cap n_132_44 1.1194e-16
+    res n_132_44 n_132_43 2.5
+    cap n_132_45 1.749e-16
+    res n_132_45 n_132_16 5
+    res n_132_45 n_132_44 7.5
+    cap n_132_46 9.987e-17
+    res n_132_46 n_132_45 13.5
+    res n_132_46 n_132_47 5
+    cap n_132_47 2.012e-17
+    res n_132_47 n_132_17 1.03143
+    cap n_132_48 1.5549e-16
+    cap n_132_49 1.6831e-16
+    res n_132_49 n_132_48 14
+    res n_132_49 n_132_50 5
+    cap n_132_50 4.95e-17
+    res n_132_50 n_132_51 2.71429
+    cap n_132_51 4.95e-17
+    res n_132_51 n_132_52 5
+    cap n_132_52 2.03e-16
+    res n_132_52 n_132_83 4
+    cap n_132_53 1.6425e-16
+    res n_132_53 n_132_52 15.5
+    res n_132_53 n_132_54 5
+    cap n_132_54 1.4705e-16
+    cap n_132_55 3.7994e-16
+    res n_132_55 n_132_54 14.25
+    res n_132_55 n_132_81 5
+    cap n_132_56 2.9183e-16
+    res n_132_56 n_132_55 19.6786
+    res n_132_56 n_132_73 5
+    cap n_132_57 5.862e-17
+    res n_132_57 n_132_56 3.39286
+    cap n_132_58 1.1291e-16
+    res n_132_58 n_132_57 0.5
+    cap n_132_59 1.5895e-16
+    res n_132_59 n_132_58 10.1786
+    res n_132_59 n_132_60 5
+    cap n_132_60 4.505e-17
+    res n_132_60 n_132_61 3.5
+    cap n_132_61 8.92e-17
+    res n_132_61 n_132_21 5
+    res n_132_61 n_132_62 6.5
+    cap n_132_62 5.555e-17
+    res n_132_62 n_132_63 5
+    cap n_132_63 1.0716e-16
+    res n_132_63 n_132_79 6.10714
+    cap n_132_64 3.711e-17
+    res n_132_64 n_132_63 4.07143
+    res n_132_64 n_132_65 5
+    cap n_132_65 8.782e-17
+    res n_132_65 n_132_22 5
+    res n_132_65 n_132_66 10
+    cap n_132_66 8.402e-17
+    res n_132_66 n_132_20 5
+    cap n_132_67 1.606e-17
+    res n_132_67 n_132_18 5
+    res n_132_67 n_132_68 0.5
+    cap n_132_68 1.606e-17
+    cap n_132_69 2.453e-17
+    res n_132_69 n_132_68 5
+    cap n_132_70 1.547e-17
+    res n_132_70 n_132_8 1.03143
+    cap n_132_71 1.671e-17
+    res n_132_71 n_132_5 5
+    res n_132_71 n_132_72 0.5
+    cap n_132_72 1.519e-17
+    cap n_132_73 1.748e-17
+    res n_132_73 n_132_72 0.678571
+    cap n_132_74 3.691e-17
+    res n_132_74 n_132_9 5
+    cap n_132_75 3.691e-17
+    res n_132_75 n_132_74 2.5
+    cap n_132_76 8.752e-17
+    res n_132_76 n_132_1 6.18857
+    res n_132_76 n_132_75 5
+    cap n_132_77 2.824e-17
+    res n_132_77 n_132_44 5
+    res n_132_77 n_132_76 2.06286
+    cap n_132_78 1.52e-17
+    res n_132_78 n_132_10 5
+    cap n_132_79 7.765e-17
+    res n_132_79 n_132_78 5
+    cap n_132_80 1.616e-17
+    res n_132_80 n_132_12 5
+    res n_132_80 n_132_81 0.5
+    cap n_132_81 1.616e-17
+    cap n_132_82 2.802e-17
+    res n_132_82 n_132_11 5
+    res n_132_82 n_132_49 2.5
+    cap n_132_83 5.101e-17
+    res n_132_83 n_132_14 5
+    cap n_132_84 1.606e-17
+    res n_132_84 n_132_13 5
+    res n_132_84 n_132_53 0.5
+    cap n_132_85 1.547e-17
+    cap n_132_86 1.52e-17
+    res n_132_86 n_132_85 5
+    cap n_132_87 5.332e-17
+    res n_132_87 n_132_59 6.78571
+    res n_132_87 n_132_86 5
+    cap n_132_88 1.671e-17
+    res n_132_88 n_132_19 5
+    res n_132_88 n_132_89 0.5
+    cap n_132_89 1.671e-17
+wire n_136_1 n_136_2
+    cap n_136_1 1.662e-17
+    res n_136_1 n_136_5 5
+    cap n_136_2 4.3e-17
+    res n_136_2 n_136_3 6.18857
+    cap n_136_3 5.131e-17
+    cap n_136_4 2.515e-17
+    res n_136_4 n_136_3 5
+    res n_136_4 n_136_5 2.5
+    cap n_136_5 2.515e-17
+wire n_137_1 n_137_2
+    cap n_137_1 1.662e-17
+    res n_137_1 n_137_9 5
+    cap n_137_2 1.662e-17
+    cap n_137_3 5.806e-17
+    res n_137_3 n_137_2 5
+    res n_137_3 n_137_4 3.5
+    cap n_137_4 5.426e-17
+    cap n_137_5 6.286e-17
+    res n_137_5 n_137_4 5
+    res n_137_5 n_137_6 6.78571
+    cap n_137_6 6.286e-17
+    cap n_137_7 1.67e-17
+    res n_137_7 n_137_6 5
+    res n_137_7 n_137_8 0.625
+    cap n_137_8 1.844e-17
+    res n_137_8 n_137_9 1
+    cap n_137_9 1.694e-17
+wire n_140_1 n_140_2
+    cap n_140_1 1.662e-17
+    cap n_140_2 3.24e-17
+    res n_140_2 n_140_5 5.15714
+    cap n_140_3 5.519e-17
+    res n_140_3 n_140_1 5
+    cap n_140_4 5.519e-17
+    res n_140_4 n_140_3 3
+    cap n_140_5 4.071e-17
+    res n_140_5 n_140_4 5
+wire n_141_1 n_141_2
+    cap n_141_1 1.662e-17
+    res n_141_1 n_141_7 5
+    cap n_141_2 1.662e-17
+    cap n_141_3 1.52e-17
+    res n_141_3 n_141_2 5
+    cap n_141_4 2.208e-17
+    res n_141_4 n_141_3 5
+    cap n_141_5 2.208e-17
+    res n_141_5 n_141_4 1.35714
+    cap n_141_6 4.444e-17
+    res n_141_6 n_141_5 5
+    res n_141_6 n_141_7 3.5
+    cap n_141_7 4.444e-17
+wire n_142_1 n_142_2
+    cap n_142_1 1.662e-17
+    res n_142_1 n_142_6 5
+    cap n_142_2 1.662e-17
+    cap n_142_3 1.52e-17
+    res n_142_3 n_142_2 5
+    cap n_142_4 3.582e-17
+    res n_142_4 n_142_3 5
+    res n_142_4 n_142_5 1.35714
+    cap n_142_5 3.582e-17
+    cap n_142_6 1.52e-17
+    res n_142_6 n_142_5 5
+wire n_144_4 n_144_1 n_144_2 n_144_3
+    cap n_144_1 1.662e-17
+    cap n_144_2 1.662e-17
+    cap n_144_3 1.662e-17
+    cap n_144_4 1.662e-17
+    res n_144_4 n_144_10 5
+    cap n_144_5 3.409e-17
+    res n_144_5 n_144_1 5
+    res n_144_5 n_144_6 3
+    cap n_144_6 3.409e-17
+    cap n_144_7 1.863e-17
+    res n_144_7 n_144_6 5
+    cap n_144_8 3.149e-17
+    res n_144_8 n_144_7 0.678571
+    res n_144_8 n_144_14 5
+    cap n_144_9 2.426e-17
+    res n_144_9 n_144_8 1.35714
+    cap n_144_10 2.13e-17
+    res n_144_10 n_144_9 5
+    cap n_144_11 1.978e-17
+    res n_144_11 n_144_10 1
+    cap n_144_12 2.664e-17
+    res n_144_12 n_144_11 0.678571
+    cap n_144_13 2.436e-17
+    res n_144_13 n_144_2 5
+    res n_144_13 n_144_12 1.5
+    cap n_144_14 1.52e-17
+    res n_144_14 n_144_3 5
+wire n_146_2 n_146_1 n_146_3
+    cap n_146_1 1.662e-17
+    cap n_146_2 7.59e-18
+    cap n_146_3 1.662e-17
+    cap n_146_4 8.356e-17
+    res n_146_4 n_146_1 5
+    res n_146_4 n_146_11 4.5
+    cap n_146_5 3.256e-17
+    res n_146_5 n_146_4 2.5
+    res n_146_5 n_146_6 5
+    cap n_146_6 3.388e-17
+    cap n_146_7 3.388e-17
+    res n_146_7 n_146_6 2.03571
+    res n_146_7 n_146_8 5
+    cap n_146_8 3.224e-17
+    cap n_146_9 3.224e-17
+    res n_146_9 n_146_3 5
+    res n_146_9 n_146_8 2.5
+    cap n_146_10 1.59e-17
+    res n_146_10 n_146_2 1.03143
+    cap n_146_11 6.24e-17
+    res n_146_11 n_146_10 5
+wire n_148_1 n_148_2 n_148_3
+    cap n_148_1 4.698e-17
+    res n_148_1 n_148_3 4.12571
+    cap n_148_2 1.662e-17
+    res n_148_2 n_148_8 5
+    cap n_148_3 3.036e-17
+    cap n_148_4 1.52e-17
+    res n_148_4 n_148_1 5
+    cap n_148_5 7.23e-17
+    res n_148_5 n_148_4 5
+    cap n_148_6 7.23e-17
+    res n_148_6 n_148_5 4.07143
+    cap n_148_7 1.634e-17
+    res n_148_7 n_148_6 5
+    res n_148_7 n_148_8 1
+    cap n_148_8 1.634e-17
+wire n_150_4 n_150_1 n_150_2 n_150_3
+    cap n_150_1 1.662e-17
+    cap n_150_2 1.662e-17
+    cap n_150_3 1.662e-17
+    cap n_150_4 1.662e-17
+    cap n_150_5 1.768e-17
+    res n_150_5 n_150_1 5
+    res n_150_5 n_150_6 1
+    cap n_150_6 1.768e-17
+    cap n_150_7 1.334e-17
+    res n_150_7 n_150_6 5
+    cap n_150_8 7.237e-17
+    res n_150_8 n_150_7 0.928571
+    cap n_150_9 6.663e-17
+    res n_150_9 n_150_8 4.5
+    res n_150_9 n_150_10 5
+    cap n_150_10 1.641e-17
+    cap n_150_11 1.641e-17
+    res n_150_11 n_150_2 5
+    res n_150_11 n_150_10 0.5
+    cap n_150_12 2.241e-17
+    res n_150_12 n_150_3 5
+    res n_150_12 n_150_19 1.5
+    res n_150_12 n_150_13 5
+    cap n_150_13 1.51e-17
+    res n_150_13 n_150_14 0.428571
+    cap n_150_14 1.51e-17
+    res n_150_14 n_150_15 5
+    cap n_150_15 6.675e-17
+    cap n_150_16 6.675e-17
+    res n_150_16 n_150_8 5
+    res n_150_16 n_150_15 1.68
+    cap n_150_17 2.481e-17
+    res n_150_17 n_150_4 5
+    cap n_150_18 2.709e-17
+    res n_150_18 n_150_17 1.5
+    cap n_150_19 2.089e-17
+    res n_150_19 n_150_18 0.678571
+wire n_152_1 n_152_2 n_152_3
+    cap n_152_1 5.016e-17
+    res n_152_1 n_152_2 7.22
+    cap n_152_2 6.263e-17
+    res n_152_2 n_152_10 5
+    cap n_152_3 1.662e-17
+    cap n_152_4 1.639e-17
+    res n_152_4 n_152_3 5
+    cap n_152_5 1.409e-17
+    res n_152_5 n_152_4 0.5
+    cap n_152_6 1.67e-17
+    res n_152_6 n_152_5 0.625
+    cap n_152_7 5.107e-17
+    res n_152_7 n_152_6 5
+    cap n_152_8 5.107e-17
+    res n_152_8 n_152_7 4.07143
+    cap n_152_9 7.843e-17
+    res n_152_9 n_152_8 5
+    cap n_152_10 7.463e-17
+    res n_152_10 n_152_9 6
+wire n_153_1 n_153_2 n_153_3 n_153_4
+    cap n_153_1 6.851e-17
+    res n_153_1 n_153_2 8.25143
+    res n_153_1 n_153_9 1.03143
+    cap n_153_2 7.034e-17
+    res n_153_2 n_153_6 5
+    cap n_153_3 1.662e-17
+    cap n_153_4 1.662e-17
+    cap n_153_5 4.308e-17
+    res n_153_5 n_153_4 5
+    res n_153_5 n_153_6 3
+    cap n_153_6 4.308e-17
+    cap n_153_7 7.17e-17
+    res n_153_7 n_153_3 5
+    res n_153_7 n_153_8 9.5
+    cap n_153_8 7.55e-17
+    cap n_153_9 1.895e-17
+    res n_153_9 n_153_8 5
+wire n_154_2 n_154_1 n_154_3 n_154_4
+    cap n_154_1 7.16e-18
+    cap n_154_2 1.662e-17
+    cap n_154_3 1.662e-17
+    cap n_154_4 1.662e-17
+    cap n_154_5 1.547e-17
+    res n_154_5 n_154_1 1.03143
+    cap n_154_6 2.309e-17
+    res n_154_6 n_154_5 5
+    cap n_154_7 3.591e-17
+    res n_154_7 n_154_6 2
+    cap n_154_8 1.5419e-16
+    res n_154_8 n_154_7 5
+    res n_154_8 n_154_9 14.25
+    cap n_154_9 2.0137e-16
+    res n_154_9 n_154_15 4.75
+    res n_154_9 n_154_10 5
+    cap n_154_10 1.764e-17
+    cap n_154_11 1.764e-17
+    res n_154_11 n_154_3 5
+    res n_154_11 n_154_10 1
+    cap n_154_12 2.042e-17
+    res n_154_12 n_154_4 5
+    res n_154_12 n_154_7 1
+    cap n_154_13 2.458e-17
+    res n_154_13 n_154_2 5
+    cap n_154_14 2.458e-17
+    res n_154_14 n_154_13 1.5
+    cap n_154_15 5.478e-17
+    res n_154_15 n_154_14 5
+wire n_156_1 n_156_2 n_156_3 n_156_4
+    cap n_156_1 3.657e-17
+    res n_156_1 n_156_14 5.15714
+    cap n_156_2 1.662e-17
+    cap n_156_3 3.29e-17
+    res n_156_3 n_156_5 4.12571
+    cap n_156_4 1.662e-17
+    cap n_156_5 2.874e-17
+    res n_156_5 n_156_6 5
+    cap n_156_6 5.595e-17
+    cap n_156_7 5.595e-17
+    res n_156_7 n_156_2 5
+    res n_156_7 n_156_6 4.5
+    cap n_156_8 1.712e-17
+    res n_156_8 n_156_4 5
+    res n_156_8 n_156_19 0.5
+    cap n_156_9 1.616e-17
+    res n_156_9 n_156_8 0.5
+    res n_156_9 n_156_10 5
+    cap n_156_10 9.061e-17
+    res n_156_10 n_156_11 7.46429
+    cap n_156_11 9.061e-17
+    res n_156_11 n_156_12 5
+    cap n_156_12 2.34e-17
+    cap n_156_13 2.34e-17
+    res n_156_13 n_156_3 5
+    res n_156_13 n_156_12 1.5
+    cap n_156_14 4.488e-17
+    cap n_156_15 1.505e-17
+    res n_156_15 n_156_14 5
+    res n_156_15 n_156_16 1
+    cap n_156_16 1.505e-17
+    cap n_156_17 1.0101e-16
+    res n_156_17 n_156_16 5
+    res n_156_17 n_156_18 11.5357
+    cap n_156_18 1.0101e-16
+    cap n_156_19 1.616e-17
+    res n_156_19 n_156_18 5
+wire n_157_1 n_157_2
+    cap n_157_1 1.662e-17
+    res n_157_1 n_157_6 5
+    cap n_157_2 1.662e-17
+    cap n_157_3 1.52e-17
+    res n_157_3 n_157_2 5
+    cap n_157_4 3.156e-17
+    res n_157_4 n_157_3 5
+    res n_157_4 n_157_5 2.03571
+    cap n_157_5 3.156e-17
+    cap n_157_6 1.52e-17
+    res n_157_6 n_157_5 5
+wire n_159_2 n_159_1 n_159_3 n_159_4
+    cap n_159_1 1.662e-17
+    cap n_159_2 1.662e-17
+    cap n_159_3 1.662e-17
+    cap n_159_4 1.662e-17
+    cap n_159_5 1.52e-17
+    res n_159_5 n_159_1 5
+    cap n_159_6 3.552e-17
+    res n_159_6 n_159_5 5
+    res n_159_6 n_159_7 2.71429
+    cap n_159_7 6.691e-17
+    res n_159_7 n_159_8 4.75
+    res n_159_7 n_159_12 5
+    cap n_159_8 6.529e-17
+    res n_159_8 n_159_9 2.71429
+    cap n_159_9 3.77e-17
+    res n_159_9 n_159_10 5
+    cap n_159_10 1.52e-17
+    res n_159_10 n_159_3 5
+    cap n_159_11 1.766e-17
+    res n_159_11 n_159_4 5
+    cap n_159_12 1.766e-17
+    res n_159_12 n_159_11 1.5
+    cap n_159_13 6.342e-17
+    res n_159_13 n_159_2 5
+    cap n_159_14 6.342e-17
+    res n_159_14 n_159_8 5
+    res n_159_14 n_159_13 4
+wire n_160_1 n_160_2
+    cap n_160_1 2.277e-17
+    cap n_160_2 1.662e-17
+    res n_160_2 n_160_8 5
+    cap n_160_3 3.108e-17
+    res n_160_3 n_160_1 3.09429
+    cap n_160_4 3.639e-17
+    res n_160_4 n_160_3 5
+    res n_160_4 n_160_5 3.5
+    cap n_160_5 3.639e-17
+    cap n_160_6 3.494e-17
+    res n_160_6 n_160_5 5
+    cap n_160_7 3.494e-17
+    res n_160_7 n_160_6 2.03571
+    cap n_160_8 1.52e-17
+    res n_160_8 n_160_7 5
+wire n_161_1 n_161_2
+    cap n_161_1 1.518e-17
+    res n_161_1 n_161_2 2.06286
+    cap n_161_2 1.518e-17
+wire n_163_3 n_163_1 n_163_2 n_163_4 n_163_5
+    cap n_163_1 1.662e-17
+    cap n_163_2 1.662e-17
+    cap n_163_3 2.29e-17
+    res n_163_3 n_163_19 3.09429
+    cap n_163_4 1.434e-17
+    cap n_163_5 1.662e-17
+    cap n_163_6 5.991e-17
+    res n_163_6 n_163_1 5
+    res n_163_6 n_163_14 3.5
+    res n_163_6 n_163_7 5
+    cap n_163_7 9.777e-17
+    res n_163_7 n_163_8 10.8571
+    cap n_163_8 9.777e-17
+    res n_163_8 n_163_9 5
+    cap n_163_9 1.437e-17
+    res n_163_9 n_163_10 0.5
+    cap n_163_10 1.437e-17
+    res n_163_10 n_163_5 5
+    cap n_163_11 1.52e-17
+    res n_163_11 n_163_2 5
+    cap n_163_12 1.0216e-16
+    res n_163_12 n_163_11 5
+    res n_163_12 n_163_13 2.71429
+    cap n_163_13 3.387e-17
+    res n_163_13 n_163_14 5
+    cap n_163_14 5.611e-17
+    cap n_163_15 2.265e-17
+    res n_163_15 n_163_4 2.06286
+    cap n_163_16 3.915e-17
+    res n_163_16 n_163_15 5
+    res n_163_16 n_163_17 5
+    cap n_163_17 5.438e-17
+    res n_163_17 n_163_20 1.5
+    res n_163_17 n_163_18 5
+    cap n_163_18 7.589e-17
+    res n_163_18 n_163_12 8.82143
+    cap n_163_19 3.121e-17
+    cap n_163_20 2.283e-17
+    res n_163_20 n_163_19 5
+wire n_164_1 n_164_2
+    cap n_164_1 3.973e-17
+    cap n_164_2 1.434e-17
+    res n_164_2 n_164_6 2.06286
+    cap n_164_3 4.804e-17
+    res n_164_3 n_164_1 5.15714
+    cap n_164_4 1.762e-17
+    res n_164_4 n_164_3 5
+    res n_164_4 n_164_5 1
+    cap n_164_5 1.762e-17
+    cap n_164_6 2.265e-17
+    res n_164_6 n_164_5 5
+wire n_165_1 n_165_2
+    cap n_165_1 1.662e-17
+    cap n_165_2 1.662e-17
+    res n_165_2 n_165_6 5
+    cap n_165_3 1.52e-17
+    res n_165_3 n_165_1 5
+    cap n_165_4 6.197e-17
+    res n_165_4 n_165_3 5
+    res n_165_4 n_165_5 4.75
+    cap n_165_5 6.197e-17
+    cap n_165_6 1.52e-17
+    res n_165_6 n_165_5 5
+wire n_166_1 n_166_2
+    cap n_166_1 4.246e-17
+    cap n_166_2 1.662e-17
+    cap n_166_3 4.32e-17
+    res n_166_3 n_166_2 5
+    cap n_166_4 4.32e-17
+    res n_166_4 n_166_3 3
+    cap n_166_5 5.077e-17
+    res n_166_5 n_166_1 4.12571
+    res n_166_5 n_166_4 5
+wire n_167_1 n_167_2
+    cap n_167_1 1.662e-17
+    cap n_167_2 2.915e-17
+    res n_167_2 n_167_8 4.12571
+    cap n_167_3 1.52e-17
+    res n_167_3 n_167_1 5
+    cap n_167_4 1.4989e-16
+    res n_167_4 n_167_3 5
+    cap n_167_5 1.4989e-16
+    res n_167_5 n_167_4 14.9286
+    cap n_167_6 2.372e-17
+    res n_167_6 n_167_5 5
+    res n_167_6 n_167_7 1.5
+    cap n_167_7 2.372e-17
+    cap n_167_8 3.746e-17
+    res n_167_8 n_167_7 5
+wire n_168_1 n_168_2
+    cap n_168_1 1.662e-17
+    res n_168_1 n_168_7 5
+    cap n_168_2 1.662e-17
+    cap n_168_3 1.75e-17
+    res n_168_3 n_168_2 5
+    cap n_168_4 2.13e-17
+    res n_168_4 n_168_3 1
+    cap n_168_5 2.822e-17
+    res n_168_5 n_168_4 5
+    res n_168_5 n_168_6 2.71429
+    cap n_168_6 2.822e-17
+    cap n_168_7 1.52e-17
+    res n_168_7 n_168_6 5
+wire n_169_1 n_169_2
+    cap n_169_1 1.432e-17
+    cap n_169_2 1.662e-17
+    res n_169_2 n_169_7 5
+    cap n_169_3 2.263e-17
+    res n_169_3 n_169_1 2.06286
+    cap n_169_4 1.52e-17
+    res n_169_4 n_169_3 5
+    cap n_169_5 9.924e-17
+    res n_169_5 n_169_4 5
+    cap n_169_6 9.924e-17
+    res n_169_6 n_169_5 9.5
+    cap n_169_7 1.52e-17
+    res n_169_7 n_169_6 5
+wire n_170_1 n_170_2
+    cap n_170_1 7.16e-18
+    res n_170_1 n_170_2 1.03143
+    cap n_170_2 7.16e-18
+at blif_clk_net 0 0 0 0
+slew blif_clk_net 5e-12 5e-12
+at blif_reset_net 0 0 0 0
+slew blif_reset_net 5e-12 5e-12
+at FM 0 0 0 0
+slew FM 5e-12 5e-12
+at TEST 0 0 0 0
+slew TEST 5e-12 5e-12
+at CLR 0 0 0 0
+slew CLR 5e-12 5e-12
+clock blif_clk_net 1e-12

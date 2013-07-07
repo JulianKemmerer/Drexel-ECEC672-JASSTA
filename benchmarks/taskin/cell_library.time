@@ -1,0 +1,122 @@
+# CELL LIBRARY TIMING MODELS
+# FORMAT is as FOLLOWS:
+# ****************************************************************************
+# GATE: <ModelName>
+# OP: <OperationName> (as it shows in .bench format)
+# COST: <$cost>
+# DELAY: <e0 e1 e2 eR> for canonical model (E = e0 + e1*dx1 + e2*dx2 + eR*dxR)
+# ***************************************************************************
+#
+# OP can be: NAND, AND, NOR, OR, XOR, XNOR, BUFF, NOT
+#
+
+GATE: NAND1
+OP: NAND
+COST: 1
+DELAY: 10 1.1 2.2 3.3
+
+GATE: NAND2
+OP: NAND
+COST: 1.3
+DELAY: 7 1.4 2.8 4.1
+
+GATE: NAND3
+OP: NAND
+COST: 1.5
+DELAY: 3 1.8 2.5 3.9
+
+GATE: AND1
+OP: AND
+COST: 1.2
+DELAY: 9 1.1 2.2 3.3
+
+GATE: AND2
+OP: AND
+COST: 0.8
+DELAY: 11 1.3 2.4 3.9
+
+GATE: NOR1
+OP: NOR
+COST: 1.1
+DELAY: 10 1.3 2.0 4.1
+
+GATE: NOR2
+OP: NOR
+COST: 1.4
+DELAY: 8 1.3 2.2 3.6
+
+GATE: OR1
+OP: OR
+COST: 1
+DELAY: 11.4 0.7 1.6 5.1
+
+GATE: OR2
+OP: OR
+COST: 0.8
+DELAY: 11 0.9 1.4 4.9
+
+GATE: OR3
+OP: OR
+COST: 1.4
+DELAY: 10 1.5 1.9 2.9
+
+GATE: XOR1
+OP: XOR
+COST: 1.3
+DELAY: 18 1.2 1.3 2.6
+
+GATE: XOR2
+OP: XOR
+COST: 1.5
+DELAY: 16 1.5 2.1 3.1
+
+GATE: XNOR1
+OP: XNOR
+COST: 1.4
+DELAY: 17 2.1 1.9 0.6
+
+GATE: XNOR2
+OP: XNOR
+COST: 1.1
+DELAY: 20 1.9 2.3 1.1
+
+GATE: BUFF1
+OP: BUFF
+COST: 0.5
+DELAY: 2 0.1 0.1 0.1
+
+GATE: BUFF2
+OP: BUFF
+COST: 0.6
+DELAY: 4 0.2 0.2 0.4
+
+GATE: BUFF3
+OP: BUFF
+COST: 0.4
+DELAY: 2 0.3 0.2 0.5
+
+GATE: NOT1
+OP: NOT
+COST: 0.8
+DELAY: 3 0.3 0.2 0.4
+
+GATE: NOT2
+OP: NOT
+COST: 0.6
+DELAY: 2 0.1 0.2 0.6
+
+GATE: NOT3
+OP: NOT
+COST: 0.4
+DELAY: 4 0.2 0.3 1.0
+
+
+
+
+
+
+
+
+
+
+
